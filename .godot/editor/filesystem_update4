@@ -1,4 +1,3 @@
 res://scenes/node_2d.tscn
-res://addons/qr_code/qr_code_rect.gd
 res://examples/qr_code/main.tscn
-res://addons/qr_code/qr_code.gd
+res://README.md

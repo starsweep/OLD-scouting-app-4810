@@ -15,6 +15,10 @@ run/main_scene="res://examples/qr_code/main.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://resources/icon.svg"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GodotGetImage/plugin.cfg", "res://addons/qr_code/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="mobile"
