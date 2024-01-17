@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705449925
+::res://::1705450099
 README.md::TextFile::-1::1705449603::0::1::::<><>::
 ::res://addons/::1705449603
 ::res://addons/GodotGetImage/::1705449603
@@ -26,5 +26,5 @@ main.tscn::PackedScene::1471850176218729494::1705449603::0::1::::<><>::res://exa
 README.md::TextFile::-1::1705449508::0::1::::<><>::
 ::res://resources/::1705449508
 icon.svg::CompressedTexture2D::7388072663793650387::1705449508::1705449508::1::::<><>::
-::res://scenes/::1705449508
-node_2d.tscn::PackedScene::7615737626367205338::1705449508::0::1::::<><>::
+::res://scenes/::1705449979
+node_2d.tscn::PackedScene::7615737626367205338::1705449979::0::1::::<><>::uid://ddi3qh3hx2lhr::::res://resources/icon.svg
