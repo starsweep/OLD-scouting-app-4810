@@ -1,12 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-::res://::1705778451
+::res://::1705778691
 README.md::TextFile::-1::1705449531::0::1::::<><>::
-scripts.gd::GDScript::-1::1705778426::0::1::::<>Button<>::
 string_separator.gd::GDScript::-1::1705777169::0::1::::<>Node<>::
 ::res://addons/::1705449251
 ::res://addons/GodotGetImage/::1702024377
@@ -26,70 +20,15 @@ qr_code_rect.gd::GDScript::-1::1705446036::0::1::::QRCodeRect<>TextureRect<>res:
 reed_solomon.gd::GDScript::-1::1705367272::0::1::::<>RefCounted<>::
 shift_jis.gd::GDScript::-1::1705367272::0::1::::<>RefCounted<>::
 ::res://examples/::1705367272
-::res://examples/qr_code/::1705778426
+::res://examples/qr_code/::1705778536
 icon.svg::CompressedTexture2D::1597731291667954527::1705367272::1705367273::1::::<><>::
 main.gd::GDScript::-1::1705367272::0::1::::<>HBoxContainer<>::
-main.tscn::PackedScene::1471850176218729494::1705778426::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
+main.tscn::PackedScene::1471850176218729494::1705778536::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
 README.md::TextFile::-1::1705367272::0::1::::<><>::
 ::res://resources/::1705367241
 icon.svg::CompressedTexture2D::7388072663793650387::1705367205::1705367241::1::::<><>::
-::res://scenes/::1705778426
-main_user_interface.tscn::PackedScene::3371577026092054045::1705778426::0::1::::<><>::res://scripts.gd
-scouting_button.gd::GDScript::-1::1705778426::0::1::::<>Button<>::
-Scouting_Input.tscn::PackedScene::2875681739539395108::1705778426::0::1::::<><>::
+::res://scenes/::1705778536
+main_user_interface.tscn::PackedScene::3371577026092054045::1705778536::0::1::::<><>::
+Scouting_Input.tscn::PackedScene::2875681739539395108::1705778536::0::1::::<><>::
 ::res://scripts/::1705777190
 string_separator.gd::GDScript::-1::1705770903::0::1::::<>Node<>::
-=======
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-::res://::1705776468
-README.md::TextFile::-1::1705775648::0::1::::<><>::
-::res://addons/::1705775648
-::res://addons/GodotGetImage/::1705775648
-export_plugin.gd::GDScript::-1::1705775648::0::1::::<>EditorPlugin<>::
-plugin.cfg::TextFile::-1::1705775648::0::1::::<><>::
-::res://addons/GodotGetImage/bin/::1705775648
-::res://addons/GodotGetImage/bin/debug/::1705775648
-::res://addons/GodotGetImage/bin/release/::1705775648
-::res://addons/qr_code/::1705775648
-bit_stream.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-LICENSE.md::TextFile::-1::1705775648::0::1::::<><>::
-plugin.cfg::TextFile::-1::1705775648::0::1::::<><>::
-plugin.gd::GDScript::-1::1705775648::0::1::::<>EditorPlugin<>::
-qr_code.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-qr_code.svg::CompressedTexture2D::5745153240554886590::1705775648::1705775648::1::::<><>::
-qr_code_rect.gd::GDScript::-1::1705775648::0::1::::QRCodeRect<>TextureRect<>res://addons/qr_code/qr_code.svg::
-reed_solomon.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-shift_jis.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-::res://examples/::1705775648
-::res://examples/qr_code/::1705776413
-icon.svg::CompressedTexture2D::1597731291667954527::1705775648::1705775648::1::::<><>::
-main.gd::GDScript::-1::1705775648::0::1::::<>HBoxContainer<>::
-main.tscn::PackedScene::1471850176218729494::1705776413::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
-README.md::TextFile::-1::1705775648::0::1::::<><>::
-::res://resources/::1705775648
-icon.svg::CompressedTexture2D::7388072663793650387::1705775648::1705775648::1::::<><>::
-::res://scenes/::1705776419
-main_user_interface.tscn::PackedScene::3371577026092054045::1705776419::0::1::::<><>::
-Scouting_Input.tscn::PackedScene::2875681739539395108::1705776382::0::1::::<><>::
-::res://scripts/::1705775648
-string_separator.gd::GDScript::-1::1705775648::0::1::::<>Node<>::
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
-=======
->>>>>>> parent of cf391a7 (sasdfghj)
