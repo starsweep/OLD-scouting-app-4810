@@ -15,10 +15,3 @@ offset_top = 143.0
 offset_right = 296.0
 offset_bottom = 216.0
 text = "Data Collection"
-
-[node name="Label" type="Label" parent="."]
-offset_left = 109.0
-offset_top = 306.0
-offset_right = 149.0
-offset_bottom = 329.0
-text = "COCK"
