@@ -1,27 +1,29 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705781093
-README.md::TextFile::-1::1705775648::0::1::::<><>::
-::res://addons/::1705780456
-::res://addons/qr_code/::1705780456
-bit_stream.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-LICENSE.md::TextFile::-1::1705775648::0::1::::<><>::
-plugin.cfg::TextFile::-1::1705775648::0::1::::<><>::
-plugin.gd::GDScript::-1::1705780456::0::1::::<>EditorPlugin<>::
-qr_code.gd::GDScript::-1::1705780456::0::1::::<>RefCounted<>::
-qr_code.svg::CompressedTexture2D::5745153240554886590::1705775648::1705775648::1::::<><>::
-qr_code_rect.gd::GDScript::-1::1705780456::0::1::::QRCodeRect<>TextureRect<>res://addons/qr_code/qr_code.svg::
-reed_solomon.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-shift_jis.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
-::res://examples/::1705775648
-::res://examples/qr_code/::1705780456
-icon.svg::CompressedTexture2D::1597731291667954527::1705775648::1705775648::1::::<><>::
-main.gd::GDScript::-1::1705775648::0::1::::<>HBoxContainer<>::
-main.tscn::PackedScene::1471850176218729494::1705780456::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
-README.md::TextFile::-1::1705775648::0::1::::<><>::
-::res://resources/::1705780456
-icon.svg::CompressedTexture2D::8356919257026364117::1705775648::1705780456::1::::<><>::
-::res://scenes/::1705780889
-Data.tscn::PackedScene::8411673886448749172::1705780889::0::1::::<><>::
-opening_screen.tscn::PackedScene::8354702292621255947::1705780456::0::1::::<><>::
-QR Scan.tscn::PackedScene::6011758352871100136::1705780889::0::1::::<><>::
-User Input.tscn::PackedScene::6959935619248420902::1705780889::0::1::::<><>::
+::res://::1705782186
+README.md::TextFile::-1::1705780274::0::1::::<><>::
+::res://addons/::1705780336
+::res://addons/qr_code/::1705780336
+bit_stream.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
+LICENSE.md::TextFile::-1::1705779912::0::1::::<><>::
+plugin.cfg::TextFile::-1::1705779912::0::1::::<><>::
+plugin.gd::GDScript::-1::1705779912::0::1::::<>EditorPlugin<>::
+qr_code.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
+qr_code.svg::CompressedTexture2D::5745153240554886590::1705779912::1705779913::1::::<><>::
+qr_code_rect.gd::GDScript::-1::1705779912::0::1::::QRCodeRect<>TextureRect<>res://addons/qr_code/qr_code.svg::
+reed_solomon.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
+shift_jis.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
+::res://examples/::1705780336
+::res://examples/qr_code/::1705782186
+icon.svg::CompressedTexture2D::1597731291667954527::1705779912::1705779913::1::::<><>::
+main.gd::GDScript::-1::1705779912::0::1::::<>HBoxContainer<>::
+main.tscn::PackedScene::1471850176218729494::1705779912::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
+README.md::TextFile::-1::1705779912::0::1::::<><>::
+::res://resources/::1705780336
+icon.svg::CompressedTexture2D::8356919257026364117::1705779851::1705779882::1::::<><>::
+::res://scenes/::1705782186
+Button.gd::GDScript::-1::1705782186::0::1::::<>Button<>::
+Data.tscn::PackedScene::8411673886448749172::1705781121::0::1::::<><>::
+opening_screen.tscn::PackedScene::8354702292621255947::1705780112::0::1::::<><>::
+QR Scan.tscn::PackedScene::6011758352871100136::1705781121::0::1::::<><>::
+User Input.tscn::PackedScene::6959935619248420902::1705781121::0::1::::<><>::
+::res://scripts/::1705779872
