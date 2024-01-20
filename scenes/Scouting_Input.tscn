@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://bg8ab8f4u74ei"]
+
+[node name="ScoutingInput" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 108.0
+offset_top = 27.0
+offset_right = 243.0
+offset_bottom = 52.0
+theme_override_font_sizes/font_size = 23
+text = "Team Number:"
+
+[node name="TextEdit" type="TextEdit" parent="Label"]
+offset_left = 168.0
+offset_top = -5.0
+offset_right = 264.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "1/99999"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 108.0
+offset_top = 83.0
+offset_right = 273.0
+offset_bottom = 115.0
+theme_override_font_sizes/font_size = 23
+text = "Match Number:"
+
+[node name="TextEdit" type="TextEdit" parent="Label2"]
+offset_left = 174.0
+offset_top = -5.0
+offset_right = 230.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "1/80"
