@@ -1,1 +1,6 @@
+res://scenes/Button.gd
 res://scenes/opening_screen.tscn
+res://examples/qr_code/main.tscn
+res://scenes/User Input.tscn
+res://scenes/QR Scan.tscn
+res://scenes/Data.tscn
