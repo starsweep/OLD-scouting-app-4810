@@ -12,7 +12,7 @@ offset_bottom = 43.0
 scale = Vector2(2, 2)
 text = "4810 Scouting App"
 
-[node name="Button" type="Button" parent="."]
+[node name="Scounting" type="Button" parent="."]
 offset_left = 434.0
 offset_top = 125.0
 offset_right = 718.0
@@ -20,11 +20,18 @@ offset_bottom = 197.0
 text = "Scouting"
 script = ExtResource("1_t4on4")
 
-[node name="Button2" type="Button" parent="."]
+[node name="Saved Scouts" type="Button" parent="."]
 offset_left = 434.0
 offset_top = 225.0
 offset_right = 718.0
 offset_bottom = 297.0
 text = "Saved Scouts (not functioning)"
 
-[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[node name="Import QR" type="Button" parent="."]
+offset_left = 434.0
+offset_top = 325.0
+offset_right = 718.0
+offset_bottom = 397.0
+text = "Import QR"
+
+[connection signal="pressed" from="Scounting" to="Scounting" method="_on_pressed"]
