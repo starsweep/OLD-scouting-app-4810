@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705761605
+::res://::1705770267
 README.md::TextFile::-1::1705449531::0::1::::<><>::
 string_separator.gd::GDScript::-1::1705716232::0::1::::<>Node<>::
 ::res://addons/::1705449251
@@ -20,12 +20,13 @@ qr_code_rect.gd::GDScript::-1::1705446036::0::1::::QRCodeRect<>TextureRect<>res:
 reed_solomon.gd::GDScript::-1::1705367272::0::1::::<>RefCounted<>::
 shift_jis.gd::GDScript::-1::1705367272::0::1::::<>RefCounted<>::
 ::res://examples/::1705367272
-::res://examples/qr_code/::1705619651
+::res://examples/qr_code/::1705761626
 icon.svg::CompressedTexture2D::1597731291667954527::1705367272::1705367273::1::::<><>::
 main.gd::GDScript::-1::1705367272::0::1::::<>HBoxContainer<>::
-main.tscn::PackedScene::1471850176218729494::1705619651::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
+main.tscn::PackedScene::1471850176218729494::1705761626::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
 README.md::TextFile::-1::1705367272::0::1::::<><>::
 ::res://resources/::1705367241
 icon.svg::CompressedTexture2D::7388072663793650387::1705367205::1705367241::1::::<><>::
-::res://scenes/::1705716232
-main_user_interface.tscn::PackedScene::3371577026092054045::1705716232::0::1::::<><>::
+::res://scenes/::1705762283
+main_user_interface.tscn::PackedScene::3371577026092054045::1705762283::0::1::::<><>::
+::res://scripts/::1705770267

@@ -1,2 +1,3 @@
-res://examples/qr_code/main.tscn
 res://scenes/main_user_interface.tscn
+res://addons/qr_code/plugin.gd
+res://scripts/string_separator.gd
