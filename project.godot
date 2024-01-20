@@ -10,14 +10,9 @@ config_version=5
 
 [application]
 
-config/name="scouting app"
-run/main_scene="res://scenes/main_user_interface.tscn"
+config/name="scouting app 4810"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://resources/icon.svg"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/GodotGetImage/plugin.cfg", "res://addons/qr_code/plugin.cfg")
 
 [rendering]
 
