@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1705778451
 README.md::TextFile::-1::1705449531::0::1::::<><>::
 scripts.gd::GDScript::-1::1705778426::0::1::::<>Button<>::
@@ -39,6 +40,8 @@ string_separator.gd::GDScript::-1::1705770903::0::1::::<>Node<>::
 =======
 =======
 >>>>>>> parent of cf391a7 (sasdfghj)
+=======
+>>>>>>> parent of cf391a7 (sasdfghj)
 ::res://::1705776468
 README.md::TextFile::-1::1705775648::0::1::::<><>::
 ::res://addons/::1705775648
@@ -72,6 +75,9 @@ Scouting_Input.tscn::PackedScene::2875681739539395108::1705776382::0::1::::<><>:
 ::res://scripts/::1705775648
 string_separator.gd::GDScript::-1::1705775648::0::1::::<>Node<>::
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of cf391a7 (sasdfghj)
+=======
 >>>>>>> parent of cf391a7 (sasdfghj)
 =======
 >>>>>>> parent of cf391a7 (sasdfghj)
