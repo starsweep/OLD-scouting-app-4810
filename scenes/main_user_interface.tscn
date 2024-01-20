@@ -1,6 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://bobhm7p38qv1f"]
-
-[ext_resource type="Script" path="res://scripts.gd" id="1_jyicp"]
+[gd_scene format=3 uid="uid://bobhm7p38qv1f"]
 
 [node name="main user interface" type="Node2D"]
 
@@ -10,7 +8,6 @@ offset_top = 34.0
 offset_right = 296.0
 offset_bottom = 105.0
 text = "Scouting"
-script = ExtResource("1_jyicp")
 
 [node name="data_collection_button" type="Button" parent="."]
 offset_left = 30.0
@@ -18,5 +15,3 @@ offset_top = 143.0
 offset_right = 296.0
 offset_bottom = 216.0
 text = "Data Collection"
-
-[connection signal="pressed" from="scouting_button" to="scouting_button" method="_on_pressed"]
