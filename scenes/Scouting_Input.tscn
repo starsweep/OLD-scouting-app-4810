@@ -3,10 +3,10 @@
 [node name="ScoutingInput" type="Node2D"]
 
 [node name="Label" type="Label" parent="."]
-offset_left = 108.0
-offset_top = 27.0
-offset_right = 243.0
-offset_bottom = 52.0
+offset_left = 59.0
+offset_top = 29.0
+offset_right = 224.0
+offset_bottom = 61.0
 theme_override_font_sizes/font_size = 23
 text = "Team Number:"
 
@@ -19,10 +19,10 @@ theme_override_font_sizes/font_size = 23
 placeholder_text = "1/99999"
 
 [node name="Label2" type="Label" parent="."]
-offset_left = 108.0
-offset_top = 83.0
-offset_right = 273.0
-offset_bottom = 115.0
+offset_left = 57.0
+offset_top = 78.0
+offset_right = 230.0
+offset_bottom = 110.0
 theme_override_font_sizes/font_size = 23
 text = "Match Number:"
 
@@ -33,3 +33,103 @@ offset_right = 230.0
 offset_bottom = 40.0
 theme_override_font_sizes/font_size = 23
 placeholder_text = "1/80"
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 57.0
+offset_top = 128.0
+offset_right = 230.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 23
+text = "Speaker Scores:"
+
+[node name="TextEdit" type="TextEdit" parent="Label3"]
+offset_left = 177.0
+offset_top = -6.0
+offset_right = 225.0
+offset_bottom = 39.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "--/--"
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 57.0
+offset_top = 175.0
+offset_right = 197.0
+offset_bottom = 207.0
+theme_override_font_sizes/font_size = 23
+text = "Amp Scores:"
+
+[node name="TextEdit" type="TextEdit" parent="Label4"]
+offset_left = 138.0
+offset_top = -3.0
+offset_right = 186.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "--/--"
+
+[node name="Label5" type="Label" parent="."]
+offset_left = 362.0
+offset_top = 130.0
+offset_right = 577.0
+offset_bottom = 162.0
+theme_override_font_sizes/font_size = 23
+text = "Robots on its stage:"
+
+[node name="TextEdit" type="TextEdit" parent="Label5"]
+offset_left = 220.0
+offset_top = -4.0
+offset_right = 264.0
+offset_bottom = 41.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "0/2
+"
+
+[node name="Label6" type="Label" parent="."]
+offset_left = 362.0
+offset_top = 80.0
+offset_right = 511.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 23
+text = "Stage Spotlit:"
+
+[node name="TextEdit" type="TextEdit" parent="Label6"]
+offset_left = 145.0
+offset_top = -6.0
+offset_right = 232.0
+offset_bottom = 37.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "Yes/No
+"
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 363.0
+offset_top = 27.0
+offset_right = 552.0
+offset_bottom = 59.0
+theme_override_font_sizes/font_size = 23
+text = "Amplified Scores:"
+
+[node name="TextEdit" type="TextEdit" parent="Label7"]
+offset_left = 192.0
+offset_top = -3.0
+offset_right = 240.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "--/--
+"
+
+[node name="Label8" type="Label" parent="."]
+offset_left = 364.0
+offset_top = 174.0
+offset_right = 451.0
+offset_bottom = 206.0
+theme_override_font_sizes/font_size = 23
+text = "Parked:"
+
+[node name="TextEdit" type="TextEdit" parent="Label8"]
+offset_left = 89.0
+offset_top = -5.0
+offset_right = 137.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 23
+placeholder_text = "--/--
+"
