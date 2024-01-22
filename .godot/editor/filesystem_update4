@@ -1,6 +1,7 @@
-res://scenes/User_Input.tscn
 res://examples/qr_code/main.tscn
 res://scenes/QR_Scan.tscn
 res://scenes/opening_screen.tscn
+res://scenes/User_Input.tscn
 res://scenes/Data.tscn
 res://scripts/Subtract.gd
+res://scripts/Number.gd

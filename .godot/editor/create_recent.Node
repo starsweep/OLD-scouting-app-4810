@@ -1,8 +1,9 @@
+Label
+TextEdit
+SpinBox
 Button
 ColorPickerButton
-Label
 CheckButton
 CheckBox
-TextEdit
 CanvasModulate
 Node2D
