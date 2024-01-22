@@ -1,0 +1,209 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6fpef7ekffcg"]
+
+[ext_resource type="Script" path="res://scripts/Subtract.gd" id="1_yj8sh"]
+
+[node name="UserInput" type="Node2D"]
+
+[node name="Miscellaneous" type="Label" parent="."]
+offset_left = 202.0
+offset_top = 33.0
+offset_right = 453.0
+offset_bottom = 82.0
+theme_override_font_sizes/font_size = 35
+text = "Miscellaneous"
+
+[node name="Team Number" type="Label" parent="Miscellaneous"]
+offset_left = -164.0
+offset_top = 74.0
+offset_right = 87.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 35
+text = "Team Number:"
+
+[node name="TextEdit" type="TextEdit" parent="Miscellaneous/Team Number"]
+layout_mode = 0
+offset_left = 255.0
+offset_top = -1.0
+offset_right = 356.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "_ _ _ _"
+
+[node name="Match Number" type="Label" parent="Miscellaneous"]
+offset_left = -164.0
+offset_top = 139.0
+offset_right = 87.0
+offset_bottom = 188.0
+theme_override_font_sizes/font_size = 35
+text = "Match Number:"
+
+[node name="TextEdit" type="TextEdit" parent="Miscellaneous/Match Number"]
+layout_mode = 0
+offset_left = 265.0
+offset_top = -5.0
+offset_right = 314.0
+offset_bottom = 59.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "_ _"
+
+[node name="Alliance" type="Label" parent="Miscellaneous"]
+offset_left = -162.0
+offset_top = 209.0
+offset_right = 89.0
+offset_bottom = 258.0
+theme_override_font_sizes/font_size = 35
+text = "Alliance:"
+
+[node name="TextEdit" type="TextEdit" parent="Miscellaneous/Alliance"]
+layout_mode = 0
+offset_left = 146.0
+offset_top = -6.0
+offset_right = 300.0
+offset_bottom = 59.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "red/blue"
+
+[node name="Auton" type="Label" parent="."]
+offset_left = 204.0
+offset_top = 359.0
+offset_right = 455.0
+offset_bottom = 408.0
+theme_override_font_sizes/font_size = 35
+text = "Auton"
+
+[node name="Amp Scores" type="Label" parent="Auton"]
+offset_left = -165.0
+offset_top = 92.0
+offset_right = 86.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 35
+text = "Amp Scores:"
+
+[node name="Number" type="Label" parent="Auton/Amp Scores"]
+layout_mode = 0
+offset_left = 252.0
+offset_top = 3.0
+offset_right = 275.0
+offset_bottom = 52.0
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Subtract" type="Button" parent="Auton/Amp Scores"]
+layout_mode = 0
+offset_left = 216.0
+offset_top = -4.0
+offset_right = 248.0
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("1_yj8sh")
+
+[node name="Speaker Scores" type="Label" parent="Auton"]
+offset_left = -166.0
+offset_top = 154.0
+offset_right = 85.0
+offset_bottom = 203.0
+theme_override_font_sizes/font_size = 35
+text = "Speaker Scores:"
+
+[node name="Left Area" type="Label" parent="Auton"]
+offset_left = -165.0
+offset_top = 217.0
+offset_right = 86.0
+offset_bottom = 266.0
+theme_override_font_sizes/font_size = 35
+text = "Left Area:"
+
+[node name="CheckButton" type="CheckButton" parent="Auton/Left Area"]
+layout_mode = 0
+offset_left = 155.0
+offset_top = 6.0
+offset_right = 199.0
+offset_bottom = 30.0
+scale = Vector2(2, 2)
+
+[node name="Teleop" type="Label" parent="."]
+offset_left = 716.0
+offset_top = 34.0
+offset_right = 967.0
+offset_bottom = 83.0
+theme_override_font_sizes/font_size = 35
+text = "Teleop"
+
+[node name="Amp Scores" type="Label" parent="Teleop"]
+offset_left = -152.0
+offset_top = 74.0
+offset_right = 99.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 35
+text = "Amp Scores:"
+
+[node name="Speaker Scores" type="Label" parent="Teleop"]
+offset_left = -150.0
+offset_top = 124.0
+offset_right = 101.0
+offset_bottom = 173.0
+theme_override_font_sizes/font_size = 35
+text = "Speaker Scores:"
+
+[node name="Amplified Scores" type="Label" parent="Teleop"]
+offset_left = -150.0
+offset_top = 172.0
+offset_right = 101.0
+offset_bottom = 221.0
+theme_override_font_sizes/font_size = 35
+text = "Amplified Scores:"
+
+[node name="Defense" type="Label" parent="Teleop"]
+offset_left = -151.0
+offset_top = 225.0
+offset_right = 100.0
+offset_bottom = 274.0
+theme_override_font_sizes/font_size = 35
+text = "Defense:"
+
+[node name="End Game" type="Label" parent="."]
+offset_left = 721.0
+offset_top = 361.0
+offset_right = 972.0
+offset_bottom = 410.0
+theme_override_font_sizes/font_size = 35
+text = "End Game"
+
+[node name="Robots on Stage" type="Label" parent="End Game"]
+offset_left = -155.0
+offset_top = 96.0
+offset_right = 96.0
+offset_bottom = 145.0
+theme_override_font_sizes/font_size = 35
+text = "Robots on Stage:"
+
+[node name="Spotlit" type="Label" parent="End Game"]
+offset_left = -156.0
+offset_top = 155.0
+offset_right = 95.0
+offset_bottom = 204.0
+theme_override_font_sizes/font_size = 35
+text = "Spotlit:"
+
+[node name="CheckButton" type="CheckButton" parent="End Game/Spotlit"]
+offset_left = 113.0
+offset_top = 3.0
+offset_right = 157.0
+offset_bottom = 27.0
+scale = Vector2(2, 2)
+
+[node name="Parked" type="Label" parent="End Game"]
+offset_left = -156.0
+offset_top = 215.0
+offset_right = 95.0
+offset_bottom = 264.0
+theme_override_font_sizes/font_size = 35
+text = "Parked:"
+
+[node name="CheckButton" type="CheckButton" parent="End Game/Parked"]
+offset_left = 121.0
+offset_top = 3.0
+offset_right = 165.0
+offset_bottom = 27.0
+scale = Vector2(2, 2)

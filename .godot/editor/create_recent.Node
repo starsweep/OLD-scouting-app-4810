@@ -1,2 +1,8 @@
 Button
+ColorPickerButton
 Label
+CheckButton
+CheckBox
+TextEdit
+CanvasModulate
+Node2D
