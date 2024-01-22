@@ -277,10 +277,10 @@ script = ExtResource("1_lkfhh")
 layout_mode = 0
 offset_left = 122.0
 offset_top = -209.0
-offset_right = 223.0
+offset_right = 244.0
 offset_bottom = -151.0
 theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _ _ _"
+placeholder_text = "_ _ _ _ _"
 
 [node name="Mnum" type="TextEdit" parent="QR number/QRnum"]
 layout_mode = 0
