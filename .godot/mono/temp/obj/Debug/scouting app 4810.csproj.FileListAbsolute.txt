@@ -3,3 +3,8 @@ C:\Users\1750803184\Documents\GitHub\scouting-app\.godot\mono\temp\obj\Debug\sco
 C:\Users\1750803184\Documents\GitHub\scouting-app\.godot\mono\temp\obj\Debug\scouting app 4810.AssemblyInfoInputs.cache
 C:\Users\1750803184\Documents\GitHub\scouting-app\.godot\mono\temp\obj\Debug\scouting app 4810.AssemblyInfo.cs
 C:\Users\1750803184\Documents\GitHub\scouting-app\.godot\mono\temp\obj\Debug\scouting app 4810.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.csproj.CoreCompileInputs.cache
