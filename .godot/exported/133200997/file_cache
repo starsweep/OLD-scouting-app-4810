@@ -1,0 +1,5 @@
+res://examples/qr_code/main.tscn::31df1815ec0d90ff2cf1769abefaf055::1705971367::res://.godot/exported/133200997/export-980fc80c407e4ca2ecf2600af2dfc5dd-main.scn
+res://scenes/Data.tscn::11915a0df24e66a4f9922cf76838fdda::1705971367::res://.godot/exported/133200997/export-2d94b959ef1aec6346dea46ade4eb85a-Data.scn
+res://scenes/opening_screen.tscn::a6c6bf11f1736dd2cae3d0d5ca1ea305::1705971367::res://.godot/exported/133200997/export-4f0a3da1665c2fb8c850114713a34c59-opening_screen.scn
+res://scenes/QR_Scan.tscn::3400d88b35e8ad7da98072305cd35ea5::1705971367::res://.godot/exported/133200997/export-37c2d392ad95496f16e69e11995c2030-QR_Scan.scn
+res://scenes/User_Input.tscn::1c9fc43d9bbb12cc8a6c2d7bae2237be::1705971458::res://.godot/exported/133200997/export-d9f224b04e1d07bff0d2aec2df23038f-User_Input.scn
