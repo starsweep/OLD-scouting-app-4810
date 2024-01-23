@@ -27,4 +27,7 @@ offset_right = 718.0
 offset_bottom = 297.0
 text = "Saved Scouts (not functioning)"
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
