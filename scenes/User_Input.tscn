@@ -83,6 +83,7 @@ theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
 
 [node name="Auto Speaker Score" type="SpinBox" parent="Auton/Speaker Scores"]
+layout_mode = 0
 offset_left = 269.0
 offset_top = 6.0
 offset_right = 352.063
@@ -124,6 +125,7 @@ theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
 [node name="Amp Score" type="SpinBox" parent="Teleop/Amp Scores"]
+layout_mode = 0
 offset_left = 212.0
 offset_top = 4.0
 offset_right = 295.063
@@ -140,6 +142,7 @@ theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
 
 [node name="Speaker Score" type="SpinBox" parent="Teleop/Speaker Scores"]
+layout_mode = 0
 offset_left = 272.0
 offset_top = 4.0
 offset_right = 355.063
@@ -156,6 +159,7 @@ theme_override_font_sizes/font_size = 35
 text = "Amplified Scores:"
 
 [node name="Amplified Score" type="SpinBox" parent="Teleop/Amplified Scores"]
+layout_mode = 0
 offset_left = 293.0
 offset_top = 5.0
 offset_right = 376.063
@@ -207,6 +211,7 @@ theme_override_font_sizes/font_size = 35
 text = "Robots on Chain:"
 
 [node name="Robots on Chain" type="TextEdit" parent="End Game/Robots on Chain"]
+layout_mode = 0
 offset_left = 287.0
 offset_right = 317.0
 offset_bottom = 57.0
