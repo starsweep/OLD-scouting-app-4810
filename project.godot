@@ -15,6 +15,10 @@ run/main_scene="res://scenes/User_Input.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://resources/icon.svg"
 
+[dotnet]
+
+project/assembly_name="scouting app 4810"
+
 [rendering]
 
 renderer/rendering_method="mobile"
