@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="scouting app 4810"
-run/main_scene="res://scenes/User_Input.tscn"
+run/main_scene="res://scenes/opening_screen.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://resources/icon.svg"
 
@@ -22,3 +22,4 @@ project/assembly_name="scouting app 4810"
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
