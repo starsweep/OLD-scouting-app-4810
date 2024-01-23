@@ -1,6 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://bpbpidb0ni6u6"]
-
-[ext_resource type="Script" path="res://scripts/QRnum.cs" id="1_d4h5h"]
+[gd_scene format=3 uid="uid://bpbpidb0ni6u6"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -286,7 +284,6 @@ offset_right = 1078.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 28
 text = "0"
-script = ExtResource("1_d4h5h")
 
 [node name="Tnum" type="TextEdit" parent="QR Number"]
 layout_mode = 0
