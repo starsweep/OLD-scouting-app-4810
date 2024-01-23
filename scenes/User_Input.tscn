@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://c6fpef7ekffcg"]
+[gd_scene load_steps=2 format=3 uid="uid://bpbpidb0ni6u6"]
 
-[ext_resource type="Script" path="res://scripts/Number.gd" id="1_lkfhh"]
+[ext_resource type="Script" path="res://scripts/QRnum.cs" id="1_d4h5h"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -29,6 +29,15 @@ offset_right = 87.0
 offset_bottom = 188.0
 theme_override_font_sizes/font_size = 35
 text = "Match Number:"
+
+[node name="Mnum" type="TextEdit" parent="Miscellaneous/Match Number"]
+layout_mode = 0
+offset_left = 274.0
+offset_top = -4.0
+offset_right = 323.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "_ _"
 
 [node name="Alliance" type="Label" parent="Miscellaneous"]
 layout_mode = 0
@@ -261,37 +270,29 @@ offset_right = 165.0
 offset_bottom = 27.0
 scale = Vector2(2, 2)
 
-[node name="QR number" type="Label" parent="."]
-offset_left = 3.0
-offset_top = 318.0
-offset_right = 166.0
-offset_bottom = 357.0
+[node name="QR Number" type="Label" parent="."]
+offset_left = 37.0
+offset_top = 321.0
+offset_right = 204.0
+offset_bottom = 360.0
 theme_override_font_sizes/font_size = 28
-text = "QR number:"
+text = "QR Number:"
 
-[node name="QRnum" type="Label" parent="QR number"]
+[node name="QRnum" type="Label" parent="QR Number"]
 layout_mode = 0
-offset_left = 168.0
-offset_top = -3.0
-offset_right = 1071.0
-offset_bottom = 46.0
+offset_left = 175.0
+offset_top = 3.0
+offset_right = 1078.0
+offset_bottom = 42.0
 theme_override_font_sizes/font_size = 28
-script = ExtResource("1_lkfhh")
+text = "0"
+script = ExtResource("1_d4h5h")
 
-[node name="Tnum" type="TextEdit" parent="QR number/QRnum"]
+[node name="Tnum" type="TextEdit" parent="QR Number"]
 layout_mode = 0
-offset_left = 122.0
-offset_top = -209.0
-offset_right = 223.0
-offset_bottom = -151.0
+offset_left = 265.0
+offset_top = -214.0
+offset_right = 366.0
+offset_bottom = -156.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "_ _ _ _"
-
-[node name="Mnum" type="TextEdit" parent="QR number/QRnum"]
-layout_mode = 0
-offset_left = 132.0
-offset_top = -148.0
-offset_right = 181.0
-offset_bottom = -84.0
-theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _"
