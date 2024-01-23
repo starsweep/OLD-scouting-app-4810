@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bpbpidb0ni6u6"]
 
-[ext_resource type="Script" path="res://scripts/QRnum.cs" id="1_d4h5h"]
+[ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -270,7 +270,7 @@ offset_right = 165.0
 offset_bottom = 27.0
 scale = Vector2(2, 2)
 
-[node name="QR Number" type="Label" parent="."]
+[node name="QR_Number" type="Label" parent="."]
 offset_left = 37.0
 offset_top = 321.0
 offset_right = 204.0
@@ -278,7 +278,7 @@ offset_bottom = 360.0
 theme_override_font_sizes/font_size = 28
 text = "QR Number:"
 
-[node name="QRnum" type="Label" parent="QR Number"]
+[node name="QRnum" type="Label" parent="QR_Number"]
 layout_mode = 0
 offset_left = 175.0
 offset_top = 3.0
@@ -286,9 +286,9 @@ offset_right = 1078.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 28
 text = "0"
-script = ExtResource("1_d4h5h")
+script = ExtResource("1_ncsex")
 
-[node name="Tnum" type="TextEdit" parent="QR Number"]
+[node name="Tnum" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
 offset_left = 265.0
 offset_top = -214.0

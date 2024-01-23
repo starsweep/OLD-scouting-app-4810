@@ -3,3 +3,4 @@ res://examples/qr_code/main.tscn
 res://scenes/Data.tscn
 res://scenes/QR_Scan.tscn
 res://scenes/User_Input.tscn
+res://scripts/QRnum.gd
