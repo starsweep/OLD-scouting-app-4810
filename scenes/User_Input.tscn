@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://c6fpef7ekffcg"]
+[gd_scene load_steps=2 format=3 uid="uid://bpbpidb0ni6u6"]
+
+[ext_resource type="Script" path="res://scripts/QRnum.cs" id="1_d4h5h"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -19,15 +21,6 @@ offset_bottom = 123.0
 theme_override_font_sizes/font_size = 35
 text = "Team Number:"
 
-[node name="Tnum" type="TextEdit" parent="Miscellaneous/Team Number"]
-layout_mode = 0
-offset_left = 255.0
-offset_top = -1.0
-offset_right = 356.0
-offset_bottom = 57.0
-theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _ _ _"
-
 [node name="Match Number" type="Label" parent="Miscellaneous"]
 layout_mode = 0
 offset_left = -164.0
@@ -39,10 +32,10 @@ text = "Match Number:"
 
 [node name="Mnum" type="TextEdit" parent="Miscellaneous/Match Number"]
 layout_mode = 0
-offset_left = 265.0
-offset_top = -5.0
-offset_right = 314.0
-offset_bottom = 59.0
+offset_left = 274.0
+offset_top = -4.0
+offset_right = 323.0
+offset_bottom = 60.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "_ _"
 
@@ -276,3 +269,30 @@ offset_top = 3.0
 offset_right = 165.0
 offset_bottom = 27.0
 scale = Vector2(2, 2)
+
+[node name="QR Number" type="Label" parent="."]
+offset_left = 37.0
+offset_top = 321.0
+offset_right = 204.0
+offset_bottom = 360.0
+theme_override_font_sizes/font_size = 28
+text = "QR Number:"
+
+[node name="QRnum" type="Label" parent="QR Number"]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 3.0
+offset_right = 1078.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 28
+text = "0"
+script = ExtResource("1_d4h5h")
+
+[node name="Tnum" type="TextEdit" parent="QR Number"]
+layout_mode = 0
+offset_left = 265.0
+offset_top = -214.0
+offset_right = 366.0
+offset_bottom = -156.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "_ _ _ _"
