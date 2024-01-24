@@ -4,24 +4,25 @@ var tnum
 var QRnum
 var mnum
 var alliance
+var alliance_text = "000"
 var Aamp
-var Aamp_text
+var Aamp_text = "000"
 var Aspeaker
-var Aspeaker_text
+var Aspeaker_text = "000"
 var Aleft
-var Aleft_text
+var Aleft_text = "000"
 var amp
-var amp_text
+var amp_text = "000"
 var speaker
-var speaker_text
+var speaker_text = "000"
 var amplified
-var amplified_text
+var amplified_text = "000"
 var defense
 var chainrobots
 var spotlit
-var spotlit_text
+var spotlit_text = "000"
 var parked
-var parked_text
+var parked_text = "000"
 
 func _ready():
 	tnum = get_node("/root/UserInput/QR_Number/Tnum")
@@ -37,16 +38,19 @@ func _ready():
 	defense = get_node("/root/UserInput/QR_Number/Defense_Rating")
 	chainrobots = get_node("/root/UserInput/QR_Number/Robots_on_Chain")
 	spotlit = get_node("/root/UserInput/QR_Number/Spotlit")
-	parked = get_node("/root/UserInput/QR_Number/Parked")
-	if alliance.text == "red" || alliance.text == "Red":
-		alliance.text = "001"
-	if alliance.text == "blue" || alliance.text == "Blue":
-		alliance.text = "002"
+	parked = get_node("/root/UserInput/QR_Number/Parked") 
+	
 	defense.text = "00" + defense.text
 	chainrobots.text = "00" + chainrobots.text
 	
 func _process(_delta):
-	QRnum.text = tnum.text + mnum.text + alliance.text# + Aamp_text.text
+	
+	if alliance.text.capitalize() == "R":
+		alliance_text = "001"
+	elif alliance.text.capitalize() == "B":
+		alliance_text = "002"
+	
+	QRnum.text = tnum.text + mnum.text + alliance_text# + Aamp_text.text
 	#QRnum.text = QRnum.text + Aspeaker_text.text + Aleft_text.text + amp_text.text
 	#QRnum.text = QRnum.text + speaker_text.text + amplified_text.text + defense.text
 	#QRnum.text = QRnum.text + chainrobots.text # + spotlit_text.text + parked_text.text
