@@ -12,7 +12,7 @@ offset_bottom = 82.0
 theme_override_font_sizes/font_size = 35
 text = "Miscellaneous"
 
-[node name="Team Number" type="Label" parent="Miscellaneous"]
+[node name="Team_Number" type="Label" parent="Miscellaneous"]
 layout_mode = 0
 offset_left = -164.0
 offset_top = 74.0
@@ -21,7 +21,7 @@ offset_bottom = 123.0
 theme_override_font_sizes/font_size = 35
 text = "Team Number:"
 
-[node name="Match Number" type="Label" parent="Miscellaneous"]
+[node name="Match_Number" type="Label" parent="Miscellaneous"]
 layout_mode = 0
 offset_left = -164.0
 offset_top = 139.0
@@ -29,15 +29,6 @@ offset_right = 87.0
 offset_bottom = 188.0
 theme_override_font_sizes/font_size = 35
 text = "Match Number:"
-
-[node name="Mnum" type="TextEdit" parent="Miscellaneous/Match Number"]
-layout_mode = 0
-offset_left = 274.0
-offset_top = -4.0
-offset_right = 323.0
-offset_bottom = 60.0
-theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _"
 
 [node name="Alliance" type="Label" parent="Miscellaneous"]
 layout_mode = 0
@@ -47,15 +38,6 @@ offset_right = 89.0
 offset_bottom = 258.0
 theme_override_font_sizes/font_size = 35
 text = "Alliance:"
-
-[node name="TextEdit" type="TextEdit" parent="Miscellaneous/Alliance"]
-layout_mode = 0
-offset_left = 146.0
-offset_top = -6.0
-offset_right = 300.0
-offset_bottom = 59.0
-theme_override_font_sizes/font_size = 35
-placeholder_text = "red/blue"
 
 [node name="Auton" type="Label" parent="."]
 offset_left = 204.0
@@ -74,14 +56,6 @@ offset_bottom = 141.0
 theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
-[node name="Auto Amp Score" type="SpinBox" parent="Auton/Amp Scores"]
-layout_mode = 0
-offset_left = 212.0
-offset_top = 4.0
-offset_right = 295.063
-offset_bottom = 35.0
-scale = Vector2(1.5, 1.5)
-
 [node name="Speaker Scores" type="Label" parent="Auton"]
 layout_mode = 0
 offset_left = -166.0
@@ -91,14 +65,6 @@ offset_bottom = 203.0
 theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
 
-[node name="Auto Speaker Score" type="SpinBox" parent="Auton/Speaker Scores"]
-layout_mode = 0
-offset_left = 269.0
-offset_top = 6.0
-offset_right = 352.063
-offset_bottom = 37.0
-scale = Vector2(1.5, 1.5)
-
 [node name="Left Area" type="Label" parent="Auton"]
 layout_mode = 0
 offset_left = -165.0
@@ -107,14 +73,6 @@ offset_right = 86.0
 offset_bottom = 266.0
 theme_override_font_sizes/font_size = 35
 text = "Left Area:"
-
-[node name="CheckButton" type="CheckButton" parent="Auton/Left Area"]
-layout_mode = 0
-offset_left = 155.0
-offset_top = 6.0
-offset_right = 199.0
-offset_bottom = 30.0
-scale = Vector2(2, 2)
 
 [node name="Teleop" type="Label" parent="."]
 offset_left = 716.0
@@ -133,14 +91,6 @@ offset_bottom = 123.0
 theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
-[node name="Amp Score" type="SpinBox" parent="Teleop/Amp Scores"]
-layout_mode = 0
-offset_left = 212.0
-offset_top = 4.0
-offset_right = 295.063
-offset_bottom = 35.0
-scale = Vector2(1.5, 1.5)
-
 [node name="Speaker Scores" type="Label" parent="Teleop"]
 layout_mode = 0
 offset_left = -150.0
@@ -149,14 +99,6 @@ offset_right = 101.0
 offset_bottom = 173.0
 theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
-
-[node name="Speaker Score" type="SpinBox" parent="Teleop/Speaker Scores"]
-layout_mode = 0
-offset_left = 272.0
-offset_top = 4.0
-offset_right = 355.063
-offset_bottom = 35.0
-scale = Vector2(1.5, 1.5)
 
 [node name="Amplified Scores" type="Label" parent="Teleop"]
 layout_mode = 0
@@ -167,14 +109,6 @@ offset_bottom = 221.0
 theme_override_font_sizes/font_size = 35
 text = "Amplified Scores:"
 
-[node name="Amplified Score" type="SpinBox" parent="Teleop/Amplified Scores"]
-layout_mode = 0
-offset_left = 293.0
-offset_top = 5.0
-offset_right = 376.063
-offset_bottom = 36.0
-scale = Vector2(1.5, 1.5)
-
 [node name="Defense" type="Label" parent="Teleop"]
 layout_mode = 0
 offset_left = -151.0
@@ -183,15 +117,6 @@ offset_right = 100.0
 offset_bottom = 274.0
 theme_override_font_sizes/font_size = 35
 text = "Defense:"
-
-[node name="Defense Rating" type="TextEdit" parent="Teleop/Defense"]
-layout_mode = 0
-offset_left = 149.0
-offset_top = -3.0
-offset_right = 179.0
-offset_bottom = 54.0
-theme_override_font_sizes/font_size = 35
-placeholder_text = "--"
 
 [node name="Label" type="Label" parent="Teleop/Defense"]
 layout_mode = 0
@@ -219,14 +144,6 @@ offset_bottom = 145.0
 theme_override_font_sizes/font_size = 35
 text = "Robots on Chain:"
 
-[node name="Robots on Chain" type="TextEdit" parent="End Game/Robots on Chain"]
-layout_mode = 0
-offset_left = 287.0
-offset_right = 317.0
-offset_bottom = 57.0
-theme_override_font_sizes/font_size = 35
-placeholder_text = "--"
-
 [node name="Label" type="Label" parent="End Game/Robots on Chain"]
 layout_mode = 0
 offset_left = 318.0
@@ -245,14 +162,6 @@ offset_bottom = 204.0
 theme_override_font_sizes/font_size = 35
 text = "Spotlit:"
 
-[node name="CheckButton" type="CheckButton" parent="End Game/Spotlit"]
-layout_mode = 0
-offset_left = 113.0
-offset_top = 3.0
-offset_right = 157.0
-offset_bottom = 27.0
-scale = Vector2(2, 2)
-
 [node name="Parked" type="Label" parent="End Game"]
 layout_mode = 0
 offset_left = -156.0
@@ -261,14 +170,6 @@ offset_right = 95.0
 offset_bottom = 264.0
 theme_override_font_sizes/font_size = 35
 text = "Parked:"
-
-[node name="CheckButton" type="CheckButton" parent="End Game/Parked"]
-layout_mode = 0
-offset_left = 121.0
-offset_top = 3.0
-offset_right = 165.0
-offset_bottom = 27.0
-scale = Vector2(2, 2)
 
 [node name="QR_Number" type="Label" parent="."]
 offset_left = 37.0
@@ -297,5 +198,102 @@ offset_bottom = -156.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "_ _ _ _"
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(576, 324)
+[node name="Parked" type="CheckButton" parent="QR_Number"]
+layout_mode = 0
+offset_left = 649.0
+offset_top = 258.0
+offset_right = 693.0
+offset_bottom = 282.0
+scale = Vector2(2, 2)
+
+[node name="Spotlit" type="CheckButton" parent="QR_Number"]
+layout_mode = 0
+offset_left = 641.0
+offset_top = 198.0
+offset_right = 685.0
+offset_bottom = 222.0
+scale = Vector2(2, 2)
+
+[node name="Robots_on_Chain" type="TextEdit" parent="QR_Number"]
+layout_mode = 0
+offset_left = 816.0
+offset_top = 136.0
+offset_right = 846.0
+offset_bottom = 193.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "--"
+
+[node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
+layout_mode = 0
+offset_left = 677.0
+offset_top = -65.0
+offset_right = 707.0
+offset_bottom = -8.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "--"
+
+[node name="Amplified_Score" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
+offset_left = 822.0
+offset_top = -110.0
+offset_right = 905.063
+offset_bottom = -79.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Speaker_Score" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
+offset_left = 801.0
+offset_top = -159.0
+offset_right = 884.063
+offset_bottom = -128.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Amp_Score" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
+offset_left = 739.0
+offset_top = -209.0
+offset_right = 822.063
+offset_bottom = -178.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Area_left" type="CheckButton" parent="QR_Number"]
+layout_mode = 0
+offset_left = 157.0
+offset_top = 261.0
+offset_right = 201.0
+offset_bottom = 285.0
+scale = Vector2(2, 2)
+
+[node name="Auto_Speaker_Score" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 198.0
+offset_right = 353.063
+offset_bottom = 229.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Auto_Amp_Score" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
+offset_left = 214.0
+offset_top = 134.0
+offset_right = 297.063
+offset_bottom = 165.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Alliance" type="TextEdit" parent="QR_Number"]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -85.0
+offset_right = 303.0
+offset_bottom = -20.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "red/blue"
+
+[node name="Mnum" type="TextEdit" parent="QR_Number"]
+layout_mode = 0
+offset_left = 275.0
+offset_top = -153.0
+offset_right = 324.0
+offset_bottom = -89.0
+theme_override_font_sizes/font_size = 35
+placeholder_text = "_ _"
