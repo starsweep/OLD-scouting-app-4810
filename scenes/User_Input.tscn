@@ -3,6 +3,7 @@
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 
 [node name="UserInput" type="Node2D"]
+scale = Vector2(1.5, 1.5)
 
 [node name="Miscellaneous" type="Label" parent="."]
 offset_left = 202.0
@@ -117,10 +118,10 @@ offset_bottom = 30.0
 scale = Vector2(2, 2)
 
 [node name="Teleop" type="Label" parent="."]
-offset_left = 716.0
-offset_top = 34.0
-offset_right = 967.0
-offset_bottom = 83.0
+offset_left = 190.0
+offset_top = 645.333
+offset_right = 441.0
+offset_bottom = 694.333
 theme_override_font_sizes/font_size = 35
 text = "Teleop"
 
@@ -203,10 +204,10 @@ theme_override_font_sizes/font_size = 35
 text = "/10"
 
 [node name="End Game" type="Label" parent="."]
-offset_left = 721.0
-offset_top = 361.0
-offset_right = 972.0
-offset_bottom = 410.0
+offset_left = 195.0
+offset_top = 972.333
+offset_right = 446.0
+offset_bottom = 1021.33
 theme_override_font_sizes/font_size = 35
 text = "End Game"
 
@@ -296,6 +297,3 @@ offset_right = 366.0
 offset_bottom = -156.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "_ _ _ _"
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(576, 324)
