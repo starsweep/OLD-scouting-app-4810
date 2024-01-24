@@ -18,7 +18,9 @@ var speaker_text = "000"
 var amplified
 var amplified_text = "000"
 var defense
+var defense_text
 var chainrobots
+var chainrobots_text
 var spotlit
 var spotlit_text = "000"
 var parked
@@ -40,17 +42,15 @@ func _ready():
 	spotlit = get_node("/root/UserInput/QR_Number/Spotlit")
 	parked = get_node("/root/UserInput/QR_Number/Parked") 
 	
-	defense.text = "00" + defense.text
-	chainrobots.text = "00" + chainrobots.text
-	
 func _process(_delta):
-	
+	defense_text = "00" + defense.text
+	chainrobots_text = "00" + chainrobots.text
 	if alliance.text.capitalize() == "R":
 		alliance_text = "001"
 	elif alliance.text.capitalize() == "B":
 		alliance_text = "002"
 	
-	QRnum.text = tnum.text + mnum.text + alliance_text# + Aamp_text.text
-	#QRnum.text = QRnum.text + Aspeaker_text.text + Aleft_text.text + amp_text.text
-	#QRnum.text = QRnum.text + speaker_text.text + amplified_text.text + defense.text
-	#QRnum.text = QRnum.text + chainrobots.text # + spotlit_text.text + parked_text.text
+	QRnum.text = tnum.text + mnum.text + alliance_text + Aamp_text
+	#QRnum.text = QRnum.text + Aspeaker_text + Aleft_text + amp_text
+	#QRnum.text = QRnum.text + speaker_text + amplified_text + defense_text
+	#QRnum.text = QRnum.text + chainrobots.text # + spotlit_text + parked_text
