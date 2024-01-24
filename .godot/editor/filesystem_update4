@@ -1,2 +1,9 @@
 res://scenes/opening_screen.tscn
+<<<<<<< Updated upstream
+=======
+res://scripts/QRnum.gd
+res://examples/qr_code/main.tscn
+res://scenes/Data.tscn
+res://scenes/QR_Scan.tscn
+>>>>>>> Stashed changes
 res://scenes/User_Input.tscn
