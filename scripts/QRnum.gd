@@ -25,6 +25,9 @@ var spotlit
 var spotlit_text = "000"
 var parked
 var parked_text = "000"
+var num
+var numtype
+var output = "fallthrough error"
 
 func _ready():
 	tnum = get_node("/root/UserInput/QR_Number/Tnum")
@@ -43,6 +46,27 @@ func _ready():
 	parked = get_node("/root/UserInput/QR_Number/Parked") 
 	
 func _process(_delta):
+#Team Number 
+	num = str_to_var(tnum.text)
+	numtype = typeof(num)
+	
+	print(var_to_str(numtype))
+	
+	if numtype == 2:
+		if num < 10:
+			output = "0000" + tnum.text
+		elif num < 100:
+			output = "000" + tnum.text
+		elif num < 1000:
+			output = "00" + tnum.text
+		elif num < 10000:
+			output = "0" + tnum.text
+		elif num < 100000:
+			output = tnum.text
+		else:
+			output = "overflow error"
+	
+	# some other shit
 	defense_text = "00" + defense.text
 	chainrobots_text = "00" + chainrobots.text
 	if alliance.text.capitalize() == "R":
@@ -50,7 +74,7 @@ func _process(_delta):
 	elif alliance.text.capitalize() == "B":
 		alliance_text = "002"
 	
-	QRnum.text = tnum.text + mnum.text + alliance_text + Aamp_text
+	QRnum.text = output + mnum.text + alliance_text + Aamp_text
 	#QRnum.text = QRnum.text + Aspeaker_text + Aleft_text + amp_text
 	#QRnum.text = QRnum.text + speaker_text + amplified_text + defense_text
 	#QRnum.text = QRnum.text + chainrobots.text # + spotlit_text + parked_text
