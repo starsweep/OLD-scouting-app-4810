@@ -50,8 +50,6 @@ func _process(_delta):
 	num = str_to_var(tnum.text)
 	numtype = typeof(num)
 	
-	print(var_to_str(numtype))
-	
 	if numtype == 2:
 		if num < 10:
 			output = "0000" + tnum.text

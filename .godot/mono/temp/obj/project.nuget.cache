@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zd/2DzPxOSrbb7t0Czm0LFG9Y4PVimLgbokyscoaoXl/4HLQ9trneEkq8vYodsbTJl04MGZ7s4iJpZfEmS05Rw==",
+  "dgSpecHash": "XU9xOeSlhjYQVhLJsT4RTwxjIYR8nOW4PeJDZqvZc4jWAwzW1aVbaMyDEkYurdOjA3/PExyq+Kdkn4A8Ftb6eA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1750803245\\Documents\\GitHub\\scouting-app-4810\\scouting app 4810.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\scouting app 4810.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1750803245\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
-    "C:\\Users\\1750803245\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
-    "C:\\Users\\1750803245\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }

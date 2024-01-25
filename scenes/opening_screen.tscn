@@ -6,6 +6,7 @@
 scale = Vector2(2.5, 2.5)
 
 [node name="Label" type="Label" parent="."]
+texture_filter = 1
 offset_left = 70.8
 offset_top = 168.8
 offset_right = 212.8

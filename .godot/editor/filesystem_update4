@@ -1,3 +1,5 @@
+res://scenes/User_Input.tscn
+res://scripts/QRnum.gd
 res://examples/qr_code/main.tscn
 res://scenes/QR_Scan.tscn
 res://scenes/opening_screen.tscn
