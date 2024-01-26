@@ -18,9 +18,9 @@ var speaker_text = "000"
 var amplified
 var amplified_text = "000"
 var defense
-var defense_text
+var defense_text = "000"
 var chainrobots
-var chainrobots_text
+var chainrobots_text = "000"
 var spotlit
 var spotlit_text = "000"
 var parked
