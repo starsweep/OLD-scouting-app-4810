@@ -3,12 +3,13 @@
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 
 [node name="UserInput" type="Node2D"]
+scale = Vector2(1.75, 1.75)
 
 [node name="Miscellaneous" type="Label" parent="."]
-offset_left = 202.0
-offset_top = 33.0
-offset_right = 453.0
-offset_bottom = 82.0
+offset_left = 234.143
+offset_top = 9.71429
+offset_right = 485.143
+offset_bottom = 58.7143
 theme_override_font_sizes/font_size = 35
 text = "Miscellaneous"
 
@@ -40,10 +41,10 @@ theme_override_font_sizes/font_size = 35
 text = "Alliance:"
 
 [node name="Auton" type="Label" parent="."]
-offset_left = 204.0
-offset_top = 359.0
-offset_right = 455.0
-offset_bottom = 408.0
+offset_left = 236.143
+offset_top = 335.714
+offset_right = 487.143
+offset_bottom = 384.714
 theme_override_font_sizes/font_size = 35
 text = "Auton"
 
@@ -75,10 +76,10 @@ theme_override_font_sizes/font_size = 35
 text = "Left Area:"
 
 [node name="Teleop" type="Label" parent="."]
-offset_left = 716.0
-offset_top = 34.0
-offset_right = 967.0
-offset_bottom = 83.0
+offset_left = 748.143
+offset_top = 10.7143
+offset_right = 999.143
+offset_bottom = 59.7143
 theme_override_font_sizes/font_size = 35
 text = "Teleop"
 
@@ -128,10 +129,10 @@ theme_override_font_sizes/font_size = 35
 text = "/10"
 
 [node name="End Game" type="Label" parent="."]
-offset_left = 721.0
-offset_top = 361.0
-offset_right = 972.0
-offset_bottom = 410.0
+offset_left = 753.143
+offset_top = 337.714
+offset_right = 1004.14
+offset_bottom = 386.714
 theme_override_font_sizes/font_size = 35
 text = "End Game"
 
@@ -172,10 +173,10 @@ theme_override_font_sizes/font_size = 35
 text = "Parked:"
 
 [node name="QR_Number" type="Label" parent="."]
-offset_left = 37.0
-offset_top = 321.0
-offset_right = 204.0
-offset_bottom = 360.0
+offset_left = 69.1429
+offset_top = 297.714
+offset_right = 236.143
+offset_bottom = 336.714
 theme_override_font_sizes/font_size = 28
 text = "QR Number:"
 
