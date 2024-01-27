@@ -1,7 +1,21 @@
-[gd_scene load_steps=3 format=3 uid="uid://bpbpidb0ni6u6"]
+[gd_scene load_steps=17 format=3 uid="uid://bpbpidb0ni6u6"]
 
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 [ext_resource type="Script" path="res://scripts/Text_limit.gd" id="2_0kynu"]
+[ext_resource type="Script" path="res://scripts/add.gd" id="3_cggtu"]
+[ext_resource type="Script" path="res://scripts/subtract.gd" id="4_1jgni"]
+[ext_resource type="Script" path="res://scripts/Aspeakeradd.gd" id="5_sxv3k"]
+[ext_resource type="Script" path="res://scripts/Aspeakersub.gd" id="6_7wxnx"]
+[ext_resource type="Script" path="res://scripts/Ampadd.gd" id="7_rqr56"]
+[ext_resource type="Script" path="res://scripts/Ampsub.gd" id="8_db3v0"]
+[ext_resource type="Script" path="res://scripts/Sourceintakeadd.gd" id="9_50r4p"]
+[ext_resource type="Script" path="res://scripts/Sourceintakesub.gd" id="10_8fexr"]
+[ext_resource type="Script" path="res://scripts/Groundintakeadd.gd" id="11_0khct"]
+[ext_resource type="Script" path="res://scripts/Groundintakesub.gd" id="12_nce5r"]
+[ext_resource type="Script" path="res://scripts/Amplifiedadd.gd" id="13_3bot4"]
+[ext_resource type="Script" path="res://scripts/Amplifiedsub.gd" id="14_eo4gu"]
+[ext_resource type="Script" path="res://scripts/Speakeradd.gd" id="15_agnhl"]
+[ext_resource type="Script" path="res://scripts/Speakersub.gd" id="16_y0jun"]
 
 [node name="UserInput" type="Node2D"]
 scale = Vector2(1.75, 1.75)
@@ -242,7 +256,7 @@ offset_top = 136.0
 offset_right = 846.0
 offset_bottom = 193.0
 theme_override_font_sizes/font_size = 35
-placeholder_text = "--"
+placeholder_text = "_"
 
 [node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
@@ -253,30 +267,6 @@ offset_bottom = -8.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "--"
 
-[node name="Amplified_Score" type="SpinBox" parent="QR_Number"]
-layout_mode = 0
-offset_left = 822.0
-offset_top = -110.0
-offset_right = 905.063
-offset_bottom = -79.0
-scale = Vector2(1.5, 1.5)
-
-[node name="Speaker_Score" type="SpinBox" parent="QR_Number"]
-layout_mode = 0
-offset_left = 801.0
-offset_top = -159.0
-offset_right = 884.063
-offset_bottom = -128.0
-scale = Vector2(1.5, 1.5)
-
-[node name="Amp_Score" type="SpinBox" parent="QR_Number"]
-layout_mode = 0
-offset_left = 739.0
-offset_top = -209.0
-offset_right = 822.063
-offset_bottom = -178.0
-scale = Vector2(1.5, 1.5)
-
 [node name="Area_left" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
 offset_left = 157.0
@@ -284,22 +274,6 @@ offset_top = 261.0
 offset_right = 201.0
 offset_bottom = 285.0
 scale = Vector2(2, 2)
-
-[node name="Auto_Speaker_Score" type="SpinBox" parent="QR_Number"]
-layout_mode = 0
-offset_left = 270.0
-offset_top = 198.0
-offset_right = 353.063
-offset_bottom = 229.0
-scale = Vector2(1.5, 1.5)
-
-[node name="Auto_Amp_Score" type="SpinBox" parent="QR_Number"]
-layout_mode = 0
-offset_left = 214.0
-offset_top = 134.0
-offset_right = 297.063
-offset_bottom = 165.0
-scale = Vector2(1.5, 1.5)
 
 [node name="Alliance" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
@@ -319,20 +293,208 @@ offset_bottom = -89.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "_ _"
 
-[node name="Ground_Intakes" type="SpinBox" parent="QR_Number"]
+[node name="Aamp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 804.571
-offset_top = -8.57115
-offset_right = 887.634
-offset_bottom = 22.4289
-scale = Vector2(1.5, 1.5)
+offset_left = 238.857
+offset_top = 134.286
+offset_right = 262.857
+offset_bottom = 183.286
+theme_override_font_sizes/font_size = 35
+text = "0"
 
-[node name="Source_Intakes" type="SpinBox" parent="QR_Number"]
+[node name="Add" type="Button" parent="QR_Number/Aamp"]
 layout_mode = 0
-offset_left = 789.143
-offset_top = 41.7146
-offset_right = 872.206
-offset_bottom = 72.7146
-scale = Vector2(1.5, 1.5)
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("3_cggtu")
+
+[node name="Subtract" type="Button" parent="QR_Number/Aamp"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("4_1jgni")
+
+[node name="Aspeaker" type="Label" parent="QR_Number"]
+offset_left = 300.571
+offset_top = 196.0
+offset_right = 324.571
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Aspeaker"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("5_sxv3k")
+
+[node name="Subtract" type="Button" parent="QR_Number/Aspeaker"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("6_7wxnx")
+
+[node name="Amp" type="Label" parent="QR_Number"]
+offset_left = 766.857
+offset_top = -207.428
+offset_right = 790.857
+offset_bottom = -158.428
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Amp"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("7_rqr56")
+
+[node name="Subtract" type="Button" parent="QR_Number/Amp"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("8_db3v0")
+
+[node name="Source_Intake" type="Label" parent="QR_Number"]
+offset_left = 820.0
+offset_top = 42.286
+offset_right = 844.0
+offset_bottom = 91.286
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Source_Intake"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("9_50r4p")
+
+[node name="Subtract" type="Button" parent="QR_Number/Source_Intake"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("10_8fexr")
+
+[node name="Ground_Intake" type="Label" parent="QR_Number"]
+offset_left = 832.0
+offset_top = -8.57115
+offset_right = 856.0
+offset_bottom = 40.4288
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Ground_Intake"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("11_0khct")
+
+[node name="Subtract" type="Button" parent="QR_Number/Ground_Intake"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("12_nce5r")
+
+[node name="Amplified" type="Label" parent="QR_Number"]
+offset_left = 851.428
+offset_top = -108.0
+offset_right = 875.428
+offset_bottom = -58.9997
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Amplified"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("13_3bot4")
+
+[node name="Subtract" type="Button" parent="QR_Number/Amplified"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("14_eo4gu")
+
+[node name="Speaker" type="Label" parent="QR_Number"]
+offset_left = 827.428
+offset_top = -153.714
+offset_right = 851.428
+offset_bottom = -104.714
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Speaker"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("15_agnhl")
+
+[node name="Subtract" type="Button" parent="QR_Number/Speaker"]
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("16_y0jun")
 
 [connection signal="text_changed" from="QR_Number/Tnum" to="QR_Number/Tnum" method="_on_text_changed"]
+[connection signal="pressed" from="QR_Number/Aamp/Add" to="QR_Number/Aamp/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Aamp/Subtract" to="QR_Number/Aamp/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Aspeaker/Add" to="QR_Number/Aspeaker/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Aspeaker/Subtract" to="QR_Number/Aspeaker/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Amp/Add" to="QR_Number/Amp/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Amp/Subtract" to="QR_Number/Amp/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Source_Intake/Add" to="QR_Number/Source_Intake/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Source_Intake/Subtract" to="QR_Number/Source_Intake/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Ground_Intake/Add" to="QR_Number/Ground_Intake/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Ground_Intake/Subtract" to="QR_Number/Ground_Intake/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Amplified/Add" to="QR_Number/Amplified/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Amplified/Subtract" to="QR_Number/Amplified/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Speaker/Add" to="QR_Number/Speaker/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Speaker/Subtract" to="QR_Number/Speaker/Subtract" method="_on_pressed"]
