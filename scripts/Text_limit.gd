@@ -15,12 +15,15 @@ func _ready():
 
 func _process(delta):
 	if tnum.text.length() > 5:
-		tnum.text = "0"
-	if str_to_var(mnum.text) > 80:
-		mnum.text = "0"
+		tnum.text = ""
+	if typeof(str_to_var(mnum.text)) == 2:
+		if str_to_var(mnum.text) > 80 || mnum.text.length() > 2:
+			mnum.text = ""
 	if alliance.text.length() > 4:
-		alliance.text = "0"
-	if str_to_var(defense.text) > 10:
-		defense.text = "0"
-	if str_to_var(chainrobots.text) > 2:
-		chainrobots.text = "0"
+		alliance.text = ""
+	if typeof(str_to_var(defense.text)) == 2:
+		if str_to_var(defense.text) > 10:
+			defense.text = ""
+	if typeof(str_to_var(chainrobots.text)) == 2:
+		if str_to_var(chainrobots.text) > 2:
+			chainrobots.text = ""
