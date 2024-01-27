@@ -51,15 +51,15 @@ func _process(_delta):
 	numtype = typeof(num)
 	
 	if numtype == 2:
-		if num < 10:
+		if tnum.text.length() < 2:
 			output = "0000" + tnum.text
-		elif num < 100:
+		elif tnum.text.length() < 3:
 			output = "000" + tnum.text
-		elif num < 1000:
+		elif tnum.text.length() < 4:
 			output = "00" + tnum.text
-		elif num < 10000:
+		elif tnum.text.length() < 5:
 			output = "0" + tnum.text
-		elif num < 100000:
+		elif tnum.text.length() < 6:
 			output = tnum.text
 		else:
 			output = "overflow error"

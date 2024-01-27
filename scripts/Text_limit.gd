@@ -29,8 +29,9 @@ func _ready():
 func _on_text_changed():
 	if tnum.text.length() > 5:
 		tnum.text = ""
-	if str_to_var(mnum.text) > 80:
-		tnum.text = ""
+	if typeof(str_to_var(mnum.text)) == 2:
+		if str_to_var(mnum.text) > 80:
+			tnum.text = ""
 	if alliance.text.length() > 4:
 		tnum.text = ""
 	#if aamp.text.length() > 1:
