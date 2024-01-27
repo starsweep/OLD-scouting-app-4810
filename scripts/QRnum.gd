@@ -64,7 +64,7 @@ func _process(_delta):
 		else:
 			output = "overflow error"
 	
-	# some other shit
+	# some other stuff
 	defense_text = "00" + defense.text
 	chainrobots_text = "00" + chainrobots.text
 	if alliance.text.capitalize() == "R":
