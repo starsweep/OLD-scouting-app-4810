@@ -99,37 +99,37 @@ text = "Teleop"
 
 [node name="Amp Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -152.0
-offset_top = 74.0
-offset_right = 99.0
-offset_bottom = 123.0
+offset_left = -157.143
+offset_top = 51.2857
+offset_right = 93.857
+offset_bottom = 100.286
 theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
 [node name="Speaker Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -150.0
-offset_top = 124.0
-offset_right = 101.0
-offset_bottom = 173.0
+offset_left = -155.143
+offset_top = 101.286
+offset_right = 108.857
+offset_bottom = 150.286
 theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
 
 [node name="Amplified Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -150.0
-offset_top = 172.0
-offset_right = 101.0
-offset_bottom = 221.0
+offset_left = -155.143
+offset_top = 149.286
+offset_right = 134.857
+offset_bottom = 198.286
 theme_override_font_sizes/font_size = 35
 text = "Amplified Scores:"
 
 [node name="Defense" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -151.0
-offset_top = 225.0
-offset_right = 100.0
-offset_bottom = 274.0
+offset_left = -156.143
+offset_top = 198.286
+offset_right = 94.857
+offset_bottom = 247.286
 theme_override_font_sizes/font_size = 35
 text = "Defense:"
 
@@ -144,19 +144,19 @@ text = "/10"
 
 [node name="Ground Intake" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -149.857
-offset_top = 275.571
-offset_right = 114.143
-offset_bottom = 324.571
+offset_left = -160.143
+offset_top = 249.286
+offset_right = 109.857
+offset_bottom = 298.286
 theme_override_font_sizes/font_size = 35
 text = "Ground Intakes:"
 
 [node name="Source Intake" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -149.857
-offset_top = 320.143
-offset_right = 114.143
-offset_bottom = 369.143
+offset_left = -155.143
+offset_top = 304.286
+offset_right = 108.857
+offset_bottom = 353.286
 theme_override_font_sizes/font_size = 35
 text = "Source Intakes:"
 
@@ -229,7 +229,7 @@ offset_top = -214.0
 offset_right = 391.0
 offset_bottom = -156.0
 theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _ _ _ _"
+text = "0"
 script = ExtResource("2_0kynu")
 
 [node name="Parked" type="CheckButton" parent="QR_Number"]
@@ -255,16 +255,16 @@ offset_top = 136.0
 offset_right = 846.0
 offset_bottom = 193.0
 theme_override_font_sizes/font_size = 35
-placeholder_text = "_"
+text = "0"
 
 [node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 677.0
-offset_top = -65.0
-offset_right = 707.0
-offset_bottom = -8.0
+offset_left = 671.857
+offset_top = -91.714
+offset_right = 701.857
+offset_bottom = -34.714
 theme_override_font_sizes/font_size = 35
-placeholder_text = "--"
+text = "0"
 
 [node name="Area_left" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
@@ -290,7 +290,7 @@ offset_top = -153.0
 offset_right = 324.0
 offset_bottom = -89.0
 theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _"
+text = "0"
 
 [node name="Aamp" type="Label" parent="QR_Number"]
 layout_mode = 0
@@ -352,10 +352,10 @@ script = ExtResource("6_7wxnx")
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 766.857
-offset_top = -207.428
-offset_right = 790.857
-offset_bottom = -158.428
+offset_left = 761.714
+offset_top = -230.142
+offset_right = 785.714
+offset_bottom = -181.142
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -381,10 +381,10 @@ script = ExtResource("8_db3v0")
 
 [node name="Source_Intake" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 820.0
-offset_top = 42.286
-offset_right = 844.0
-offset_bottom = 91.286
+offset_left = 814.714
+offset_top = 26.4287
+offset_right = 838.714
+offset_bottom = 75.4287
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -410,10 +410,10 @@ script = ExtResource("10_8fexr")
 
 [node name="Ground_Intake" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 832.0
-offset_top = -8.57115
-offset_right = 856.0
-offset_bottom = 40.4288
+offset_left = 821.714
+offset_top = -34.8565
+offset_right = 845.714
+offset_bottom = 14.1435
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -439,10 +439,10 @@ script = ExtResource("12_nce5r")
 
 [node name="Amplified" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 851.428
-offset_top = -108.0
-offset_right = 875.428
-offset_bottom = -58.9997
+offset_left = 851.857
+offset_top = -121.714
+offset_right = 875.857
+offset_bottom = -72.7137
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -468,10 +468,10 @@ script = ExtResource("14_eo4gu")
 
 [node name="Speaker" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 827.428
-offset_top = -153.714
-offset_right = 851.428
-offset_bottom = -104.714
+offset_left = 822.285
+offset_top = -176.428
+offset_right = 846.285
+offset_bottom = -127.428
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -496,6 +496,9 @@ text = "-"
 script = ExtResource("16_y0jun")
 
 [connection signal="text_changed" from="QR_Number/Tnum" to="QR_Number/Tnum" method="_on_text_changed"]
+[connection signal="toggled" from="QR_Number/Parked" to="QR_Number/QRnum" method="_on_parked_toggled"]
+[connection signal="toggled" from="QR_Number/Spotlit" to="QR_Number/QRnum" method="_on_spotlit_toggled"]
+[connection signal="toggled" from="QR_Number/Area_left" to="QR_Number/QRnum" method="_on_area_left_toggled"]
 [connection signal="pressed" from="QR_Number/Aamp/Add" to="QR_Number/Aamp/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Aamp/Subtract" to="QR_Number/Aamp/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Aspeaker/Add" to="QR_Number/Aspeaker/Add" method="_on_pressed"]
