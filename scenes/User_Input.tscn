@@ -50,6 +50,7 @@ theme_override_font_sizes/font_size = 35
 text = "Auton"
 
 [node name="Amp Scores" type="Label" parent="Auton"]
+layout_mode = 0
 offset_left = -164.857
 offset_top = 53.4283
 offset_right = 86.143
@@ -58,6 +59,7 @@ theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
 [node name="Speaker Scores" type="Label" parent="Auton"]
+layout_mode = 0
 offset_left = -165.857
 offset_top = 115.428
 offset_right = 98.143
@@ -66,6 +68,7 @@ theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
 
 [node name="Left Area" type="Label" parent="Auton"]
+layout_mode = 0
 offset_left = -164.857
 offset_top = 178.428
 offset_right = 86.143
@@ -127,6 +130,7 @@ theme_override_font_sizes/font_size = 35
 text = "/10"
 
 [node name="Ground Intake" type="Label" parent="Teleop"]
+layout_mode = 0
 offset_left = -149.857
 offset_top = 275.571
 offset_right = 114.143
@@ -135,6 +139,7 @@ theme_override_font_sizes/font_size = 35
 text = "Ground Intakes:"
 
 [node name="Source Intake" type="Label" parent="Teleop"]
+layout_mode = 0
 offset_left = -149.857
 offset_top = 320.143
 offset_right = 114.143
@@ -151,6 +156,7 @@ theme_override_font_sizes/font_size = 35
 text = "End Game"
 
 [node name="Robots on Chain" type="Label" parent="End Game"]
+layout_mode = 0
 offset_left = -133.286
 offset_top = 60.5712
 offset_right = 150.714
@@ -168,6 +174,7 @@ theme_override_font_sizes/font_size = 35
 text = "/2"
 
 [node name="Spotlit" type="Label" parent="End Game"]
+layout_mode = 0
 offset_left = -134.286
 offset_top = 119.571
 offset_right = 116.714
@@ -176,6 +183,7 @@ theme_override_font_sizes/font_size = 35
 text = "Spotlit:"
 
 [node name="Parked" type="Label" parent="End Game"]
+layout_mode = 0
 offset_left = -134.286
 offset_top = 179.571
 offset_right = 116.714
@@ -312,6 +320,7 @@ theme_override_font_sizes/font_size = 35
 placeholder_text = "_ _"
 
 [node name="Ground_Intakes" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
 offset_left = 804.571
 offset_top = -8.57115
 offset_right = 887.634
@@ -319,6 +328,7 @@ offset_bottom = 22.4289
 scale = Vector2(1.5, 1.5)
 
 [node name="Source_Intakes" type="SpinBox" parent="QR_Number"]
+layout_mode = 0
 offset_left = 789.143
 offset_top = 41.7146
 offset_right = 872.206
