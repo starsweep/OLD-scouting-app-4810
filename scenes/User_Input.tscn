@@ -256,6 +256,7 @@ offset_right = 846.0
 offset_bottom = 193.0
 theme_override_font_sizes/font_size = 35
 text = "0"
+script = ExtResource("2_0kynu")
 
 [node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
@@ -265,6 +266,7 @@ offset_right = 701.857
 offset_bottom = -34.714
 theme_override_font_sizes/font_size = 35
 text = "0"
+script = ExtResource("2_0kynu")
 
 [node name="Area_left" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
@@ -282,6 +284,7 @@ offset_right = 303.0
 offset_bottom = -20.0
 theme_override_font_sizes/font_size = 35
 placeholder_text = "red/blue"
+script = ExtResource("2_0kynu")
 
 [node name="Mnum" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
@@ -291,6 +294,7 @@ offset_right = 324.0
 offset_bottom = -89.0
 theme_override_font_sizes/font_size = 35
 text = "0"
+script = ExtResource("2_0kynu")
 
 [node name="Aamp" type="Label" parent="QR_Number"]
 layout_mode = 0
