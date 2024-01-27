@@ -213,10 +213,10 @@ script = ExtResource("1_ncsex")
 layout_mode = 0
 offset_left = 265.0
 offset_top = -214.0
-offset_right = 366.0
+offset_right = 391.0
 offset_bottom = -156.0
 theme_override_font_sizes/font_size = 35
-placeholder_text = "_ _ _ _"
+placeholder_text = "_ _ _ _ _"
 script = ExtResource("2_0kynu")
 
 [node name="Parked" type="CheckButton" parent="QR_Number"]
@@ -334,3 +334,5 @@ offset_top = 41.7146
 offset_right = 872.206
 offset_bottom = 72.7146
 scale = Vector2(1.5, 1.5)
+
+[connection signal="text_changed" from="QR_Number/Tnum" to="QR_Number/Tnum" method="_on_text_changed"]
