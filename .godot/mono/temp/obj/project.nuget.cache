@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Vasx7ibcLQZ+yWyYzH/LiK6Vv0+LZNvnwEyPpMNQ3gv8linXIZOxFlCW3hi0rlaTTppwJuDOqQMOw1b4heNK6w==",
+  "dgSpecHash": "FY0fJDFfDhvQj9q7FpoSINJm+pbmu25/h55myz6NejyJFnLhGN0fzQcpM5ASbWUyjTfMF/ItEf3tNBzMzaP/Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\scouting app 4810.csproj",
+  "projectFilePath": "C:\\Users\\1750803184\\Documents\\GitHub\\scouting-app\\scouting app 4810.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\andre\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-bionic-arm64\\7.0.12\\microsoft.netcore.app.runtime.linux-bionic-arm64.7.0.12.nupkg.sha512"
+    "C:\\Users\\1750803184\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\1750803184\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\1750803184\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }
