@@ -3,37 +3,36 @@
 [ext_resource type="Script" path="res://scripts/Button.gd" id="1_t4on4"]
 
 [node name="opening_screen" type="Node2D"]
-scale = Vector2(2.5, 2.5)
 
 [node name="Label" type="Label" parent="."]
 texture_filter = 1
-offset_left = 70.8
-offset_top = 168.8
-offset_right = 212.8
-offset_bottom = 191.8
+offset_left = 423.0
+offset_top = 114.0
+offset_right = 565.0
+offset_bottom = 137.0
 scale = Vector2(2, 2)
 text = "4810 Scouting App"
 
 [node name="Scounting" type="Button" parent="."]
-offset_left = 70.8
-offset_top = 273.8
-offset_right = 354.8
-offset_bottom = 345.8
+offset_left = 423.0
+offset_top = 219.0
+offset_right = 707.0
+offset_bottom = 291.0
 text = "Scouting"
 script = ExtResource("1_t4on4")
 
 [node name="Saved Scouts" type="Button" parent="."]
-offset_left = 70.8
-offset_top = 373.8
-offset_right = 354.8
-offset_bottom = 445.8
+offset_left = 423.0
+offset_top = 319.0
+offset_right = 707.0
+offset_bottom = 391.0
 text = "Saved Scouts (not functioning)"
 
 [node name="Import QR" type="Button" parent="."]
-offset_left = 70.8
-offset_top = 473.8
-offset_right = 354.8
-offset_bottom = 545.8
+offset_left = 423.0
+offset_top = 419.0
+offset_right = 707.0
+offset_bottom = 491.0
 text = "Import QR"
 
 [connection signal="pressed" from="Scounting" to="Scounting" method="_on_pressed"]
