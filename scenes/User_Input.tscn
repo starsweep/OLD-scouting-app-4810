@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://bpbpidb0ni6u6"]
+[gd_scene load_steps=18 format=3 uid="uid://bpbpidb0ni6u6"]
 
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 [ext_resource type="Script" path="res://scripts/Text_limit.gd" id="2_0kynu"]
@@ -16,6 +16,7 @@
 [ext_resource type="Script" path="res://scripts/Amplifiedsub.gd" id="14_eo4gu"]
 [ext_resource type="Script" path="res://scripts/Speakeradd.gd" id="15_agnhl"]
 [ext_resource type="Script" path="res://scripts/Speakersub.gd" id="16_y0jun"]
+[ext_resource type="Script" path="res://scripts/csv exporter.gd" id="17_tvd87"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -210,9 +211,9 @@ offset_top = 297.714
 offset_right = 236.143
 offset_bottom = 336.714
 theme_override_font_sizes/font_size = 28
-text = "QR Number:"
 
 [node name="QRnum" type="Label" parent="QR_Number"]
+visible = false
 layout_mode = 0
 offset_left = 175.0
 offset_top = 3.0
@@ -495,6 +496,14 @@ theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("16_y0jun")
 
+[node name="csv exporter" type="Button" parent="."]
+offset_left = 194.0
+offset_top = 308.0
+offset_right = 356.0
+offset_bottom = 361.0
+text = "export as csv"
+script = ExtResource("17_tvd87")
+
 [connection signal="text_changed" from="QR_Number/Tnum" to="QR_Number/Tnum" method="_on_text_changed"]
 [connection signal="toggled" from="QR_Number/Parked" to="QR_Number/QRnum" method="_on_parked_toggled"]
 [connection signal="toggled" from="QR_Number/Spotlit" to="QR_Number/QRnum" method="_on_spotlit_toggled"]
@@ -513,3 +522,4 @@ script = ExtResource("16_y0jun")
 [connection signal="pressed" from="QR_Number/Amplified/Subtract" to="QR_Number/Amplified/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Add" to="QR_Number/Speaker/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Subtract" to="QR_Number/Speaker/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="csv exporter" to="csv exporter" method="_on_pressed"]

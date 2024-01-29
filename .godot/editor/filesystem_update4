@@ -1,7 +1,3 @@
+res://scripts/csv exporter.gd
 res://scenes/User_Input.tscn
-res://scripts/Text_limit.gd
-res://examples/qr_code/main.tscn
-res://scenes/QR_Scan.tscn
-res://scenes/opening_screen.tscn
-res://scenes/Data.tscn
 res://scripts/QRnum.gd
