@@ -136,10 +136,10 @@ text = "Defense:"
 
 [node name="Label" type="Label" parent="Teleop/Defense"]
 layout_mode = 0
-offset_left = 180.0
-offset_top = 2.0
-offset_right = 234.0
-offset_bottom = 51.0
+offset_left = 199.0
+offset_top = 1.99971
+offset_right = 253.0
+offset_bottom = 50.9997
 theme_override_font_sizes/font_size = 35
 text = "/10"
 
@@ -259,10 +259,10 @@ script = ExtResource("2_0kynu")
 
 [node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 671.857
-offset_top = -91.714
-offset_right = 701.857
-offset_bottom = -34.714
+offset_left = 672.0
+offset_top = -92.0
+offset_right = 720.0
+offset_bottom = -35.0
 theme_override_font_sizes/font_size = 35
 script = ExtResource("2_0kynu")
 
@@ -504,10 +504,11 @@ offset_bottom = 361.0
 text = "export as csv"
 script = ExtResource("17_tvd87")
 
-[connection signal="text_changed" from="QR_Number/Tnum" to="QR_Number/Tnum" method="_on_text_changed"]
 [connection signal="toggled" from="QR_Number/Parked" to="QR_Number/QRnum" method="_on_parked_toggled"]
 [connection signal="toggled" from="QR_Number/Spotlit" to="QR_Number/QRnum" method="_on_spotlit_toggled"]
+[connection signal="text_changed" from="QR_Number/Defense_Rating" to="QR_Number/Defense_Rating" method="_on_text_changed"]
 [connection signal="toggled" from="QR_Number/Area_left" to="QR_Number/QRnum" method="_on_area_left_toggled"]
+[connection signal="text_changed" from="QR_Number/Mnum" to="QR_Number/Mnum" method="_on_text_changed"]
 [connection signal="pressed" from="QR_Number/Aamp/Add" to="QR_Number/Aamp/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Aamp/Subtract" to="QR_Number/Aamp/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Aspeaker/Add" to="QR_Number/Aspeaker/Add" method="_on_pressed"]

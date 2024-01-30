@@ -88,46 +88,31 @@ func _process(_delta):
 			tnum_text = "overflow error"
 	
 	# some other stuff
-	if typeof(str_to_var(defense.text)) == 2:
-		if defense.text.length() > 1:
-			defense_text = "0" + defense.text
-		elif defense.text.length() > 0:
-			defense_text = "00" + defense.text
+	if defense.text.length() > 1:
+		defense_text = "0" + defense.text
+	elif defense.text.length() > 0:
+		defense_text = "00" + defense.text
+	chainrobots_text = "00" + chainrobots.text
 	
-	if typeof(str_to_var(chainrobots.text)) == 2:
-		if chainrobots.text.length() == 0:
-			chainrobots_text = "000"
-		else:
-			chainrobots_text = "00" + chainrobots.text
-	
-	if typeof(str_to_var(mnum.text)) == 2:
-		if mnum.text.length() > 1:
-			mnum_text = "0" + mnum.text
-		elif mnum.text.length() > 0:
-			mnum_text = "00" + mnum.text
-		elif mnum.text.length == 0:
-			mnum_text = "000"
+	if mnum.text.length() > 1:
+		mnum_text = "0" + mnum.text
+	elif mnum.text.length() > 0:
+		mnum_text = "00" + mnum.text
 	
 	if alliance.text.capitalize() == "R":
 		alliance_text = "001"
 	elif alliance.text.capitalize() == "B":
 		alliance_text = "002"
 	
-	if typeof(str_to_var(source_intake.text)) == 2:
-		if source_intake.text.length() > 1:
-			source_text = "0" + source_intake.text
-		elif source_intake.text.length() > 0:
-			source_text = "00" + source_intake.text
-		elif source_intake.text.length == 0:
-			source_text = "000"
+	if source_intake.text.length() > 1:
+		source_text = "0" + source_intake.text
+	elif source_intake.text.length() > 0:
+		source_text = "00" + source_intake.text
 	
-	if typeof(str_to_var(ground_intake.text)) == 2:
-		if ground_intake.text.length() > 1:
-			ground_text = "0" + ground_intake.text
-		elif ground_intake.text.length() > 0:
-			ground_text = "00" + ground_intake.text
-		elif ground_intake.text.length == 0:
-			ground_text = "000"
+	if ground_intake.text.length() > 1:
+		ground_text = "0" + ground_intake.text
+	elif ground_intake.text.length() > 0:
+		ground_text = "00" + ground_intake.text
 	
 	QRnum.text = tnum_text + mnum_text + alliance_text + Aamp_text
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
