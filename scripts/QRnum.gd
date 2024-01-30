@@ -92,39 +92,27 @@ func _process(_delta):
 		defense_text = "0" + defense.text
 	elif defense.text.length() > 0:
 		defense_text = "00" + defense.text
-	
-	if chainrobots.text.length() == 0:
-		chainrobots_text = "000"
-	else:
-		chainrobots_text = "00" + chainrobots.text
+	chainrobots_text = "00" + chainrobots.text
 	
 	if mnum.text.length() > 1:
 		mnum_text = "0" + mnum.text
 	elif mnum.text.length() > 0:
 		mnum_text = "00" + mnum.text
-	elif mnum.text.length == 0:
-		mnum_text == "000"
 	
 	if alliance.text.capitalize() == "R":
 		alliance_text = "001"
 	elif alliance.text.capitalize() == "B":
 		alliance_text = "002"
-	elif alliance.text.length == 0:
-		alliance_text == "000"
 	
 	if source_intake.text.length() > 1:
 		source_text = "0" + source_intake.text
 	elif source_intake.text.length() > 0:
 		source_text = "00" + source_intake.text
-	elif source_intake.text.length == 0:
-		source_text == "000"
 	
 	if ground_intake.text.length() > 1:
 		ground_text = "0" + ground_intake.text
 	elif ground_intake.text.length() > 0:
 		ground_text = "00" + ground_intake.text
-	elif ground_intake.text.length == 0:
-		ground_text == "000"
 	
 	QRnum.text = tnum_text + mnum_text + alliance_text + Aamp_text
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
