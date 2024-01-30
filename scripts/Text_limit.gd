@@ -13,7 +13,7 @@ func _ready():
 	defense = get_node("/root/UserInput/QR_Number/Defense_Rating")
 	chainrobots = get_node("/root/UserInput/QR_Number/Robots_on_Chain")
 
-func _process(delta):
+func _process(_delta):
 	if tnum.text.length() > 5:
 		tnum.text = ""
 	if typeof(str_to_var(mnum.text)) == 2:
