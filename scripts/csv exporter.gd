@@ -60,24 +60,24 @@ func _on_pressed():
 	source = var_to_str(arr.pop_front())
 	ground = var_to_str(arr.pop_front())
 	
-	#--------------------
-	# Array slot legend: 
-	# 0 - team number
-	# 1 - match number
-	# 2 - alliance (001 = red, 002 = blue)
-	# 3 - auton amp scores
-	# 4 - auton speaker scores
-	# 5 - tele-op amp scores
-	# 6 - tele-op speaker scores
-	# 7 - amped speaker scores
-	# 8 - defense score (subjective)
-	# 9 - bots on chain (number)
-	#10 - spotlit (001 = on, 000 = off)
-	#12 - parked (001 = yes, 000 = no)
-	#13 - Left starting area in auton (001 = yes, 000 = no)
-	#14 - Notes collected from source
-	#15 - notes collected from ground
-	#--------------------
+	"""
+	Array slot legend: 
+	0 - team number
+	1 - match number
+	2 - alliance (001 = red, 002 = blue)
+	3 - auton amp scores
+	4 - auton speaker scores
+	5 - tele-op amp scores
+	6 - tele-op speaker scores
+	7 - amped speaker scores
+	8 - defense score (subjective)
+	9 - bots on chain (number)
+	10 - spotlit (001 = on, 000 = off)
+	12 - parked (001 = yes, 000 = no)
+	13 - Left starting area in auton (001 = yes, 000 = no)
+	14 - Notes collected from source
+	15 - notes collected from ground
+	"""
 	
 	if alliance == "1":
 		alliance = "Red"
