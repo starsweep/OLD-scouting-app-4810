@@ -22,6 +22,10 @@ var source
 var ground
 
 var filename
+var contents
+
+var line = "\n"
+var listpos = 0
 
 func _ready():
 	
@@ -29,22 +33,16 @@ func _ready():
 
 func _on_pressed():
 	
-	var i = 0
-	
 	print(QRnum.text)
 	
-	arr.push_back(str_to_var(QRnum.text.substr(0, TeamLength)))
+	var i = 0
 	
-	print(arr.size())
-	print(arr)
+	arr.push_back(str_to_var(QRnum.text.substr(0, TeamLength)))
 	
 	while (i * offset) + TeamLength < QRnum.text.length():
 		
 		arr.push_back(str_to_var(QRnum.text.substr((i * offset) + TeamLength, offset)))
 		i += 1
-		
-		print(arr.size())
-		print(arr)
 	
 	tnum = var_to_str(arr.pop_front())
 	mnum = var_to_str(arr.pop_front())
@@ -81,10 +79,31 @@ func _on_pressed():
 	#15 - notes collected from ground
 	#--------------------
 	
-	filename = "res://team_" + tnum + "_match_" + mnum + ".csv"
+	if alliance == "1":
+		alliance = "Red"
+	elif alliance == "2":
+		alliance = "Blue"
 	
-	print(filename)
+	if spotlit == "1":
+		spotlit = "Yes"
+	elif spotlit == "0":
+		spotlit = "No"
+	
+	if parked == "1":
+		parked = "Yes"
+	elif parked == "0":
+		parked = "No"
+	
+	if leftstart == "1":
+		leftstart = "Yes"
+	elif leftstart == "0":
+		leftstart = "No"
+	
+	filename = "res://csv_exports/team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	file.store_string(tnum + ", " + mnum)
+	contents = "Team,Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Tele-op Amp,Tele-op Speaker,Amped Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Defense" + "
+" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + tamp + "," + tspeaker + "," + ampspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots + "," + defense
+	
+	file.store_string(contents)

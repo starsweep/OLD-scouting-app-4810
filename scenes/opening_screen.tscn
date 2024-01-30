@@ -26,13 +26,14 @@ offset_left = 423.0
 offset_top = 319.0
 offset_right = 707.0
 offset_bottom = 391.0
-text = "Saved Scouts (not functioning)"
+text = "Saved Scouts (WORK IN PROGRESS)"
 
 [node name="Import QR" type="Button" parent="."]
 offset_left = 423.0
 offset_top = 419.0
 offset_right = 707.0
 offset_bottom = 491.0
-text = "Import QR"
+text = "Import QR (WORK IN PROGRESS)
+"
 
 [connection signal="pressed" from="Scounting" to="Scounting" method="_on_pressed"]

@@ -1,12 +1,7 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1706580574
+::res://::1706590419
 export_presets.cfg::TextFile::-1::1706385927::0::1::::<><>::
 README.md::TextFile::-1::1706054226::0::1::::<><>::
-team_123_match_2. 2.translation::OptimizedTranslation::6521780259625240065::1706580574::0::1::::<><>::
-team_0_match_mnum. mnum.translation::OptimizedTranslation::2571225376749543999::1706578709::0::1::::<><>::
-team_0_match_mnum.csv::Translation::2280118682525642475::1706580547::1706580574::1::::<><>::
-team_123_match_2.csv::::-1::1706580547::1706580551::0::::<><>::
-team_tnum_match_mnum. mnum.translation::OptimizedTranslation::6748005439024928731::1706580000::0::1::::<><>::
 ::res://addons/::1705780336
 ::res://addons/qr_code/::1705780336
 bit_stream.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
@@ -20,20 +15,20 @@ reed_solomon.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
 shift_jis.gd::GDScript::-1::1705779912::0::1::::<>RefCounted<>::
 ::res://android/::1705975159
 ::res://examples/::1705780336
-::res://examples/qr_code/::1706580540
+::res://examples/qr_code/::1706590246
 icon.svg::CompressedTexture2D::1597731291667954527::1705779912::1705779913::1::::<><>::
 main.gd::GDScript::-1::1705779912::0::1::::<>HBoxContainer<>::
-main.tscn::PackedScene::1471850176218729494::1706580540::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
+main.tscn::PackedScene::1471850176218729494::1706590246::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
 README.md::TextFile::-1::1705779912::0::1::::<><>::
 ::res://exports/::1706387192
 ::res://resources/::1705780336
 icon.svg::CompressedTexture2D::8356919257026364117::1705779851::1705779882::1::::<><>::
-::res://scenes/::1706580540
-Data.tscn::PackedScene::8411673886448749172::1706580540::0::1::::<><>::
-opening_screen.tscn::PackedScene::8354702292621255947::1706580540::0::1::::<><>::res://scripts/Button.gd
-QR_Scan.tscn::PackedScene::6011758352871100136::1706580540::0::1::::<><>::
-User_Input.tscn::PackedScene::3442242917528846515::1706580540::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/Amplifiedadd.gd<>res://scripts/Amplifiedsub.gd<>res://scripts/Speakeradd.gd<>res://scripts/Speakersub.gd<>res://scripts/csv exporter.gd
-::res://scripts/::1706580536
+::res://scenes/::1706590247
+Data.tscn::PackedScene::8411673886448749172::1706590246::0::1::::<><>::
+opening_screen.tscn::PackedScene::8354702292621255947::1706590246::0::1::::<><>::res://scripts/Button.gd
+QR_Scan.tscn::PackedScene::6011758352871100136::1706590246::0::1::::<><>::
+User_Input.tscn::PackedScene::3442242917528846515::1706590247::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/Amplifiedadd.gd<>res://scripts/Amplifiedsub.gd<>res://scripts/Speakeradd.gd<>res://scripts/Speakersub.gd<>res://scripts/csv exporter.gd<>res://scripts/back button.gd
+::res://scripts/::1706590238
 add.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Ampadd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Amplifiedadd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
@@ -41,12 +36,13 @@ Amplifiedsub.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Ampsub.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Aspeakeradd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Aspeakersub.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
-Button.gd::GDScript::-1::1705975418::0::1::::<>Button<>::
-csv exporter.gd::GDScript::-1::1706580536::0::1::::<>Button<>::
+Button.gd::GDScript::-1::1706587733::0::1::::<>Button<>::
+csv exporter.gd::GDScript::-1::1706590238::0::1::::<>Button<>::
 Groundintakeadd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Groundintakesub.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 QRnum.gd::GDScript::-1::1706580521::0::1::::<>Label<>::
 qr_parser.gd::GDScript::-1::1706385851::0::1::::<>Node<>::
+back button.gd::GDScript::-1::1706587981::0::1::::<>Button<>::
 Sourceintakeadd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Sourceintakesub.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Speakeradd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::

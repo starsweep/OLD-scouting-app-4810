@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://bpbpidb0ni6u6"]
+[gd_scene load_steps=19 format=3 uid="uid://bpbpidb0ni6u6"]
 
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 [ext_resource type="Script" path="res://scripts/Text_limit.gd" id="2_0kynu"]
@@ -17,6 +17,7 @@
 [ext_resource type="Script" path="res://scripts/Speakeradd.gd" id="15_agnhl"]
 [ext_resource type="Script" path="res://scripts/Speakersub.gd" id="16_y0jun"]
 [ext_resource type="Script" path="res://scripts/csv exporter.gd" id="17_tvd87"]
+[ext_resource type="Script" path="res://scripts/back button.gd" id="18_2bqcg"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -100,10 +101,10 @@ text = "Teleop"
 
 [node name="Amp Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -157.143
-offset_top = 51.2857
-offset_right = 93.857
-offset_bottom = 100.286
+offset_left = -154.143
+offset_top = 43.2857
+offset_right = 96.857
+offset_bottom = 92.286
 theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
@@ -123,7 +124,7 @@ offset_top = 149.286
 offset_right = 134.857
 offset_bottom = 198.286
 theme_override_font_sizes/font_size = 35
-text = "Amplified Scores:"
+text = "Boosted Scores:"
 
 [node name="Defense" type="Label" parent="Teleop"]
 layout_mode = 0
@@ -353,10 +354,10 @@ script = ExtResource("6_7wxnx")
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 761.714
-offset_top = -230.142
-offset_right = 785.714
-offset_bottom = -181.142
+offset_left = 764.714
+offset_top = -238.142
+offset_right = 788.714
+offset_bottom = -189.142
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -497,12 +498,22 @@ text = "-"
 script = ExtResource("16_y0jun")
 
 [node name="csv exporter" type="Button" parent="."]
-offset_left = 194.0
-offset_top = 308.0
-offset_right = 356.0
-offset_bottom = 361.0
-text = "export as csv"
+offset_left = 828.0
+offset_top = 514.0
+offset_right = 1066.0
+offset_bottom = 595.0
+text = "SAVE
+(export as .csv file)"
 script = ExtResource("17_tvd87")
+
+[node name="back button" type="Button" parent="."]
+offset_left = 37.0
+offset_top = 17.0
+offset_right = 179.0
+offset_bottom = 71.0
+text = "BACK
+(SAVE FIRST)"
+script = ExtResource("18_2bqcg")
 
 [connection signal="toggled" from="QR_Number/Parked" to="QR_Number/QRnum" method="_on_parked_toggled"]
 [connection signal="toggled" from="QR_Number/Spotlit" to="QR_Number/QRnum" method="_on_spotlit_toggled"]
@@ -524,3 +535,4 @@ script = ExtResource("17_tvd87")
 [connection signal="pressed" from="QR_Number/Speaker/Add" to="QR_Number/Speaker/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Subtract" to="QR_Number/Speaker/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="csv exporter" to="csv exporter" method="_on_pressed"]
+[connection signal="pressed" from="back button" to="back button" method="_on_pressed"]
