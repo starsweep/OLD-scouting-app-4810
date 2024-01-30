@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://53osudo16c2h"
+
+[deps]
+
+files=["res://team_tnum_match_mnum. mnum.translation"]
+
+source_file="res://team_tnum_match_mnum.csv"
+dest_files=["res://team_tnum_match_mnum. mnum.translation"]
+
+[params]
+
+compress=true
+delimiter=0
