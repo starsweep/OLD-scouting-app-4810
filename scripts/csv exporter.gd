@@ -81,10 +81,10 @@ func _on_pressed():
 	#15 - notes collected from ground
 	#--------------------
 	
-	filename = "res://team_" + tnum + "_match_" + "mnum" + ".csv"
+	filename = "res://team_" + tnum + "_match_" + mnum + ".csv"
 	
 	print(filename)
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	file.store_string(tnum + ", " + "mnum")
+	file.store_string(tnum + ", " + mnum)
