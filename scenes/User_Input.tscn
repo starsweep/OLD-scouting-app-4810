@@ -214,12 +214,11 @@ offset_bottom = 336.714
 theme_override_font_sizes/font_size = 28
 
 [node name="QRnum" type="Label" parent="QR_Number"]
-visible = false
 layout_mode = 0
-offset_left = 6.8571
-offset_top = 297.286
-offset_right = 909.857
-offset_bottom = 336.286
+offset_left = 25.8571
+offset_top = 435.286
+offset_right = 928.857
+offset_bottom = 474.286
 theme_override_font_sizes/font_size = 28
 text = "0"
 script = ExtResource("1_ncsex")
