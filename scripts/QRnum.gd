@@ -93,7 +93,10 @@ func _process(_delta):
 	elif defense.text.length() > 0:
 		defense_text = "00" + defense.text
 	
-	chainrobots_text = "00" + chainrobots.text
+	if chainrobots.text.length() > 1:
+		chainrobots_text = "0" + chainrobots.text
+	elif defense.text.length() > 0:
+		chainrobots_text = "00" + chainrobots.text
 	
 	if mnum.text.length() > 1:
 		mnum_text = "0" + mnum.text
@@ -104,6 +107,36 @@ func _process(_delta):
 		alliance_text = "001"
 	elif alliance.text.capitalize() == "B":
 		alliance_text = "002"
+	
+	if Aamp.text.length() > 1:
+		Aamp_text = "0" + Aamp.text
+	elif Aamp.text.length() > 0:
+		Aamp_text = "00" + Aamp.text
+	
+	if Aspeaker.text.length() > 1:
+		Aspeaker_text = "0" + Aspeaker.text
+	elif Aspeaker.text.length() > 0:
+		Aspeaker_text = "00" + Aspeaker.text
+	
+	if amp.text.length() > 1:
+		amp_text = "0" + amp.text
+	elif amp.text.length() > 0:
+		amp_text = "00" + amp.text
+	
+	if speaker.text.length() > 1:
+		speaker_text = "0" + speaker.text
+	elif speaker.text.length() > 0:
+		speaker_text = "00" + speaker.text
+	
+	if amplified.text.length() > 1:
+		amplified_text = "0" + amplified.text
+	elif amplified.text.length() > 0:
+		amplified_text = "00" + amplified.text
+	
+	if Aleft.text.length() > 1:
+		Aleft_text = "0" + Aleft.text
+	elif Aleft.text.length() > 0:
+		Aleft_text = "00" + Aleft.text
 	
 	if source_intake.text.length() > 1:
 		source_text = "0" + source_intake.text
@@ -119,4 +152,4 @@ func _process(_delta):
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
 	QRnum.text = QRnum.text + speaker_text + amplified_text + defense_text
 	QRnum.text = QRnum.text + chainrobots_text + spotlit_text + parked_text
-	QRnum.text = QRnum.text + Aleft_text + source_text + ground_text
+	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text

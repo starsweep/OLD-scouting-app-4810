@@ -5,3 +5,4 @@ res://scenes/opening_screen.tscn
 res://scenes/Data.tscn
 res://scenes/User_Input.tscn
 res://scripts/csv exporter.gd
+res://scripts/QRnum.gd

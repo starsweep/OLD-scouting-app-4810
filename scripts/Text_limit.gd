@@ -41,6 +41,7 @@ func _process(_delta):
 	if typeof(str_to_var(chainrobots.text)) == 2:
 		if str_to_var(chainrobots.text) > 2:
 			chainrobots.text = ""
+	
 	if tnum.text.contains("a") == true || tnum.text.contains("b") == true || tnum.text.contains("c") == true || tnum.text.contains("d") == true || tnum.text.contains("e") == true:
 		tnum.text = ""
 	elif tnum.text.contains("f") == true || tnum.text.contains("g") == true || tnum.text.contains("h") == true || tnum.text.contains("i") == true || tnum.text.contains("j") == true:
@@ -134,16 +135,16 @@ func _process(_delta):
 		defense.text = ""
 	
 	if typeof(str_to_var(tnum.text)) == 2:
-		if str_to_var(tnum.text) < 0 || str_to_var(tnum.text) > 99:
+		if str_to_var(tnum.text) < 0 || str_to_var(tnum.text) > 99999:
 			tnum.text = ""
 	if typeof(str_to_var(mnum.text)) == 2:
-		if str_to_var(mnum.text) < 0 || str_to_var(mnum.text) > 99:
+		if str_to_var(mnum.text) < 0 || str_to_var(mnum.text) > 80:
 			mnum.text = ""
 	if typeof(str_to_var(chainrobots.text)) == 2:
-		if str_to_var(chainrobots.text) < 0 || str_to_var(chainrobots.text) > 99:
+		if str_to_var(chainrobots.text) < 0 || str_to_var(chainrobots.text) > 2:
 			chainrobots.text = ""
 	if typeof(str_to_var(defense.text)) == 2:
-		if str_to_var(defense.text) < 0 || str_to_var(defense.text) > 99:
+		if str_to_var(defense.text) < 0 || str_to_var(defense.text) > 10:
 			defense.text = ""
 	if typeof(str_to_var(aamp.text)) == 2:
 		if str_to_var(aamp.text) < 0 || str_to_var(aamp.text) > 99:
