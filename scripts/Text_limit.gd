@@ -30,17 +30,8 @@ func _ready():
 func _process(_delta):
 	if tnum.text.length() > 5:
 		tnum.text = ""
-	if typeof(str_to_var(mnum.text)) == 2:
-		if str_to_var(mnum.text) > 80:
-			mnum.text = ""
 	if alliance.text.length() > 4:
 		alliance.text = ""
-	if typeof(str_to_var(defense.text)) == 2:
-		if str_to_var(defense.text) > 10:
-			defense.text = ""
-	if typeof(str_to_var(chainrobots.text)) == 2:
-		if str_to_var(chainrobots.text) > 2:
-			chainrobots.text = ""
 	
 	if tnum.text.contains("a") == true || tnum.text.contains("b") == true || tnum.text.contains("c") == true || tnum.text.contains("d") == true || tnum.text.contains("e") == true:
 		tnum.text = ""

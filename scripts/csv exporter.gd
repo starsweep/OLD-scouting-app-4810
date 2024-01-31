@@ -20,6 +20,10 @@ var parked
 var leftstart
 var source
 var ground
+var trap
+
+var tablet_storage_path = "/storage/self/primary/Documents/"
+var testing_storage_path = "res://csv_exports/"
 
 var filename
 var contents
@@ -59,6 +63,7 @@ func _on_pressed():
 	leftstart = var_to_str(arr.pop_front())
 	source = var_to_str(arr.pop_front())
 	ground = var_to_str(arr.pop_front())
+	trap = var_to_str(arr.pop_front())
 	
 	"""
 	Array slot legend: 
@@ -77,6 +82,7 @@ func _on_pressed():
 	13 - Left starting area in auton (001 = yes, 000 = no)
 	14 - Notes collected from source
 	15 - notes collected from ground
+	16 - note put in trap
 	"""
 	
 	if alliance == "1":
@@ -99,11 +105,17 @@ func _on_pressed():
 	elif leftstart == "0":
 		leftstart = "No"
 	
-	filename = "/storage/self/primary/Documents/team_" + tnum + "_match_" + mnum + ".csv"
+	if trap == "1":
+		trap = "Yes"
+	elif trap == "2":
+		trap = "No"
+	
+	
+	filename = tablet_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	contents = "Team,Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Tele-op Amp,Tele-op Speaker,Amped Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Defense" + "
-" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + tamp + "," + tspeaker + "," + ampspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots + "," + defense
+	contents = "Team,Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Tele-op Amp,Tele-op Speaker,Amped Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
+" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + tamp + "," + tspeaker + "," + ampspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
 	
 	file.store_string(contents)

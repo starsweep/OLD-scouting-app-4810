@@ -190,19 +190,19 @@ text = "/2"
 
 [node name="Spotlit" type="Label" parent="End Game"]
 layout_mode = 0
-offset_left = -134.286
-offset_top = 119.571
-offset_right = 116.714
-offset_bottom = 168.571
+offset_left = -134.429
+offset_top = 102.857
+offset_right = 116.571
+offset_bottom = 151.857
 theme_override_font_sizes/font_size = 35
 text = "Spotlit:"
 
 [node name="Parked" type="Label" parent="End Game"]
 layout_mode = 0
-offset_left = -134.286
-offset_top = 179.571
-offset_right = 116.714
-offset_bottom = 228.571
+offset_left = -136.429
+offset_top = 150.857
+offset_right = 114.571
+offset_bottom = 199.857
 theme_override_font_sizes/font_size = 35
 text = "Parked:"
 
@@ -215,10 +215,10 @@ theme_override_font_sizes/font_size = 28
 
 [node name="QRnum" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 25.8571
-offset_top = 435.286
-offset_right = 928.857
-offset_bottom = 474.286
+offset_left = -49.1429
+offset_top = 396.286
+offset_right = 853.857
+offset_bottom = 435.286
 theme_override_font_sizes/font_size = 28
 text = "0"
 script = ExtResource("1_ncsex")
@@ -234,18 +234,18 @@ script = ExtResource("2_0kynu")
 
 [node name="Parked" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 649.0
-offset_top = 258.0
-offset_right = 693.0
-offset_bottom = 282.0
+offset_left = 648.857
+offset_top = 229.286
+offset_right = 692.857
+offset_bottom = 253.286
 scale = Vector2(2, 2)
 
 [node name="Spotlit" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 641.0
-offset_top = 198.0
-offset_right = 685.0
-offset_bottom = 222.0
+offset_left = 640.857
+offset_top = 181.286
+offset_right = 684.857
+offset_bottom = 205.286
 scale = Vector2(2, 2)
 
 [node name="Robots_on_Chain" type="TextEdit" parent="QR_Number"]
@@ -496,11 +496,20 @@ theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("16_y0jun")
 
+[node name="trap" type="CheckButton" parent="QR_Number"]
+layout_mode = 0
+offset_left = 444.857
+offset_top = 267.286
+offset_right = 590.857
+offset_bottom = 298.286
+scale = Vector2(2, 2)
+text = "Note in trap:"
+
 [node name="csv exporter" type="Button" parent="."]
-offset_left = 828.0
-offset_top = 514.0
-offset_right = 1066.0
-offset_bottom = 595.0
+offset_left = 867.0
+offset_top = 521.0
+offset_right = 1105.0
+offset_bottom = 602.0
 text = "SAVE
 (export as .csv file)"
 script = ExtResource("17_tvd87")
@@ -533,5 +542,6 @@ script = ExtResource("18_2bqcg")
 [connection signal="pressed" from="QR_Number/Amplified/Subtract" to="QR_Number/Amplified/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Add" to="QR_Number/Speaker/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Subtract" to="QR_Number/Speaker/Subtract" method="_on_pressed"]
+[connection signal="toggled" from="QR_Number/trap" to="QR_Number/QRnum" method="_on_trap_toggled"]
 [connection signal="pressed" from="csv exporter" to="csv exporter" method="_on_pressed"]
 [connection signal="pressed" from="back button" to="back button" method="_on_pressed"]

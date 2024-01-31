@@ -31,6 +31,8 @@ var source_intake
 var source_text = "000"
 var ground_intake
 var ground_text = "000"
+var trap
+var trap_text = "000"
 var num
 var numtype
 
@@ -51,6 +53,7 @@ func _ready():
 	parked = get_node("/root/UserInput/QR_Number/Parked") 
 	source_intake = get_node("/root/UserInput/QR_Number/Source_Intake")
 	ground_intake = get_node("/root/UserInput/QR_Number/Ground_Intake")
+	trap = get_node("/root/UserInput/QR_Number/trap")
 
 func _on_area_left_toggled(toggled_on):
 	if toggled_on == true:
@@ -67,9 +70,14 @@ func _on_parked_toggled(toggled_on):
 		parked_text = "001"
 	elif toggled_on == false:
 		parked_text = "000"
+func _on_trap_toggled(toggled_on):
+	if toggled_on == true:
+		trap_text = "001"
+	elif toggled_on == false:
+		trap_text = "000"
 
 func _process(_delta):
-#Team Number 
+	#Team Number 
 	num = str_to_var(tnum.text)
 	numtype = typeof(num)
 	
@@ -152,4 +160,4 @@ func _process(_delta):
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
 	QRnum.text = QRnum.text + speaker_text + amplified_text + defense_text
 	QRnum.text = QRnum.text + chainrobots_text + spotlit_text + parked_text
-	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text
+	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text + trap_text

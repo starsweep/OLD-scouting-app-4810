@@ -1,36 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\scouting app 4810.csproj": {}
+    "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\scouting app 4810.csproj": {
+    "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\scouting app 4810.csproj",
+        "projectUniqueName": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
         "projectName": "scouting app 4810",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\scouting app 4810.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Documents\\godot\\mono\\scouting-app-4810\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
+        "packagesPath": "C:\\Users\\1750802781\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Users\\1750802781\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\1750802781\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1750802781\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,14 +39,18 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
               "version": "[4.2.1, )"
             },
             "GodotSharp": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "GodotSharpEditor": {
               "target": "Package",
               "version": "[4.2.1, )"
             }
@@ -66,8 +68,16 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.NETCore.App.Runtime.linux-bionic-arm64",
-              "version": "[7.0.12, 7.0.12]"
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
             }
           ],
           "frameworkReferences": {
@@ -75,12 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "android-arm64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
