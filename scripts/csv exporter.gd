@@ -99,7 +99,7 @@ func _on_pressed():
 	elif leftstart == "0":
 		leftstart = "No"
 	
-	filename = "root://storage/emulated/0/Documents/Scouting_Exports/team_" + tnum + "_match_" + mnum + ".csv"
+	filename = "/storage/self/primary/Documents/team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
