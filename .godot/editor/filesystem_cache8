@@ -1,4 +1,5 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
+<<<<<<< Updated upstream
 ::res://::1706654522
 export_presets.cfg::TextFile::-1::1706385927::0::1::::<><>::
 README.md::TextFile::-1::1706054226::0::1::::<><>::
@@ -64,3 +65,58 @@ Speakeradd.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Speakersub.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 subtract.gd::GDScript::-1::1706379012::0::1::::<>Node<>::
 Text_limit.gd::GDScript::-1::1706580289::0::1::::<>Node<>::
+=======
+::res://::1706660922
+3247840.jpg::CompressedTexture2D::9204207028379946960::1706658259::1706658261::1::::<><>::
+button.png::CompressedTexture2D::1529956271185678958::1706660922::1706660923::1::::<><>::
+export_presets.cfg::TextFile::-1::1705973634::0::1::::<><>::
+README.md::TextFile::-1::1706140704::0::1::::<><>::
+sware-removebg-preview.png::CompressedTexture2D::4924481479837359873::1706660401::1706660401::1::::<><>::
+::res://addons/::1705780456
+::res://addons/qr_code/::1705780456
+bit_stream.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
+LICENSE.md::TextFile::-1::1705775648::0::1::::<><>::
+plugin.cfg::TextFile::-1::1705775648::0::1::::<><>::
+plugin.gd::GDScript::-1::1705780456::0::1::::<>EditorPlugin<>::
+qr_code.gd::GDScript::-1::1705780456::0::1::::<>RefCounted<>::
+qr_code.svg::CompressedTexture2D::5745153240554886590::1705775648::1705775648::1::::<><>::
+qr_code_rect.gd::GDScript::-1::1705780456::0::1::::QRCodeRect<>TextureRect<>res://addons/qr_code/qr_code.svg::
+reed_solomon.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
+shift_jis.gd::GDScript::-1::1705775648::0::1::::<>RefCounted<>::
+::res://android/::1706049967
+::res://examples/::1705775648
+::res://examples/qr_code/::1706658984
+icon.svg::CompressedTexture2D::1597731291667954527::1705775648::1705775648::1::::<><>::
+main.gd::GDScript::-1::1705775648::0::1::::<>HBoxContainer<>::
+main.tscn::PackedScene::1471850176218729494::1706658984::0::1::::<><>::res://examples/qr_code/main.gd<>res://addons/qr_code/qr_code_rect.gd
+README.md::TextFile::-1::1705775648::0::1::::<><>::
+::res://exports/::1706573076
+::res://resources/::1705780456
+icon.svg::CompressedTexture2D::8356919257026364117::1705775648::1705780456::1::::<><>::
+::res://scenes/::1706658985
+Data.tscn::PackedScene::8411673886448749172::1706658985::0::1::::<><>::
+opening_screen.tscn::PackedScene::8354702292621255947::1706658985::0::1::::<><>::uid://d4et7eorpvjsq::::res://3247840.jpg<>res://scripts/Button.gd
+QR_Scan.tscn::PackedScene::6011758352871100136::1706658984::0::1::::<><>::
+User_Input.tscn::PackedScene::3442242917528846515::1706658985::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/Amplifiedadd.gd<>res://scripts/Amplifiedsub.gd<>res://scripts/Speakeradd.gd<>res://scripts/Speakersub.gd<>res://scripts/csv exporter.gd<>res://scripts/back button.gd
+::res://scripts/::1706656886
+add.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Ampadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Amplifiedadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Amplifiedsub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Ampsub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Aspeakeradd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Aspeakersub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+back button.gd::GDScript::-1::1706656886::0::1::::<>Button<>::
+Button.gd::GDScript::-1::1706656886::0::1::::<>Button<>::
+csv exporter.gd::GDScript::-1::1706656886::0::1::::<>Button<>::
+Groundintakeadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Groundintakesub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+QRnum.gd::GDScript::-1::1706656886::0::1::::<>Label<>::
+qr_parser.gd::GDScript::-1::1706049971::0::1::::<>Node<>::
+Sourceintakeadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Sourceintakesub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Speakeradd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Speakersub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+subtract.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
+Text_limit.gd::GDScript::-1::1706656886::0::1::::<>Node<>::
+>>>>>>> Stashed changes
