@@ -134,35 +134,35 @@ func _process(_delta):
 		defense.text = ""
 	
 	if typeof(str_to_var(tnum.text)) == 2:
-		if str_to_var(tnum.text) < 0:
+		if str_to_var(tnum.text) < 0 || str_to_var(tnum.text) > 99:
 			tnum.text = ""
 	if typeof(str_to_var(mnum.text)) == 2:
-		if str_to_var(mnum.text) < 0:
+		if str_to_var(mnum.text) < 0 || str_to_var(mnum.text) > 99:
 			mnum.text = ""
 	if typeof(str_to_var(chainrobots.text)) == 2:
-		if str_to_var(chainrobots.text) < 0:
+		if str_to_var(chainrobots.text) < 0 || str_to_var(chainrobots.text) > 99:
 			chainrobots.text = ""
 	if typeof(str_to_var(defense.text)) == 2:
-		if str_to_var(defense.text) < 0:
+		if str_to_var(defense.text) < 0 || str_to_var(defense.text) > 99:
 			defense.text = ""
 	if typeof(str_to_var(aamp.text)) == 2:
-		if str_to_var(aamp.text) < 0:
+		if str_to_var(aamp.text) < 0 || str_to_var(aamp.text) > 99:
 			aamp.text = "0"
 	if typeof(str_to_var(aspeaker.text)) == 2:
-		if str_to_var(aspeaker.text) < 0:
+		if str_to_var(aspeaker.text) < 0 || str_to_var(aspeaker.text) > 99:
 			aspeaker.text = "0"
 	if typeof(str_to_var(amp.text)) == 2:
-		if str_to_var(amp.text) < 0:
+		if str_to_var(amp.text) < 0 || str_to_var(amp.text) > 99:
 			amp.text = "0"
 	if typeof(str_to_var(source.text)) == 2:
-		if str_to_var(source.text) < 0:
+		if str_to_var(source.text) < 0 || str_to_var(source.text) > 99:
 			source.text = "0"
 	if typeof(str_to_var(ground.text)) == 2:
-		if str_to_var(ground.text) < 0:
+		if str_to_var(ground.text) < 0 || str_to_var(ground.text) > 99:
 			ground.text = "0"
 	if typeof(str_to_var(amplified.text)) == 2:
-		if str_to_var(amplified.text) < 0:
+		if str_to_var(amplified.text) < 0 || str_to_var(amplified.text) > 99:
 			amplified.text = "0"
 	if typeof(str_to_var(speaker.text)) == 2:
-		if str_to_var(speaker.text) < 0:
+		if str_to_var(speaker.text) < 0 || str_to_var(speaker.text) > 99:
 			speaker.text = "0"
