@@ -1,3 +1,6 @@
+Sprite2D
+ParallaxBackground
+TextureRect
 Button
 Control
 Node
@@ -9,4 +12,3 @@ ColorPickerButton
 CheckButton
 CheckBox
 CanvasModulate
-Node2D
