@@ -51,6 +51,18 @@ func _process(_delta):
 		tnum.text = ""
 	elif tnum.text.contains("v") == true || tnum.text.contains("w") == true || tnum.text.contains("x") == true || tnum.text.contains("y") == true || tnum.text.contains("z") == true:
 		tnum.text = ""
+	elif tnum.text.contains("`") == true || tnum.text.contains("~") == true || tnum.text.contains("!") == true || tnum.text.contains("@") == true || tnum.text.contains("#") == true:
+		tnum.text = ""
+	elif tnum.text.contains("$") == true || tnum.text.contains("%") == true || tnum.text.contains("^") == true || tnum.text.contains("&") == true || tnum.text.contains("*") == true:
+		tnum.text = ""
+	elif tnum.text.contains("(") == true || tnum.text.contains(")") == true || tnum.text.contains("_") == true || tnum.text.contains("-") == true || tnum.text.contains("+") == true:
+		tnum.text = ""
+	elif tnum.text.contains("=") == true || tnum.text.contains("[") == true || tnum.text.contains("{") == true || tnum.text.contains("]") == true || tnum.text.contains("}") == true:
+		tnum.text = ""
+	elif tnum.text.contains("|") == true || tnum.text.contains(";") == true || tnum.text.contains(":") == true || tnum.text.contains("'") == true || tnum.text.contains("") == true:
+		tnum.text = ""
+	elif tnum.text.contains("<") == true || tnum.text.contains(",") == true || tnum.text.contains(">") == true || tnum.text.contains(".") == true || tnum.text.contains("?") == true || tnum.text.contains("/") == true:
+		tnum.text = ""
 	
 	if mnum.text.contains("a") == true || mnum.text.contains("b") == true || mnum.text.contains("c") == true || mnum.text.contains("d") == true || mnum.text.contains("e") == true:
 		mnum.text = ""
@@ -61,6 +73,18 @@ func _process(_delta):
 	elif mnum.text.contains("q") == true || mnum.text.contains("r") == true || mnum.text.contains("s") == true || mnum.text.contains("t") == true || mnum.text.contains("u") == true:
 		mnum.text = ""
 	elif mnum.text.contains("v") == true || mnum.text.contains("w") == true || mnum.text.contains("x") == true || mnum.text.contains("y") == true || mnum.text.contains("z") == true:
+		mnum.text = ""
+	elif mnum.text.contains("`") == true || mnum.text.contains("~") == true || mnum.text.contains("!") == true || mnum.text.contains("@") == true || mnum.text.contains("#") == true:
+		mnum.text = ""
+	elif mnum.text.contains("$") == true || mnum.text.contains("%") == true || mnum.text.contains("^") == true || mnum.text.contains("&") == true || mnum.text.contains("*") == true:
+		mnum.text = ""
+	elif mnum.text.contains("(") == true || mnum.text.contains(")") == true || mnum.text.contains("_") == true || mnum.text.contains("-") == true || mnum.text.contains("+") == true:
+		mnum.text = ""
+	elif mnum.text.contains("=") == true || mnum.text.contains("[") == true || mnum.text.contains("{") == true || mnum.text.contains("]") == true || mnum.text.contains("}") == true:
+		mnum.text = ""
+	elif mnum.text.contains("|") == true || mnum.text.contains(";") == true || mnum.text.contains(":") == true || mnum.text.contains("'") == true || mnum.text.contains("") == true:
+		mnum.text = ""
+	elif mnum.text.contains("<") == true || mnum.text.contains(",") == true || mnum.text.contains(">") == true || mnum.text.contains(".") == true || mnum.text.contains("?") == true || mnum.text.contains("/") == true:
 		mnum.text = ""
 	
 	if chainrobots.text.contains("a") == true || chainrobots.text.contains("b") == true || chainrobots.text.contains("c") == true || chainrobots.text.contains("d") == true || chainrobots.text.contains("e") == true:
@@ -73,6 +97,18 @@ func _process(_delta):
 		chainrobots.text = ""
 	elif chainrobots.text.contains("v") == true || chainrobots.text.contains("w") == true || chainrobots.text.contains("x") == true || chainrobots.text.contains("y") == true || chainrobots.text.contains("z") == true:
 		chainrobots.text = ""
+	elif chainrobots.text.contains("`") == true || chainrobots.text.contains("~") == true || chainrobots.text.contains("!") == true || chainrobots.text.contains("@") == true || chainrobots.text.contains("#") == true:
+		chainrobots.text = ""
+	elif chainrobots.text.contains("$") == true || chainrobots.text.contains("%") == true || chainrobots.text.contains("^") == true || chainrobots.text.contains("&") == true || chainrobots.text.contains("*") == true:
+		chainrobots.text = ""
+	elif chainrobots.text.contains("(") == true || chainrobots.text.contains(")") == true || chainrobots.text.contains("_") == true || chainrobots.text.contains("-") == true || chainrobots.text.contains("+") == true:
+		chainrobots.text = ""
+	elif chainrobots.text.contains("=") == true || chainrobots.text.contains("[") == true || chainrobots.text.contains("{") == true || chainrobots.text.contains("]") == true || chainrobots.text.contains("}") == true:
+		chainrobots.text = ""
+	elif chainrobots.text.contains("|") == true || chainrobots.text.contains(";") == true || chainrobots.text.contains(":") == true || chainrobots.text.contains("'") == true || chainrobots.text.contains("") == true:
+		chainrobots.text = ""
+	elif chainrobots.text.contains("<") == true || chainrobots.text.contains(",") == true || chainrobots.text.contains(">") == true || chainrobots.text.contains(".") == true || chainrobots.text.contains("?") == true || chainrobots.text.contains("/") == true:
+		chainrobots.text = ""
 	
 	if defense.text.contains("a") == true || defense.text.contains("b") == true || defense.text.contains("c") == true || defense.text.contains("d") == true || defense.text.contains("e") == true:
 		defense.text = ""
@@ -84,37 +120,49 @@ func _process(_delta):
 		defense.text = ""
 	elif defense.text.contains("v") == true || defense.text.contains("w") == true || defense.text.contains("x") == true || defense.text.contains("y") == true || defense.text.contains("z") == true:
 		defense.text = ""
+	elif defense.text.contains("`") == true || defense.text.contains("~") == true || defense.text.contains("!") == true || defense.text.contains("@") == true || defense.text.contains("#") == true:
+		defense.text = ""
+	elif defense.text.contains("$") == true || defense.text.contains("%") == true || defense.text.contains("^") == true || defense.text.contains("&") == true || defense.text.contains("*") == true:
+		defense.text = ""
+	elif defense.text.contains("(") == true || defense.text.contains(")") == true || defense.text.contains("_") == true || defense.text.contains("-") == true || defense.text.contains("+") == true:
+		defense.text = ""
+	elif defense.text.contains("=") == true || defense.text.contains("[") == true || defense.text.contains("{") == true || defense.text.contains("]") == true || defense.text.contains("}") == true:
+		defense.text = ""
+	elif defense.text.contains("|") == true || defense.text.contains(";") == true || defense.text.contains(":") == true || defense.text.contains("'") == true || defense.text.contains("") == true:
+		defense.text = ""
+	elif defense.text.contains("<") == true || defense.text.contains(",") == true || defense.text.contains(">") == true || defense.text.contains(".") == true || defense.text.contains("?") == true || defense.text.contains("/") == true:
+		defense.text = ""
 	
 	if typeof(str_to_var(tnum.text)) == 2:
-		if str_to_var(tnum.text) < 0:
+		if str_to_var(tnum.text) < 0 || str_to_var(tnum.text) > 99:
 			tnum.text = ""
 	if typeof(str_to_var(mnum.text)) == 2:
-		if str_to_var(mnum.text) < 0:
+		if str_to_var(mnum.text) < 0 || str_to_var(mnum.text) > 99:
 			mnum.text = ""
 	if typeof(str_to_var(chainrobots.text)) == 2:
-		if str_to_var(chainrobots.text) < 0:
+		if str_to_var(chainrobots.text) < 0 || str_to_var(chainrobots.text) > 99:
 			chainrobots.text = ""
 	if typeof(str_to_var(defense.text)) == 2:
-		if str_to_var(defense.text) < 0:
+		if str_to_var(defense.text) < 0 || str_to_var(defense.text) > 99:
 			defense.text = ""
 	if typeof(str_to_var(aamp.text)) == 2:
-		if str_to_var(aamp.text) < 0:
+		if str_to_var(aamp.text) < 0 || str_to_var(aamp.text) > 99:
 			aamp.text = "0"
 	if typeof(str_to_var(aspeaker.text)) == 2:
-		if str_to_var(aspeaker.text) < 0:
+		if str_to_var(aspeaker.text) < 0 || str_to_var(aspeaker.text) > 99:
 			aspeaker.text = "0"
 	if typeof(str_to_var(amp.text)) == 2:
-		if str_to_var(amp.text) < 0:
+		if str_to_var(amp.text) < 0 || str_to_var(amp.text) > 99:
 			amp.text = "0"
 	if typeof(str_to_var(source.text)) == 2:
-		if str_to_var(source.text) < 0:
+		if str_to_var(source.text) < 0 || str_to_var(source.text) > 99:
 			source.text = "0"
 	if typeof(str_to_var(ground.text)) == 2:
-		if str_to_var(ground.text) < 0:
+		if str_to_var(ground.text) < 0 || str_to_var(ground.text) > 99:
 			ground.text = "0"
 	if typeof(str_to_var(amplified.text)) == 2:
-		if str_to_var(amplified.text) < 0:
+		if str_to_var(amplified.text) < 0 || str_to_var(amplified.text) > 99:
 			amplified.text = "0"
 	if typeof(str_to_var(speaker.text)) == 2:
-		if str_to_var(speaker.text) < 0:
+		if str_to_var(speaker.text) < 0 || str_to_var(speaker.text) > 99:
 			speaker.text = "0"

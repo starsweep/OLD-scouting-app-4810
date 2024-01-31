@@ -1,21 +1,7 @@
 res://examples/qr_code/main.tscn
+res://scripts/Text_limit.gd
 res://scenes/QR_Scan.tscn
 res://scenes/opening_screen.tscn
 res://scenes/Data.tscn
 res://scenes/User_Input.tscn
-res://scripts/Button.gd
-res://scripts/back button.gd
 res://scripts/csv exporter.gd
-res://team_4810_match_12.Tele.translation
-res://team_4810_match_12.Match.translation
-res://team_4810_match_12.Alliance.translation
-res://team_4810_match_12.Auto Left Start.translation
-res://team_4810_match_12.Auto Amp.translation
-res://team_4810_match_12.Auto Speaker.translation
-res://team_4810_match_12.Amped Speaker.translation
-res://team_4810_match_12.Source Pickup.translation
-res://team_4810_match_12.Ground Pickup.translation
-res://team_4810_match_12.Parked.translation
-res://team_4810_match_12.Spotlit.translation
-res://team_4810_match_12.On Chain.translation
-res://team_4810_match_12.Defense.translation
