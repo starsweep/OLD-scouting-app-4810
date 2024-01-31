@@ -1,10 +1,9 @@
-res://scenes/opening_screen.tscn
-res://examples/qr_code/main.tscn
-res://scripts/Text_limit.gd
-res://scenes/QR_Scan.tscn
-res://scenes/Data.tscn
 res://scenes/User_Input.tscn
-<<<<<<< Updated upstream
 res://scripts/csv exporter.gd
-=======
->>>>>>> Stashed changes
+res://examples/qr_code/main.tscn
+res://scenes/QR_Scan.tscn
+res://scenes/opening_screen.tscn
+res://scenes/Data.tscn
+res://csv_exports/team_0_match_0.Tele.translation
+res://scripts/back button.gd
+res://scripts/Button.gd
