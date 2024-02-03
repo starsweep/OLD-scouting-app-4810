@@ -1,14 +1,14 @@
+Label
+CheckButton
 Sprite2D
 ParallaxBackground
 TextureRect
 Button
 Control
 Node
-Label
 Camera2D
 TextEdit
 SpinBox
 ColorPickerButton
-CheckButton
 CheckBox
 CanvasModulate

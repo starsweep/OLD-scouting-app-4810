@@ -88,29 +88,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1750802781\\.nuget\\packages\\": {},
-    "C:\\Users\\1750802781\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+    "C:\\Users\\1750803245\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
+      "projectUniqueName": "C:\\Users\\1750803245\\Documents\\GitHub\\scouting-app-4810\\scouting app 4810.csproj",
       "projectName": "scouting app 4810",
-      "projectPath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
-      "packagesPath": "C:\\Users\\1750802781\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\1750803245\\Documents\\GitHub\\scouting-app-4810\\scouting app 4810.csproj",
+      "packagesPath": "C:\\Users\\1750803245\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1750803245\\Documents\\GitHub\\scouting-app-4810\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\1750802781\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1750802781\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\1750802781\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        "C:\\Users\\1750803245\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -153,20 +156,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.22, 6.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

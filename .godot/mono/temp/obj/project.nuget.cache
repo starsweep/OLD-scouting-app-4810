@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dGa9CQBGLFP7jZraWie1p8X3jToigZTN8Ln2EDRRNDu9FFmIQH09POnj8/PczRhVCo2TM5301jd2bikJ1JbuyQ==",
+  "dgSpecHash": "zd/2DzPxOSrbb7t0Czm0LFG9Y4PVimLgbokyscoaoXl/4HLQ9trneEkq8vYodsbTJl04MGZ7s4iJpZfEmS05Rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
+  "projectFilePath": "C:\\Users\\1750803245\\Documents\\GitHub\\scouting-app-4810\\scouting app 4810.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1750802781\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
-    "C:\\Users\\1750802781\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
-    "C:\\Users\\1750802781\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512",
-    "C:\\Users\\1750802781\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\1750802781\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
-    "C:\\Users\\1750802781\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
+    "C:\\Users\\1750803245\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\1750803245\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\1750803245\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }

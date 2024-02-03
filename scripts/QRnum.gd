@@ -54,6 +54,7 @@ func _ready():
 	source_intake = get_node("/root/UserInput/QR_Number/Source_Intake")
 	ground_intake = get_node("/root/UserInput/QR_Number/Ground_Intake")
 	trap = get_node("/root/UserInput/QR_Number/trap")
+	alliance_text = "001"
 
 func _on_area_left_toggled(toggled_on):
 	if toggled_on == true:
@@ -75,6 +76,11 @@ func _on_trap_toggled(toggled_on):
 		trap_text = "001"
 	elif toggled_on == false:
 		trap_text = "000"
+func _on_alliance_toggle_toggled(toggled_on):
+	if toggled_on == true:
+		alliance_text = "002"
+	elif toggled_on == false:
+		alliance_text = "001"
 
 func _process(_delta):
 	#Team Number 
@@ -110,11 +116,6 @@ func _process(_delta):
 		mnum_text = "0" + mnum.text
 	elif mnum.text.length() > 0:
 		mnum_text = "00" + mnum.text
-	
-	if alliance.text.capitalize() == "R":
-		alliance_text = "001"
-	elif alliance.text.capitalize() == "B":
-		alliance_text = "002"
 	
 	if Aamp.text.length() > 1:
 		Aamp_text = "0" + Aamp.text
@@ -161,3 +162,7 @@ func _process(_delta):
 	QRnum.text = QRnum.text + speaker_text + amplified_text + defense_text
 	QRnum.text = QRnum.text + chainrobots_text + spotlit_text + parked_text
 	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text + trap_text
+
+
+
+	pass # Replace with function body.
