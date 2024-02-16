@@ -1,2 +1,0 @@
-﻿37221
-/app/bin/godot-bin

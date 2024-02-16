@@ -17,14 +17,14 @@
           "/home/andrew/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,18 +35,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
               "version": "[4.2.1, )"
             },
             "GodotSharp": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "GodotSharpEditor": {
               "target": "Package",
               "version": "[4.2.1, )"
             }
@@ -65,11 +61,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
+              "version": "[7.0.14, 7.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-bionic-arm64",
+              "version": "[7.0.14, 7.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -78,6 +78,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "/app/lib/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm64": {
+          "#import": []
         }
       }
     }

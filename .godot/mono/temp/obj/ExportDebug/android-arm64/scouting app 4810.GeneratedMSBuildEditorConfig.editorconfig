@@ -1,6 +1,6 @@
 is_global = true
 build_property.GodotDisabledSourceGenerators = 
-build_property.GodotProjectDir = C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\
+build_property.GodotProjectDir = /home/andrew/Documents/GitHub/scouting-app-4810/
 build_property.GodotProjectDirBase64 = 
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
@@ -13,4 +13,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = scoutingapp4810
-build_property.ProjectDir = C:\Users\andre\OneDrive\Documents\godot\mono\scouting-app-4810\
+build_property.ProjectDir = /home/andrew/Documents/GitHub/scouting-app-4810/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
