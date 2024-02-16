@@ -1,36 +1,66 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1706977372
-export_presets.cfg::TextFile::-1::1705973634::0::1::::<><>::
-README.md::TextFile::-1::1706140704::0::1::::<><>::
-::res://android/::1706049967
-::res://exports/::1706977338
-::res://resources/::1706662885
-3247840.jpg::CompressedTexture2D::9204207028379946960::1706662885::1706662885::1::::<><>::
-button.png::CompressedTexture2D::1529956271185678958::1706662885::1706662885::1::::<><>::
-icon.svg::CompressedTexture2D::8356919257026364117::1705775648::1705780456::1::::<><>::
-sware-removebg-preview.png::CompressedTexture2D::4924481479837359873::1706662885::1706662885::1::::<><>::
-::res://scenes/::1706977338
-Data.tscn::PackedScene::8411673886448749172::1706661783::0::1::::<><>::
-opening_screen.tscn::PackedScene::8354702292621255947::1706977338::0::1::::<><>::uid://d4et7eorpvjsq::::res://resources/3247840.jpg<>res://scripts/Button.gd<>uid://v2efkvr46wsk::::res://resources/button.png
-QR_Scan.tscn::PackedScene::6011758352871100136::1706661782::0::1::::<><>::
-User_Input.tscn::PackedScene::3442242917528846515::1706977338::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/Amplifiedadd.gd<>res://scripts/Amplifiedsub.gd<>res://scripts/Speakeradd.gd<>res://scripts/Speakersub.gd<>res://scripts/csv exporter.gd<>res://scripts/back button.gd
-::res://scripts/::1706977338
-add.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Ampadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Amplifiedadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Amplifiedsub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Ampsub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Aspeakeradd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Aspeakersub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-back button.gd::GDScript::-1::1706662885::0::1::::<>Button<>::
-Button.gd::GDScript::-1::1706662885::0::1::::<>Button<>::
-csv exporter.gd::GDScript::-1::1706977338::0::1::::<>Button<>::
-Groundintakeadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Groundintakesub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-QRnum.gd::GDScript::-1::1706977338::0::1::::<>Label<>::
-Sourceintakeadd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Sourceintakesub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Speakeradd.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Speakersub.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-subtract.gd::GDScript::-1::1706573076::0::1::::<>Node<>::
-Text_limit.gd::GDScript::-1::1706977338::0::1::::<>Node<>::
+::res://::1708042228
+README.md::TextFile::-1::1707690074::0::1::::<><>::
+::res://android/::1707690074
+::res://csv_exports/::1708042372
+team_12_match_2.Defense.translation::Translation::5354488670788944606::1708042372::1708042373::1::::<><>::
+team_12_match_2.Trap Scored.translation::OptimizedTranslation::7855447875875667840::1708042373::0::1::::<><>::
+team_12_match_2.On Chain.translation::OptimizedTranslation::4468045907498431758::1708042373::0::1::::<><>::
+team_12_match_2.Spotlit.translation::OptimizedTranslation::3354311499325995605::1708042373::0::1::::<><>::
+team_12_match_2.Parked.translation::OptimizedTranslation::3352359960969983370::1708042373::0::1::::<><>::
+team_12_match_2.Ground Pickup.translation::OptimizedTranslation::636514771381606834::1708042373::0::1::::<><>::
+team_12_match_2.Source Pickup.translation::OptimizedTranslation::515695556533463327::1708042373::0::1::::<><>::
+team_12_match_2.Amped Speaker.translation::OptimizedTranslation::254943482992139320::1708042373::0::1::::<><>::
+team_12_match_2.Tele.translation::OptimizedTranslation::3981849407710750751::1708042373::0::1::::<><>::
+team_12_match_2.Auto Speaker.translation::OptimizedTranslation::6459892220271994194::1708042373::0::1::::<><>::
+team_12_match_2.Auto Amp.translation::OptimizedTranslation::1982192201350467099::1708042373::0::1::::<><>::
+team_12_match_2.Auto Left Start.translation::OptimizedTranslation::5286973818123826480::1708042373::0::1::::<><>::
+team_12_match_2.Alliance.translation::OptimizedTranslation::181365389456018290::1708042373::0::1::::<><>::
+team_12_match_2.Match.translation::OptimizedTranslation::4721822888845711449::1708042373::0::1::::<><>::
+team_12_match_2.csv::::-1::1708042372::0::0::::<><>::
+team_4810_match_3.Defense.translation::Translation::4759620210385898392::1708042318::1708042322::1::::<><>::
+team_4810_match_3.Trap Scored.translation::OptimizedTranslation::5200717426326855571::1708042322::0::1::::<><>::
+team_4810_match_3.On Chain.translation::OptimizedTranslation::5490488952177817558::1708042322::0::1::::<><>::
+team_4810_match_3.Spotlit.translation::OptimizedTranslation::683834988020091371::1708042322::0::1::::<><>::
+team_4810_match_3.Parked.translation::OptimizedTranslation::7049678612637321110::1708042322::0::1::::<><>::
+team_4810_match_3.Ground Pickup.translation::OptimizedTranslation::3551021405781032317::1708042322::0::1::::<><>::
+team_4810_match_3.Source Pickup.translation::OptimizedTranslation::7088424006424014819::1708042322::0::1::::<><>::
+team_4810_match_3.Amped Speaker.translation::OptimizedTranslation::4655697128122473980::1708042322::0::1::::<><>::
+team_4810_match_3.Tele.translation::OptimizedTranslation::3905096353043861531::1708042322::0::1::::<><>::
+team_4810_match_3.Auto Speaker.translation::OptimizedTranslation::5746463743360581820::1708042322::0::1::::<><>::
+team_4810_match_3.Auto Amp.translation::OptimizedTranslation::8931671694457329274::1708042322::0::1::::<><>::
+team_4810_match_3.Auto Left Start.translation::OptimizedTranslation::3099031667049916983::1708042322::0::1::::<><>::
+team_4810_match_3.Alliance.translation::OptimizedTranslation::3584472471315661017::1708042322::0::1::::<><>::
+team_4810_match_3.Match.translation::OptimizedTranslation::8192351181153142204::1708042322::0::1::::<><>::
+team_4810_match_3.csv::::-1::1708042318::1708042322::0::::<><>::
+::res://exports/::1707690076
+::res://resources/::1707690076
+3247840.jpg::CompressedTexture2D::9204207028379946960::1707690076::1707690076::1::::<><>::
+button.png::CompressedTexture2D::1529956271185678958::1707690076::1707690076::1::::<><>::
+icon.svg::CompressedTexture2D::8356919257026364117::1707690076::1707690076::1::::<><>::
+sware-removebg-preview.png::CompressedTexture2D::4924481479837359873::1707690076::1707690076::1::::<><>::
+::res://scenes/::1708042245
+Data.tscn::PackedScene::8411673886448749172::1708042244::0::1::::<><>::
+opening_screen.tscn::PackedScene::8354702292621255947::1708042244::0::1::::<><>::uid://d4et7eorpvjsq::::res://resources/3247840.jpg<>res://scripts/Button.gd<>uid://v2efkvr46wsk::::res://resources/button.png
+QR_Scan.tscn::PackedScene::6011758352871100136::1708042244::0::1::::<><>::
+User_Input.tscn::PackedScene::3442242917528846515::1708042245::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/Amplifiedadd.gd<>res://scripts/Amplifiedsub.gd<>res://scripts/Speakeradd.gd<>res://scripts/Speakersub.gd<>res://scripts/csv exporter.gd<>res://scripts/back button.gd<>uid://v2efkvr46wsk::::res://resources/button.png
+::res://scripts/::1708042244
+add.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Ampadd.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Amplifiedadd.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Amplifiedsub.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Ampsub.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Aspeakeradd.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Aspeakersub.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+back button.gd::GDScript::-1::1707690076::0::1::::<>Button<>::
+Button.gd::GDScript::-1::1707690076::0::1::::<>Button<>::
+csv exporter.gd::GDScript::-1::1708042244::0::1::::<>Button<>::
+Groundintakeadd.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Groundintakesub.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+QRnum.gd::GDScript::-1::1707690076::0::1::::<>Label<>::
+Sourceintakeadd.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Sourceintakesub.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Speakeradd.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Speakersub.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+subtract.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
+Text_limit.gd::GDScript::-1::1707690076::0::1::::<>Node<>::
