@@ -110,12 +110,12 @@ func _on_pressed():
 	elif trap == "2":
 		trap = "No"
 	
-	
+	#ex.) team_4810_match_1.csv
 	filename = testing_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	contents = "Team,Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Tele-op Amp,Tele-op Speaker,Amped Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
-" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + tamp + "," + tspeaker + "," + ampspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
+	contents = "Team/Match,Alliance,Auto,Left Start,Auto Amp,Auto Speaker,Tele-op Amp,Tele-op Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
+" + tnum + "/" + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + tamp + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
 	
 	file.store_string(contents)

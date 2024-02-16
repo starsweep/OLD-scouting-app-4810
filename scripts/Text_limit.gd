@@ -28,10 +28,6 @@ func _ready():
 	speaker = get_node("/root/UserInput/QR_Number/Speaker")
 
 func _process(_delta):
-	if tnum.text.length() > 5:
-		tnum.text = ""
-	if alliance.text.length() > 4:
-		alliance.text = ""
 	
 	if tnum.text.contains("a") == true || tnum.text.contains("b") == true || tnum.text.contains("c") == true || tnum.text.contains("d") == true || tnum.text.contains("e") == true:
 		tnum.text = ""

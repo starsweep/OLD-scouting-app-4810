@@ -5,3 +5,4 @@ res://scenes/opening_screen.tscn
 res://scenes/Data.tscn
 res://csv_exports/team_4810_match_3.Tele.translation
 res://csv_exports/team_12_match_2.Tele.translation
+res://scripts/Text_limit.gd
