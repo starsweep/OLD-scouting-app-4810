@@ -77,7 +77,6 @@ C:/Users/1750802781/Documents/Godot stuff/mono/scouting-app-4810/.godot/mono/tem
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.AssemblyInfoInputs.cache
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.AssemblyInfo.cs
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.csproj.CoreCompileInputs.cache
-/home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.sourcelink.json
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.csproj.CopyComplete
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.dll
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/refint/scouting app 4810.dll
