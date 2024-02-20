@@ -1,4 +1,10 @@
+res://scenes/User_Input.tscn
 res://scenes/QR_Scan.tscn
 res://scenes/opening_screen.tscn
 res://scenes/Data.tscn
-res://scenes/User_Input.tscn
+res://scripts/Aspeakeradd.gd
+res://scripts/AAttemptedadd.gd
+res://scripts/AAttemptedsub.gd
+res://scripts/QRnum.gd
+res://scripts/csv exporter.gd
+res://scripts/Text_limit.gd

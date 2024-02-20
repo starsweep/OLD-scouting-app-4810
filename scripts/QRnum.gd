@@ -17,8 +17,6 @@ var amp
 var amp_text = "000"
 var speaker
 var speaker_text = "000"
-var amplified
-var amplified_text = "000"
 var defense
 var defense_text = "000"
 var chainrobots
@@ -33,6 +31,8 @@ var ground_intake
 var ground_text = "000"
 var trap
 var trap_text = "000"
+var aattempted
+var aattempted_text = "000"
 var num
 var numtype
 
@@ -46,7 +46,6 @@ func _ready():
 	Aleft = get_node("/root/UserInput/QR_Number/Area_left")
 	amp = get_node("/root/UserInput/QR_Number/Amp")
 	speaker = get_node("/root/UserInput/QR_Number/Speaker")
-	amplified = get_node("/root/UserInput/QR_Number/Amplified")
 	defense = get_node("/root/UserInput/QR_Number/Defense_Rating")
 	chainrobots = get_node("/root/UserInput/QR_Number/Robots_on_Chain")
 	spotlit = get_node("/root/UserInput/QR_Number/Spotlit")
@@ -54,6 +53,7 @@ func _ready():
 	source_intake = get_node("/root/UserInput/QR_Number/Source_Intake")
 	ground_intake = get_node("/root/UserInput/QR_Number/Ground_Intake")
 	trap = get_node("/root/UserInput/QR_Number/trap")
+	aattempted = get_node("/root/UserInput/QR_Number/AAttempted")
 	alliance_text = "001"
 
 func _on_area_left_toggled(toggled_on):
@@ -137,11 +137,6 @@ func _process(_delta):
 	elif speaker.text.length() > 0:
 		speaker_text = "00" + speaker.text
 	
-	if amplified.text.length() > 1:
-		amplified_text = "0" + amplified.text
-	elif amplified.text.length() > 0:
-		amplified_text = "00" + amplified.text
-	
 	if Aleft.text.length() > 1:
 		Aleft_text = "0" + Aleft.text
 	elif Aleft.text.length() > 0:
@@ -156,12 +151,18 @@ func _process(_delta):
 		ground_text = "0" + ground_intake.text
 	elif ground_intake.text.length() > 0:
 		ground_text = "00" + ground_intake.text
+		
+	if aattempted.text.length() > 1:
+		aattempted_text = "0" + aattempted.text
+	elif ground_intake.text.length() > 0:
+		aattempted_text = "00" + aattempted.text
 	
 	QRnum.text = tnum_text + mnum_text + alliance_text + Aamp_text
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
-	QRnum.text = QRnum.text + speaker_text + amplified_text + defense_text
+	QRnum.text = QRnum.text + speaker_text + defense_text
 	QRnum.text = QRnum.text + chainrobots_text + spotlit_text + parked_text
 	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text + trap_text
+	QRnum.text = QRnum.text + aattempted_text
 
 
 

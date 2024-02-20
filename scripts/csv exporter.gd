@@ -21,6 +21,7 @@ var leftstart
 var source
 var ground
 var trap
+var aattempted
 
 var tablet_storage_path = "/storage/self/primary/Documents/"
 var testing_storage_path = "res://csv_exports/"
@@ -64,6 +65,7 @@ func _on_pressed():
 	source = var_to_str(arr.pop_front())
 	ground = var_to_str(arr.pop_front())
 	trap = var_to_str(arr.pop_front())
+	aattempted = var_to_str(arr.pop_front())
 	
 	"""
 	Array slot legend: 
@@ -74,15 +76,15 @@ func _on_pressed():
 	4 - auton speaker scores
 	5 - tele-op amp scores
 	6 - tele-op speaker scores
-	7 - amped speaker scores
-	8 - defense score (subjective)
-	9 - bots on chain (number)
-	10 - spotlit (001 = on, 000 = off)
-	12 - parked (001 = yes, 000 = no)
-	13 - Left starting area in auton (001 = yes, 000 = no)
-	14 - Notes collected from source
-	15 - notes collected from ground
-	16 - note put in trap
+	7 - defense score (subjective)
+	8 - bots on chain (number)
+	9 - spotlit (001 = on, 000 = off)
+	10 - parked (001 = yes, 000 = no)
+	11 - Left starting area in auton (001 = yes, 000 = no)
+	12 - Notes collected from source
+	13 - notes collected from ground
+	14 - note put in trap
+	15 - auton scores attempted
 	"""
 	
 	if alliance == "1":
@@ -115,7 +117,7 @@ func _on_pressed():
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	contents = "Team/Match,Alliance,Auto,Left Start,Auto Amp,Auto Speaker,Tele-op Amp,Tele-op Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
-" + tnum + "/" + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + tamp + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
+	contents = "Team/Match,Alliance,Auto,Left Start,Auto Amp,Auto Speaker,Auto Shots Attempted,Tele-op Amp,Tele-op Speaker,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
+" + tnum + "/" + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
 	
 	file.store_string(contents)

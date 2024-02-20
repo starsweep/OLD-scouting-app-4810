@@ -12,9 +12,9 @@
 [ext_resource type="Script" path="res://scripts/Sourceintakesub.gd" id="10_8fexr"]
 [ext_resource type="Script" path="res://scripts/Groundintakeadd.gd" id="11_0khct"]
 [ext_resource type="Script" path="res://scripts/Groundintakesub.gd" id="12_nce5r"]
-[ext_resource type="Script" path="res://scripts/Amplifiedadd.gd" id="13_3bot4"]
-[ext_resource type="Script" path="res://scripts/Amplifiedsub.gd" id="14_eo4gu"]
+[ext_resource type="Script" path="res://scripts/AAttemptedadd.gd" id="15_33p6h"]
 [ext_resource type="Script" path="res://scripts/Speakeradd.gd" id="15_agnhl"]
+[ext_resource type="Script" path="res://scripts/AAttemptedsub.gd" id="16_inapv"]
 [ext_resource type="Script" path="res://scripts/Speakersub.gd" id="16_y0jun"]
 [ext_resource type="Script" path="res://scripts/csv exporter.gd" id="17_tvd87"]
 [ext_resource type="Script" path="res://scripts/back button.gd" id="18_2bqcg"]
@@ -58,10 +58,10 @@ theme_override_font_sizes/font_size = 35
 text = "Alliance:"
 
 [node name="Auton" type="Label" parent="."]
-offset_left = 236.0
-offset_top = 374.286
-offset_right = 487.0
-offset_bottom = 423.286
+offset_left = 224.0
+offset_top = 334.0
+offset_right = 475.0
+offset_bottom = 383.0
 theme_override_font_sizes/font_size = 35
 text = "Auton"
 
@@ -85,12 +85,20 @@ text = "Speaker Scores:"
 
 [node name="Left Area" type="Label" parent="Auton"]
 layout_mode = 0
-offset_left = -164.857
-offset_top = 178.428
-offset_right = 86.143
-offset_bottom = 227.428
+offset_left = -165.0
+offset_top = 226.0
+offset_right = 86.0
+offset_bottom = 275.0
 theme_override_font_sizes/font_size = 35
 text = "Left Area:"
+
+[node name="AScores Attempted" type="Label" parent="Auton"]
+offset_left = -168.0
+offset_top = 177.0
+offset_right = 96.0
+offset_bottom = 226.0
+theme_override_font_sizes/font_size = 35
+text = "Scores Attempted:"
 
 [node name="Teleop" type="Label" parent="."]
 offset_left = 748.143
@@ -102,30 +110,29 @@ text = "Teleop"
 
 [node name="Amp Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -154.143
-offset_top = 43.2857
-offset_right = 96.857
-offset_bottom = 92.286
+offset_left = -152.143
+offset_top = 70.2857
+offset_right = 98.857
+offset_bottom = 119.286
 theme_override_font_sizes/font_size = 35
 text = "Amp Scores:"
 
 [node name="Speaker Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -155.143
-offset_top = 101.286
-offset_right = 108.857
-offset_bottom = 150.286
+offset_left = -153.143
+offset_top = 128.286
+offset_right = 110.857
+offset_bottom = 177.286
 theme_override_font_sizes/font_size = 35
 text = "Speaker Scores:"
 
 [node name="Amplified Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -155.143
+offset_left = -156.143
 offset_top = 149.286
-offset_right = 134.857
+offset_right = 133.857
 offset_bottom = 198.286
 theme_override_font_sizes/font_size = 35
-text = "Boosted Scores:"
 
 [node name="Defense" type="Label" parent="Teleop"]
 layout_mode = 0
@@ -162,6 +169,15 @@ offset_right = 108.857
 offset_bottom = 353.286
 theme_override_font_sizes/font_size = 35
 text = "Source Intakes:"
+
+[node name="Label" type="Label" parent="Teleop"]
+layout_mode = 0
+offset_left = 204.857
+offset_top = 31.2857
+offset_right = 353.827
+offset_bottom = 74.2857
+scale = Vector2(1.5, 1.5)
+text = "Shots attempted"
 
 [node name="End Game" type="Label" parent="."]
 offset_left = 731.429
@@ -215,12 +231,11 @@ offset_bottom = 336.714
 theme_override_font_sizes/font_size = 28
 
 [node name="QRnum" type="Label" parent="QR_Number"]
-visible = false
 layout_mode = 0
-offset_left = -41.1429
-offset_top = 24.286
-offset_right = 861.857
-offset_bottom = 63.286
+offset_left = -59.1429
+offset_top = -6.714
+offset_right = 843.857
+offset_bottom = 32.286
 theme_override_font_sizes/font_size = 28
 text = "0"
 script = ExtResource("1_ncsex")
@@ -270,10 +285,10 @@ script = ExtResource("2_0kynu")
 
 [node name="Area_left" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 157.0
-offset_top = 261.0
-offset_right = 201.0
-offset_bottom = 285.0
+offset_left = 151.857
+offset_top = 269.286
+offset_right = 195.857
+offset_bottom = 293.286
 scale = Vector2(2, 2)
 
 [node name="Mnum" type="TextEdit" parent="QR_Number"]
@@ -287,10 +302,10 @@ script = ExtResource("2_0kynu")
 
 [node name="Aamp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 238.857
-offset_top = 134.286
-offset_right = 262.857
-offset_bottom = 183.286
+offset_left = 226.857
+offset_top = 94.0
+offset_right = 250.857
+offset_bottom = 143.0
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -316,10 +331,10 @@ script = ExtResource("4_1jgni")
 
 [node name="Aspeaker" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 300.571
-offset_top = 196.0
-offset_right = 324.571
-offset_bottom = 245.0
+offset_left = 288.571
+offset_top = 155.714
+offset_right = 312.571
+offset_bottom = 204.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -345,10 +360,10 @@ script = ExtResource("6_7wxnx")
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 764.714
-offset_top = -238.142
-offset_right = 788.714
-offset_bottom = -189.142
+offset_left = 766.714
+offset_top = -211.142
+offset_right = 790.714
+offset_bottom = -162.142
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -430,41 +445,12 @@ theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("12_nce5r")
 
-[node name="Amplified" type="Label" parent="QR_Number"]
-layout_mode = 0
-offset_left = 851.857
-offset_top = -121.714
-offset_right = 875.857
-offset_bottom = -72.7137
-theme_override_font_sizes/font_size = 35
-text = "0"
-
-[node name="Add" type="Button" parent="QR_Number/Amplified"]
-layout_mode = 0
-offset_left = 51.4286
-offset_top = -4.0
-offset_right = 79.4286
-offset_bottom = 53.0
-theme_override_font_sizes/font_size = 35
-text = "+"
-script = ExtResource("13_3bot4")
-
-[node name="Subtract" type="Button" parent="QR_Number/Amplified"]
-layout_mode = 0
-offset_left = -30.8571
-offset_top = -5.71428
-offset_right = -2.85713
-offset_bottom = 51.2857
-theme_override_font_sizes/font_size = 35
-text = "-"
-script = ExtResource("14_eo4gu")
-
 [node name="Speaker" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 822.285
-offset_top = -176.428
-offset_right = 846.285
-offset_bottom = -127.428
+offset_left = 824.285
+offset_top = -149.428
+offset_right = 848.285
+offset_bottom = -100.428
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -490,10 +476,10 @@ script = ExtResource("16_y0jun")
 
 [node name="trap" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 444.857
-offset_top = 267.286
-offset_right = 590.857
-offset_bottom = 298.286
+offset_left = 513.857
+offset_top = 268.286
+offset_right = 659.857
+offset_bottom = 299.286
 scale = Vector2(2, 2)
 text = "Note in trap:"
 text_direction = 1
@@ -531,6 +517,44 @@ offset_top = 9.36
 offset_right = 110.108
 offset_bottom = 32.36
 text = "Blue"
+
+[node name="AAttempted" type="Label" parent="QR_Number"]
+offset_left = 335.857
+offset_top = 217.286
+offset_right = 359.857
+offset_bottom = 266.286
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/AAttempted"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -11.224
+anchor_top = -3.551
+anchor_right = -11.224
+anchor_bottom = -3.551
+offset_left = 320.805
+offset_top = 169.999
+offset_right = 348.805
+offset_bottom = 226.999
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("15_33p6h")
+
+[node name="Subtract" type="Button" parent="QR_Number/AAttempted"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -11.926
+anchor_top = -3.848
+anchor_right = -11.926
+anchor_bottom = -3.848
+offset_left = 255.367
+offset_top = 182.838
+offset_right = 283.367
+offset_bottom = 239.838
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("16_inapv")
 
 [node name="csv exporter" type="Button" parent="."]
 offset_left = 867.0
@@ -571,11 +595,11 @@ script = ExtResource("18_2bqcg")
 [connection signal="pressed" from="QR_Number/Source_Intake/Subtract" to="QR_Number/Source_Intake/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Ground_Intake/Add" to="QR_Number/Ground_Intake/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Ground_Intake/Subtract" to="QR_Number/Ground_Intake/Subtract" method="_on_pressed"]
-[connection signal="pressed" from="QR_Number/Amplified/Add" to="QR_Number/Amplified/Add" method="_on_pressed"]
-[connection signal="pressed" from="QR_Number/Amplified/Subtract" to="QR_Number/Amplified/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Add" to="QR_Number/Speaker/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speaker/Subtract" to="QR_Number/Speaker/Subtract" method="_on_pressed"]
 [connection signal="toggled" from="QR_Number/trap" to="QR_Number/QRnum" method="_on_trap_toggled"]
 [connection signal="toggled" from="QR_Number/AllianceToggle" to="QR_Number/QRnum" method="_on_alliance_toggle_toggled"]
+[connection signal="pressed" from="QR_Number/AAttempted/Add" to="QR_Number/AAttempted/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/AAttempted/Subtract" to="QR_Number/AAttempted/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="csv exporter" to="csv exporter" method="_on_pressed"]
 [connection signal="pressed" from="back button" to="back button" method="_on_pressed"]

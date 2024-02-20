@@ -2,7 +2,6 @@ extends Node
 
 var tnum
 var mnum
-var alliance
 var defense
 var chainrobots
 var aamp
@@ -16,7 +15,6 @@ var speaker
 func _ready():
 	tnum = get_node("/root/UserInput/QR_Number/Tnum")
 	mnum = get_node("/root/UserInput/QR_Number/Mnum")
-	alliance = get_node("/root/UserInput/QR_Number/Alliance")
 	defense = get_node("/root/UserInput/QR_Number/Defense_Rating")
 	chainrobots = get_node("/root/UserInput/QR_Number/Robots_on_Chain")
 	aamp = get_node("/root/UserInput/QR_Number/Aamp")
@@ -148,9 +146,6 @@ func _process(_delta):
 	if typeof(str_to_var(ground.text)) == 2:
 		if str_to_var(ground.text) < 0 || str_to_var(ground.text) > 99:
 			ground.text = "0"
-	if typeof(str_to_var(amplified.text)) == 2:
-		if str_to_var(amplified.text) < 0 || str_to_var(amplified.text) > 99:
-			amplified.text = "0"
 	if typeof(str_to_var(speaker.text)) == 2:
 		if str_to_var(speaker.text) < 0 || str_to_var(speaker.text) > 99:
 			speaker.text = "0"
