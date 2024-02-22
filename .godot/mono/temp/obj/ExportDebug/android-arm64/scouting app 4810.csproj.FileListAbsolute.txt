@@ -384,7 +384,6 @@ C:/Users/andre/OneDrive/Documents/godot/mono/scouting-app-4810/.godot/mono/temp/
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/scouting app 4810.AssemblyInfoInputs.cache
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/scouting app 4810.AssemblyInfo.cs
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/scouting app 4810.csproj.CoreCompileInputs.cache
-/home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/scouting app 4810.sourcelink.json
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/scouting app 4810.csproj.CopyComplete
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/scouting app 4810.dll
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/ExportDebug/android-arm64/refint/scouting app 4810.dll

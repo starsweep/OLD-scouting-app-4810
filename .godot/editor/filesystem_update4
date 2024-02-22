@@ -1,15 +1,1 @@
 res://scenes/User_Input.tscn
-res://scenes/Ampattadd.gd
-res://scenes/ampattsub.gd
-res://scenes/speakerattadd.gd
-res://scenes/speakerattsub.gd
-res://scripts/Ampadd.gd
-res://scripts/Speakeradd.gd
-res://scripts/Ampsub.gd
-res://scripts/Speakersub.gd
-res://scenes/QR_Scan.tscn
-res://scenes/opening_screen.tscn
-res://scenes/Data.tscn
-res://scripts/Text_limit.gd
-res://scripts/QRnum.gd
-res://scripts/csv exporter.gd

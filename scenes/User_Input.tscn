@@ -236,6 +236,7 @@ offset_bottom = 336.714
 theme_override_font_sizes/font_size = 28
 
 [node name="QRnum" type="Label" parent="QR_Number"]
+visible = false
 layout_mode = 0
 offset_left = -68.1429
 offset_top = -3.714
