@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://bpbpidb0ni6u6"]
+[gd_scene load_steps=24 format=3 uid="uid://bpbpidb0ni6u6"]
 
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 [ext_resource type="Script" path="res://scripts/Text_limit.gd" id="2_0kynu"]
@@ -16,9 +16,13 @@
 [ext_resource type="Script" path="res://scripts/Speakeradd.gd" id="15_agnhl"]
 [ext_resource type="Script" path="res://scripts/AAttemptedsub.gd" id="16_inapv"]
 [ext_resource type="Script" path="res://scripts/Speakersub.gd" id="16_y0jun"]
+[ext_resource type="Script" path="res://scenes/Ampattadd.gd" id="17_glw2h"]
 [ext_resource type="Script" path="res://scripts/csv exporter.gd" id="17_tvd87"]
 [ext_resource type="Script" path="res://scripts/back button.gd" id="18_2bqcg"]
 [ext_resource type="Texture2D" uid="uid://v2efkvr46wsk" path="res://resources/button.png" id="18_preh0"]
+[ext_resource type="Script" path="res://scenes/ampattsub.gd" id="18_sppb3"]
+[ext_resource type="Script" path="res://scenes/speakerattadd.gd" id="19_febcr"]
+[ext_resource type="Script" path="res://scenes/speakerattsub.gd" id="20_yoeih"]
 
 [node name="UserInput" type="Node2D"]
 
@@ -93,6 +97,7 @@ theme_override_font_sizes/font_size = 35
 text = "Left Area:"
 
 [node name="AScores Attempted" type="Label" parent="Auton"]
+layout_mode = 0
 offset_left = -168.0
 offset_top = 177.0
 offset_right = 96.0
@@ -232,10 +237,10 @@ theme_override_font_sizes/font_size = 28
 
 [node name="QRnum" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = -59.1429
-offset_top = -6.714
-offset_right = 843.857
-offset_bottom = 32.286
+offset_left = -68.1429
+offset_top = -3.714
+offset_right = 834.857
+offset_bottom = 35.286
 theme_override_font_sizes/font_size = 28
 text = "0"
 script = ExtResource("1_ncsex")
@@ -519,6 +524,7 @@ offset_bottom = 32.36
 text = "Blue"
 
 [node name="AAttempted" type="Label" parent="QR_Number"]
+layout_mode = 0
 offset_left = 335.857
 offset_top = 217.286
 offset_right = 359.857
@@ -527,34 +533,82 @@ theme_override_font_sizes/font_size = 35
 text = "0"
 
 [node name="Add" type="Button" parent="QR_Number/AAttempted"]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = -11.224
-anchor_top = -3.551
-anchor_right = -11.224
-anchor_bottom = -3.551
-offset_left = 320.805
-offset_top = 169.999
-offset_right = 348.805
-offset_bottom = 226.999
+layout_mode = 0
+offset_left = 51.0001
+offset_top = -4.0
+offset_right = 79.0001
+offset_bottom = 53.0
 theme_override_font_sizes/font_size = 35
 text = "+"
 script = ExtResource("15_33p6h")
 
 [node name="Subtract" type="Button" parent="QR_Number/AAttempted"]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = -11.926
-anchor_top = -3.848
-anchor_right = -11.926
-anchor_bottom = -3.848
-offset_left = 255.367
-offset_top = 182.838
-offset_right = 283.367
-offset_bottom = 239.838
+layout_mode = 0
+offset_left = -35.9999
+offset_top = -4.0
+offset_right = -7.99988
+offset_bottom = 53.0
 theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("16_inapv")
+
+[node name="Ampatt" type="Label" parent="QR_Number"]
+layout_mode = 0
+offset_left = 962.857
+offset_top = -209.714
+offset_right = 986.857
+offset_bottom = -160.714
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Ampatt"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("17_glw2h")
+
+[node name="Subtract" type="Button" parent="QR_Number/Ampatt"]
+layout_mode = 0
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("18_sppb3")
+
+[node name="Speakeratt" type="Label" parent="QR_Number"]
+layout_mode = 0
+offset_left = 962.857
+offset_top = -145.714
+offset_right = 986.857
+offset_bottom = -96.714
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/Speakeratt"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("19_febcr")
+
+[node name="Subtract" type="Button" parent="QR_Number/Speakeratt"]
+layout_mode = 0
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("20_yoeih")
 
 [node name="csv exporter" type="Button" parent="."]
 offset_left = 867.0
@@ -601,5 +655,9 @@ script = ExtResource("18_2bqcg")
 [connection signal="toggled" from="QR_Number/AllianceToggle" to="QR_Number/QRnum" method="_on_alliance_toggle_toggled"]
 [connection signal="pressed" from="QR_Number/AAttempted/Add" to="QR_Number/AAttempted/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/AAttempted/Subtract" to="QR_Number/AAttempted/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Ampatt/Add" to="QR_Number/Ampatt/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Ampatt/Subtract" to="QR_Number/Ampatt/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Speakeratt/Add" to="QR_Number/Speakeratt/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/Speakeratt/Subtract" to="QR_Number/Speakeratt/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="csv exporter" to="csv exporter" method="_on_pressed"]
 [connection signal="pressed" from="back button" to="back button" method="_on_pressed"]

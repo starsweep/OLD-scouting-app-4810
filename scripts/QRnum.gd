@@ -33,6 +33,10 @@ var trap
 var trap_text = "000"
 var aattempted
 var aattempted_text = "000"
+var ampatt
+var ampatt_text = "000"
+var speakeratt
+var speakeratt_text = "000"
 var num
 var numtype
 
@@ -40,7 +44,7 @@ func _ready():
 	tnum = get_node("/root/UserInput/QR_Number/Tnum")
 	QRnum = get_node("/root/UserInput/QR_Number/QRnum")
 	mnum = get_node("/root/UserInput/QR_Number/Mnum")
-	alliance = get_node("/root/UserInput/QR_Number/Alliance")
+	alliance = get_node("/root/UserInput/QR_Number/AllianceToggle")
 	Aamp = get_node("/root/UserInput/QR_Number/Aamp")
 	Aspeaker = get_node("/root/UserInput/QR_Number/Aspeaker")
 	Aleft = get_node("/root/UserInput/QR_Number/Area_left")
@@ -54,6 +58,8 @@ func _ready():
 	ground_intake = get_node("/root/UserInput/QR_Number/Ground_Intake")
 	trap = get_node("/root/UserInput/QR_Number/trap")
 	aattempted = get_node("/root/UserInput/QR_Number/AAttempted")
+	ampatt = get_node("/root/UserInput/QR_Number/Ampatt")
+	speakeratt = get_node("/root/UserInput/QR_Number/Speakeratt")
 	alliance_text = "001"
 
 func _on_area_left_toggled(toggled_on):
@@ -156,14 +162,20 @@ func _process(_delta):
 		aattempted_text = "0" + aattempted.text
 	elif ground_intake.text.length() > 0:
 		aattempted_text = "00" + aattempted.text
+		
+	if ampatt.text.length() > 1:
+		ampatt_text = "0" + ampatt.text
+	elif ground_intake.text.length() > 0:
+		ampatt_text = "00" + ampatt.text
+		
+	if speakeratt.text.length() > 1:
+		speakeratt_text = "0" + speakeratt.text
+	elif ground_intake.text.length() > 0:
+		speakeratt_text = "00" + speakeratt.text
 	
 	QRnum.text = tnum_text + mnum_text + alliance_text + Aamp_text
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
 	QRnum.text = QRnum.text + speaker_text + defense_text
 	QRnum.text = QRnum.text + chainrobots_text + spotlit_text + parked_text
 	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text + trap_text
-	QRnum.text = QRnum.text + aattempted_text
-
-
-
-	pass # Replace with function body.
+	QRnum.text = QRnum.text + aattempted_text + ampatt_text + speakeratt_text
