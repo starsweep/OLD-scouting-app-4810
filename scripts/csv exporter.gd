@@ -120,7 +120,7 @@ func _on_pressed():
 		trap = "No"
 	
 	#ex.) team_4810_match_1.csv
-	filename = mobile_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
+	filename = tablet_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
