@@ -12,7 +12,6 @@ var aamp
 var aspeaker
 var tamp
 var tspeaker
-var ampspeaker
 var defense
 var chainbots
 var spotlit
@@ -59,14 +58,13 @@ func _on_pressed():
 	aspeaker = var_to_str(arr.pop_front())
 	tamp = var_to_str(arr.pop_front())
 	tspeaker = var_to_str(arr.pop_front())
-	ampspeaker = var_to_str(arr.pop_front())
 	defense = var_to_str(arr.pop_front())
 	chainbots = var_to_str(arr.pop_front())
 	spotlit = var_to_str(arr.pop_front())
 	parked = var_to_str(arr.pop_front())
 	leftstart = var_to_str(arr.pop_front())
-	source = var_to_str(arr.pop_front())
 	ground = var_to_str(arr.pop_front())
+	source = var_to_str(arr.pop_front())
 	trap = var_to_str(arr.pop_front())
 	aattempted = var_to_str(arr.pop_front())
 	ampatt = var_to_str(arr.pop_front())
@@ -124,7 +122,7 @@ func _on_pressed():
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	contents = "Team/Match,Alliance,Auto,Left Start,Auto Amp,Auto Speaker,Auto Shots Attempted,Tele-op Amp,Tele-op Amp Attempted,Tele-op Speaker,Tele-op Speaker Attempted,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
+	contents = "Team/Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Auto Shots Attempted,Tele-op Amp,Tele-op Amp Attempted,Tele-op Speaker,Tele-op Speaker Attempted,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
 " + tnum + "/" + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + tspeaker + "," + speakeratt + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
 	
 	file.store_string(contents)
