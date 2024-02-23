@@ -25,6 +25,7 @@ var aattempted
 var ampatt
 var speakeratt
 
+var mobile_storage_path = "/storage/emulated/Documents/"
 var tablet_storage_path = "/storage/self/primary/Documents/"
 var testing_storage_path = "res://csv_exports/"
 
@@ -119,7 +120,7 @@ func _on_pressed():
 		trap = "No"
 	
 	#ex.) team_4810_match_1.csv
-	filename = tablet_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
+	filename = mobile_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
