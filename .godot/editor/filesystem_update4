@@ -2,3 +2,4 @@ res://scenes/opening_screen.tscn
 res://scenes/User_Input.tscn
 res://scripts/Text_limit.gd
 res://scripts/QRnum.gd
+res://csv_exports/team_0_match_0.Tele.translation
