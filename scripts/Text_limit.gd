@@ -79,13 +79,13 @@ func _process(_delta):
 		if str_to_var(tnum.text) < 0 || str_to_var(tnum.text) > 99999:
 			tnum.text = ""
 	if typeof(str_to_var(mnum.text)) == 2:
-		if str_to_var(mnum.text) < 0 || str_to_var(mnum.text) > 80:
+		if str_to_var(mnum.text) < 0 || str_to_var(mnum.text) > 99|| mnum.text.length() > 2:
 			mnum.text = ""
 	if typeof(str_to_var(chainrobots.text)) == 2:
-		if str_to_var(chainrobots.text) < 0 || str_to_var(chainrobots.text) > 2:
+		if str_to_var(chainrobots.text) < 0 || str_to_var(chainrobots.text) > 2|| chainrobots.text.length() > 2:
 			chainrobots.text = ""
 	if typeof(str_to_var(defense.text)) == 2:
-		if str_to_var(defense.text) < 0 || str_to_var(defense.text) > 10:
+		if str_to_var(defense.text) < 0 || str_to_var(defense.text) > 10|| defense.text.length() > 2:
 			defense.text = ""
 	if typeof(str_to_var(aamp.text)) == 2:
 		if str_to_var(aamp.text) < 0 || str_to_var(aamp.text) > 99:
