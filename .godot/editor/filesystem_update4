@@ -1,4 +1,4 @@
-res://scenes/User_Input.tscn
 res://scenes/opening_screen.tscn
-res://scripts/csv exporter.gd
-res://csv_exports/team_23_match_23.Tele.translation
+res://scenes/User_Input.tscn
+res://scripts/QRnum.gd
+res://scripts/Text_limit.gd

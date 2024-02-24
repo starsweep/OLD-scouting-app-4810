@@ -70,6 +70,8 @@ func _process(_delta):
 			currentvar.text = ""
 		elif currentvar.text.contains("<") == true || currentvar.text.contains("\\") || currentvar.text.contains("\"") || currentvar.text.contains(",") == true || currentvar.text.contains(">") == true || currentvar.text.contains(".") == true || currentvar.text.contains("?") == true || currentvar.text.contains("/") == true:
 			currentvar.text = ""
+		elif currentvar.text.contains("\n"):
+			currentvar.text = ""
 		
 		counter -= 1
 	
@@ -95,7 +97,7 @@ func _process(_delta):
 		if str_to_var(amp.text) < 0 || str_to_var(amp.text) > 99:
 			amp.text = "0"
 	if typeof(str_to_var(source.text)) == 2:
-		if str_to_var(source.text) < 0 || str_to_var(source.text) > 99:
+		if str_to_var(source.text) < 0 || str_to_var(source.text) > 99 || source.text.length() > 2:
 			source.text = "0"
 	if typeof(str_to_var(ground.text)) == 2:
 		if str_to_var(ground.text) < 0 || str_to_var(ground.text) > 99:

@@ -6,7 +6,7 @@ var tnum_text = "00000"
 var mnum
 var mnum_text = "000"
 var alliance
-var alliance_text = "000"
+var alliance_text = "001"
 var Aamp
 var Aamp_text = "000"
 var Aspeaker
@@ -60,7 +60,6 @@ func _ready():
 	aattempted = get_node("/root/UserInput/QR_Number/AAttempted")
 	ampatt = get_node("/root/UserInput/QR_Number/Ampatt")
 	speakeratt = get_node("/root/UserInput/QR_Number/Speakeratt")
-	alliance_text = "001"
 
 func _on_area_left_toggled(toggled_on):
 	if toggled_on == true:
