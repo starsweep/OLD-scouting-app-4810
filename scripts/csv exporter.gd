@@ -34,6 +34,8 @@ var contents
 var line = "\n"
 var listpos = 0
 
+var counter
+
 func _ready():
 	
 	QRnum = get_node("/root/UserInput/QR_Number/QRnum")
@@ -118,11 +120,12 @@ func _on_pressed():
 		trap = "No"
 	
 	#ex.) team_4810_match_1.csv
+	
 	filename = tablet_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	contents = "Team/Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Auto Shots Attempted,Tele-op Amp,Tele-op Amp Attempted,Tele-op Speaker,Tele-op Speaker Attempted,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
-" + tnum + "/" + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + tspeaker + "," + speakeratt + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
+	contents = "Team,Match,Alliance,Auto Left Start,Auto Amp,Auto Speaker,Auto Shots Attempted,Tele-op Amp,Tele-op Amp Attempted,Tele-op Speaker,Tele-op Speaker Attempted,Source Pickup,Ground Pickup,Parked,Spotlit,On Chain,Trap Scored,Defense" + "
+" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + tspeaker + "," + speakeratt + "," + source + "," + ground + "," + parked + "," + spotlit + "," + chainbots  + "," + trap + "," + defense
 	
 	file.store_string(contents)
