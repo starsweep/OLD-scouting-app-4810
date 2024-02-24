@@ -28,13 +28,13 @@ var mobile_storage_path = "/storage/emulated/Documents/"
 var tablet_storage_path = "/storage/self/primary/Documents/"
 var testing_storage_path = "res://csv_exports/"
 
+var current_os
+
 var filename
 var contents
 
 var line = "\n"
 var listpos = 0
-
-var counter
 
 func _ready():
 	
@@ -118,9 +118,24 @@ func _on_pressed():
 		trap = "Yes"
 	elif trap == "2":
 		trap = "No"
+	#-----Detect OS-------------------------------
 	
+	match OS.get_name():
+		"Windows":
+			current_os = "Windows"
+		"macOS":
+			current_os = "macOS"
+		"Linux", "FreeBSD", "NetBSD", "OpenBSD", "BSD":
+			current_os = "Linux"
+		"Android":
+			current_os = "Android"
+		"iOS":
+			current_os = "iOS"
+		"Web":
+			current_os = "Web"
+	
+	#---------------------------------------------
 	#ex.) team_4810_match_1.csv
-	
 	filename = tablet_storage_path + "team_" + tnum + "_match_" + mnum + ".csv"
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
