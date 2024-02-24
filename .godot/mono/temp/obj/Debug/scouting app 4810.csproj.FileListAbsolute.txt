@@ -83,3 +83,20 @@ C:/Users/1750802781/Documents/Godot stuff/mono/scouting-app-4810/.godot/mono/tem
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.pdb
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/scouting app 4810.genruntimeconfig.cache
 /home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/Debug/ref/scouting app 4810.dll
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\bin\Debug\scouting app 4810.deps.json
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\bin\Debug\scouting app 4810.runtimeconfig.json
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\bin\Debug\scouting app 4810.dll
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\bin\Debug\scouting app 4810.pdb
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.csproj.AssemblyReference.cache
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.AssemblyInfoInputs.cache
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.AssemblyInfo.cs
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.csproj.CoreCompileInputs.cache
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.csproj.CopyComplete
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.dll
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\refint\scouting app 4810.dll
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.pdb
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\scouting app 4810.genruntimeconfig.cache
+C:\Users\1750802781\Documents\Godot stuff\mono\scouting-app-4810\.godot\mono\temp\obj\Debug\ref\scouting app 4810.dll
