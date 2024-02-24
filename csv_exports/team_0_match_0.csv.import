@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c5cqka405yta8"
+
+[deps]
+
+files=["res://csv_exports/team_0_match_0.Match.translation", "res://csv_exports/team_0_match_0.Alliance.translation", "res://csv_exports/team_0_match_0.Auto Left Start.translation", "res://csv_exports/team_0_match_0.Auto Amp.translation", "res://csv_exports/team_0_match_0.Auto Speaker.translation", "res://csv_exports/team_0_match_0.Auto Shots Attempted.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Source Pickup.translation", "res://csv_exports/team_0_match_0.Ground Pickup.translation", "res://csv_exports/team_0_match_0.Parked.translation", "res://csv_exports/team_0_match_0.Spotlit.translation", "res://csv_exports/team_0_match_0.On Chain.translation", "res://csv_exports/team_0_match_0.Trap Scored.translation", "res://csv_exports/team_0_match_0.Defense.translation"]
+
+source_file="res://csv_exports/team_0_match_0.csv"
+dest_files=["res://csv_exports/team_0_match_0.Match.translation", "res://csv_exports/team_0_match_0.Alliance.translation", "res://csv_exports/team_0_match_0.Auto Left Start.translation", "res://csv_exports/team_0_match_0.Auto Amp.translation", "res://csv_exports/team_0_match_0.Auto Speaker.translation", "res://csv_exports/team_0_match_0.Auto Shots Attempted.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Tele.translation", "res://csv_exports/team_0_match_0.Source Pickup.translation", "res://csv_exports/team_0_match_0.Ground Pickup.translation", "res://csv_exports/team_0_match_0.Parked.translation", "res://csv_exports/team_0_match_0.Spotlit.translation", "res://csv_exports/team_0_match_0.On Chain.translation", "res://csv_exports/team_0_match_0.Trap Scored.translation", "res://csv_exports/team_0_match_0.Defense.translation"]
+
+[params]
+
+compress=true
+delimiter=0
