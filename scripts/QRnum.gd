@@ -114,7 +114,7 @@ func _process(_delta):
 	
 	if chainrobots.text.length() > 1:
 		chainrobots_text = "0" + chainrobots.text
-	elif defense.text.length() > 0:
+	elif chainrobots.text.length() > 0:
 		chainrobots_text = "00" + chainrobots.text
 	
 	if mnum.text.length() > 1:
