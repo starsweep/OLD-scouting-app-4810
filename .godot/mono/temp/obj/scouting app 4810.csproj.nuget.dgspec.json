@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj": {}
+    "/home/andrew/Documents/GitHub/scouting-app-4810/scouting app 4810.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj": {
+    "/home/andrew/Documents/GitHub/scouting-app-4810/scouting app 4810.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
+        "projectUniqueName": "/home/andrew/Documents/GitHub/scouting-app-4810/scouting app 4810.csproj",
         "projectName": "scouting app 4810",
-        "projectPath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\scouting app 4810.csproj",
-        "packagesPath": "C:\\Users\\1750802781\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1750802781\\Documents\\Godot stuff\\mono\\scouting-app-4810\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "/home/andrew/Documents/GitHub/scouting-app-4810/scouting app 4810.csproj",
+        "packagesPath": "/home/andrew/.nuget/packages/",
+        "outputPath": "/home/andrew/Documents/GitHub/scouting-app-4810/.godot/mono/temp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\1750802781\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1750802781\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\1750802781\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+          "/home/andrew/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -39,18 +35,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
               "version": "[4.2.1, )"
             },
             "GodotSharp": {
-              "target": "Package",
-              "version": "[4.2.1, )"
-            },
-            "GodotSharpEditor": {
               "target": "Package",
               "version": "[4.2.1, )"
             }
@@ -68,16 +60,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.22, 6.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.22, 6.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.22, 6.0.22]"
+              "name": "Microsoft.NETCore.App.Runtime.linux-bionic-arm64",
+              "version": "[7.0.14, 7.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -85,7 +69,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/app/lib/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm64": {
+          "#import": []
         }
       }
     }
