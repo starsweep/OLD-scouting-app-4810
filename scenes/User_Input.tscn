@@ -69,15 +69,6 @@ offset_bottom = 383.0
 theme_override_font_sizes/font_size = 35
 text = "Auton"
 
-[node name="Amp Scores" type="Label" parent="Auton"]
-layout_mode = 0
-offset_left = -164.857
-offset_top = 53.4283
-offset_right = 86.143
-offset_bottom = 102.428
-theme_override_font_sizes/font_size = 35
-text = "Amp Scores:"
-
 [node name="Speaker Scores" type="Label" parent="Auton"]
 layout_mode = 0
 offset_left = -165.857
@@ -85,7 +76,7 @@ offset_top = 115.428
 offset_right = 98.143
 offset_bottom = 164.428
 theme_override_font_sizes/font_size = 35
-text = "Speaker Scores:"
+text = "Algae:"
 
 [node name="Left Area" type="Label" parent="Auton"]
 layout_mode = 0
@@ -105,6 +96,15 @@ offset_bottom = 226.0
 theme_override_font_sizes/font_size = 35
 text = "Scores Attempted:"
 
+[node name="Label" type="Label" parent="Auton"]
+layout_mode = 0
+offset_left = -167.0
+offset_top = 53.0
+offset_right = -122.0
+offset_bottom = 76.0
+theme_override_font_sizes/font_size = 37
+text = "Coral:"
+
 [node name="Teleop" type="Label" parent="."]
 offset_left = 748.143
 offset_top = 10.7143
@@ -120,7 +120,7 @@ offset_top = 70.2857
 offset_right = 98.857
 offset_bottom = 119.286
 theme_override_font_sizes/font_size = 35
-text = "Amp Scores:"
+text = "Coral Scores:"
 
 [node name="Speaker Scores" type="Label" parent="Teleop"]
 layout_mode = 0
@@ -129,15 +129,7 @@ offset_top = 128.286
 offset_right = 110.857
 offset_bottom = 177.286
 theme_override_font_sizes/font_size = 35
-text = "Speaker Scores:"
-
-[node name="Amplified Scores" type="Label" parent="Teleop"]
-layout_mode = 0
-offset_left = -156.143
-offset_top = 149.286
-offset_right = 133.857
-offset_bottom = 198.286
-theme_override_font_sizes/font_size = 35
+text = "Algae Scores:"
 
 [node name="Defense" type="Label" parent="Teleop"]
 layout_mode = 0
@@ -194,10 +186,10 @@ text = "End Game"
 
 [node name="Robots on Chain" type="Label" parent="End Game"]
 layout_mode = 0
-offset_left = -133.286
-offset_top = 60.5712
-offset_right = 150.714
-offset_bottom = 109.571
+offset_left = -136.429
+offset_top = 65.857
+offset_right = 149.571
+offset_bottom = 114.857
 theme_override_font_sizes/font_size = 35
 text = "Robots on Chain:"
 
@@ -210,21 +202,21 @@ offset_bottom = 55.0
 theme_override_font_sizes/font_size = 35
 text = "/2"
 
-[node name="Spotlit" type="Label" parent="End Game"]
-layout_mode = 0
-offset_left = -134.429
-offset_top = 102.857
-offset_right = 116.571
-offset_bottom = 151.857
+[node name="spotlit" type="Label" parent="End Game"]
+offset_left = -150.429
+offset_top = 113.857
+offset_right = 100.571
+offset_bottom = 162.857
 theme_override_font_sizes/font_size = 35
-text = "Spotlit:"
+text = "Deep hang
+"
 
 [node name="Parked" type="Label" parent="End Game"]
 layout_mode = 0
-offset_left = -136.429
-offset_top = 150.857
-offset_right = 114.571
-offset_bottom = 199.857
+offset_left = -142.429
+offset_top = 214.857
+offset_right = 108.571
+offset_bottom = 263.857
 theme_override_font_sizes/font_size = 35
 text = "Parked:"
 
@@ -257,35 +249,35 @@ script = ExtResource("2_0kynu")
 
 [node name="Parked" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 648.857
-offset_top = 229.286
-offset_right = 692.857
-offset_bottom = 253.286
+offset_left = 638.857
+offset_top = 295.286
+offset_right = 682.857
+offset_bottom = 319.286
 scale = Vector2(2, 2)
 
 [node name="Spotlit" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 640.857
-offset_top = 181.286
-offset_right = 684.857
-offset_bottom = 205.286
+offset_left = 685.857
+offset_top = 191.286
+offset_right = 729.857
+offset_bottom = 215.286
 scale = Vector2(2, 2)
 
 [node name="Robots_on_Chain" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 816.0
-offset_top = 136.0
-offset_right = 846.0
-offset_bottom = 193.0
+offset_left = 811.857
+offset_top = 140.286
+offset_right = 841.857
+offset_bottom = 197.286
 theme_override_font_sizes/font_size = 35
 script = ExtResource("2_0kynu")
 
 [node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 672.0
-offset_top = -92.0
-offset_right = 720.0
-offset_bottom = -35.0
+offset_left = 684.857
+offset_top = -87.714
+offset_right = 732.857
+offset_bottom = -30.714
 theme_override_font_sizes/font_size = 35
 script = ExtResource("2_0kynu")
 
@@ -309,10 +301,10 @@ script = ExtResource("2_0kynu")
 
 [node name="Aamp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 226.857
-offset_top = 94.0
-offset_right = 250.857
-offset_bottom = 143.0
+offset_left = 128.857
+offset_top = 94.286
+offset_right = 152.857
+offset_bottom = 143.286
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -338,10 +330,10 @@ script = ExtResource("4_1jgni")
 
 [node name="Aspeaker" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 288.571
-offset_top = 155.714
-offset_right = 312.571
-offset_bottom = 204.714
+offset_left = 128.857
+offset_top = 159.286
+offset_right = 152.857
+offset_bottom = 208.286
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -367,10 +359,10 @@ script = ExtResource("6_7wxnx")
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 766.714
-offset_top = -211.142
-offset_right = 790.714
-offset_bottom = -162.142
+offset_left = 786.857
+offset_top = -210.714
+offset_right = 810.857
+offset_bottom = -161.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -454,10 +446,10 @@ script = ExtResource("12_nce5r")
 
 [node name="Speaker" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 824.285
-offset_top = -149.428
-offset_right = 848.285
-offset_bottom = -100.428
+offset_left = 787.857
+offset_top = -150.714
+offset_right = 811.857
+offset_bottom = -101.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -483,12 +475,12 @@ script = ExtResource("16_y0jun")
 
 [node name="trap" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 513.857
-offset_top = 268.286
-offset_right = 659.857
-offset_bottom = 299.286
+offset_left = 502.857
+offset_top = 237.286
+offset_right = 653.857
+offset_bottom = 268.286
 scale = Vector2(2, 2)
-text = "Note in trap:"
+text = "Shallow hang"
 text_direction = 1
 
 [node name="AllianceToggle" type="CheckButton" parent="QR_Number"]
