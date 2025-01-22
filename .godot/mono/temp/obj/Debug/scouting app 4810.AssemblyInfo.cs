@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("scouting app 4810")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4110ae4058aad5aae5dbc07b346b24f1d6c3c20d")]
 [assembly: System.Reflection.AssemblyProductAttribute("scouting app 4810")]
 [assembly: System.Reflection.AssemblyTitleAttribute("scouting app 4810")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

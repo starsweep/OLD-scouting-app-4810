@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "SRWj9h3WBhU/BcLNYZF9Nj2iGdDOZJpqVVgcAZY+XOb/tM7FcGxHjwGecigYbsU5L+gGafam8qEnPBQKA5zGGQ==",
+  "dgSpecHash": "xqhdw/Jy9S0=",
   "success": true,
-  "projectFilePath": "/home/andrew/Documents/GitHub/scouting-app-4810/scouting app 4810.csproj",
+  "projectFilePath": "/home/andrew/Documents/GitHub/OLD-scouting-app-4810/scouting app 4810.csproj",
   "expectedPackageFiles": [
-    "/home/andrew/.nuget/packages/godot.sourcegenerators/4.2.1/godot.sourcegenerators.4.2.1.nupkg.sha512",
-    "/home/andrew/.nuget/packages/godotsharp/4.2.1/godotsharp.4.2.1.nupkg.sha512",
-    "/home/andrew/.nuget/packages/microsoft.netcore.app.runtime.linux-bionic-arm64/7.0.14/microsoft.netcore.app.runtime.linux-bionic-arm64.7.0.14.nupkg.sha512"
+    "/home/andrew/.nuget/packages/godot.sourcegenerators/4.3.0/godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "/home/andrew/.nuget/packages/godotsharp/4.3.0/godotsharp.4.3.0.nupkg.sha512",
+    "/home/andrew/.nuget/packages/godotsharpeditor/4.3.0/godotsharpeditor.4.3.0.nupkg.sha512",
+    "/home/andrew/.nuget/packages/microsoft.netcore.app.ref/6.0.35/microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "/home/andrew/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.35/microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512"
   ],
   "logs": []
 }

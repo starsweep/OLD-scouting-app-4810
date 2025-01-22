@@ -69,15 +69,6 @@ offset_bottom = 383.0
 theme_override_font_sizes/font_size = 35
 text = "Auton"
 
-[node name="Speaker Scores" type="Label" parent="Auton"]
-layout_mode = 0
-offset_left = -165.857
-offset_top = 115.428
-offset_right = 98.143
-offset_bottom = 164.428
-theme_override_font_sizes/font_size = 35
-text = "Algae:"
-
 [node name="Left Area" type="Label" parent="Auton"]
 layout_mode = 0
 offset_left = -165.0
@@ -177,14 +168,15 @@ scale = Vector2(1.5, 1.5)
 text = "Shots attempted"
 
 [node name="End Game" type="Label" parent="."]
-offset_left = 731.429
-offset_top = 373.143
-offset_right = 982.426
-offset_bottom = 422.143
+offset_left = 719.0
+offset_top = 440.0
+offset_right = 969.997
+offset_bottom = 489.0
 theme_override_font_sizes/font_size = 35
 text = "End Game"
 
 [node name="Robots on Chain" type="Label" parent="End Game"]
+visible = false
 layout_mode = 0
 offset_left = -136.429
 offset_top = 65.857
@@ -203,6 +195,7 @@ theme_override_font_sizes/font_size = 35
 text = "/2"
 
 [node name="deep hang" type="Label" parent="End Game"]
+layout_mode = 0
 offset_left = -150.429
 offset_top = 113.857
 offset_right = 100.571
@@ -213,10 +206,10 @@ text = "Deep hang
 
 [node name="Parked" type="Label" parent="End Game"]
 layout_mode = 0
-offset_left = -142.429
-offset_top = 214.857
-offset_right = 108.571
-offset_bottom = 263.857
+offset_left = -133.0
+offset_top = 147.0
+offset_right = 118.0
+offset_bottom = 196.0
 theme_override_font_sizes/font_size = 35
 text = "Parked:"
 
@@ -257,13 +250,22 @@ scale = Vector2(2, 2)
 
 [node name="Spotlit" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 685.857
-offset_top = 191.286
-offset_right = 729.857
-offset_bottom = 215.286
+offset_left = 703.857
+offset_top = 196.286
+offset_right = 747.857
+offset_bottom = 220.286
 scale = Vector2(2, 2)
 
+[node name="Label" type="Label" parent="QR_Number/Spotlit"]
+offset_left = -92.5
+offset_top = -0.5
+offset_right = 18.5
+offset_bottom = 48.5
+theme_override_font_sizes/font_size = 19
+text = "deep hang"
+
 [node name="Robots_on_Chain" type="TextEdit" parent="QR_Number"]
+visible = false
 layout_mode = 0
 offset_left = 811.857
 offset_top = 140.286
@@ -303,9 +305,9 @@ script = ExtResource("2_0kynu")
 layout_mode = 0
 offset_left = 128.857
 offset_top = 94.286
-offset_right = 152.857
-offset_bottom = 143.286
-theme_override_font_sizes/font_size = 35
+offset_right = 168.857
+offset_bottom = 117.286
+theme_override_font_sizes/font_size = 37
 text = "0"
 
 [node name="Add" type="Button" parent="QR_Number/Aamp"]
@@ -321,7 +323,7 @@ script = ExtResource("3_cggtu")
 [node name="Subtract" type="Button" parent="QR_Number/Aamp"]
 layout_mode = 0
 offset_left = -30.8571
-offset_top = -5.71428
+offset_top = -5.71429
 offset_right = -2.85713
 offset_bottom = 51.2857
 theme_override_font_sizes/font_size = 35
@@ -356,6 +358,20 @@ offset_bottom = 51.2857
 theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("6_7wxnx")
+
+[node name="algae" type="Label" parent="QR_Number/Aspeaker"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.707
+anchor_top = -0.262
+anchor_right = -0.707
+anchor_bottom = -0.262
+offset_left = -124.032
+offset_top = 12.838
+offset_right = -29.0319
+offset_bottom = 62.838
+theme_override_font_sizes/font_size = 36
+text = "Algae"
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
