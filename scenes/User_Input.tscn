@@ -106,10 +106,10 @@ text = "Teleop"
 
 [node name="Amp Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -152.143
-offset_top = 70.2857
-offset_right = 98.857
-offset_bottom = 119.286
+offset_left = -165.143
+offset_top = 69.2857
+offset_right = 85.857
+offset_bottom = 118.286
 theme_override_font_sizes/font_size = 35
 text = "Coral Scores:"
 
@@ -160,12 +160,12 @@ text = "Source Intakes:"
 
 [node name="Label" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = 204.857
-offset_top = 31.2857
-offset_right = 353.827
-offset_bottom = 74.2857
+offset_left = 67.857
+offset_top = 34.2857
+offset_right = 260.857
+offset_bottom = 77.2857
 scale = Vector2(1.5, 1.5)
-text = "Shots attempted"
+text = "Level: 1             2               3"
 
 [node name="End Game" type="Label" parent="."]
 offset_left = 719.0
@@ -257,6 +257,7 @@ offset_bottom = 220.286
 scale = Vector2(2, 2)
 
 [node name="Label" type="Label" parent="QR_Number/Spotlit"]
+layout_mode = 0
 offset_left = -92.5
 offset_top = -0.5
 offset_right = 18.5
@@ -375,10 +376,10 @@ text = "Algae"
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 786.857
-offset_top = -210.714
-offset_right = 810.857
-offset_bottom = -161.714
+offset_left = 773.857
+offset_top = -211.714
+offset_right = 797.857
+offset_bottom = -162.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -404,10 +405,10 @@ script = ExtResource("8_db3v0")
 
 [node name="Source_Intake" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 814.714
-offset_top = 26.4287
-offset_right = 838.714
-offset_bottom = 75.4287
+offset_left = 821.857
+offset_top = 26.286
+offset_right = 845.857
+offset_bottom = 75.286
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -564,9 +565,9 @@ script = ExtResource("16_inapv")
 
 [node name="Ampatt" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 962.857
+offset_left = 886.857
 offset_top = -209.714
-offset_right = 986.857
+offset_right = 910.857
 offset_bottom = -160.714
 theme_override_font_sizes/font_size = 35
 text = "0"
@@ -593,10 +594,10 @@ script = ExtResource("18_sppb3")
 
 [node name="Speakeratt" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 962.857
-offset_top = -145.714
-offset_right = 986.857
-offset_bottom = -96.714
+offset_left = 999.857
+offset_top = -207.714
+offset_right = 1023.86
+offset_bottom = -158.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
