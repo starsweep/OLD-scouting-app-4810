@@ -1,15 +1,15 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1737837121
-export_presets.cfg::TextFile::-1::1737836962::0::1::::<><>::
+::res://::1737838122
+export_presets.cfg::TextFile::-1::1737837550::0::1::::<><>::
 README.md::TextFile::-1::1737499068::0::1::::<><>::
 ::res://android/::1737836291
-::res://exports/::1737499069
+::res://exports/::1737837549
 ::res://resources/::1737499097
 3247840.jpg::CompressedTexture2D::9204207028379946960::1737499069::1737499097::1::::<><>::
 button.png::CompressedTexture2D::1529956271185678958::1737499069::1737499096::1::::<><>::
 icon.svg::CompressedTexture2D::8356919257026364117::1737499069::1737499096::1::::<><>::
 sware-removebg-preview.png::CompressedTexture2D::4924481479837359873::1737499069::1737499096::1::::<><>::
-::res://scenes/::1737837032
+::res://scenes/::1737837642
 Ampattadd.gd::GDScript::-1::1737499069::0::1::::<>Node<>::
 ampattsub.gd::GDScript::-1::1737499069::0::1::::<>Node<>::
 Data.tscn::PackedScene::8411673886448749172::1737499069::0::1::::<><>::
@@ -17,7 +17,7 @@ opening_screen.tscn::PackedScene::8354702292621255947::1737831152::0::1::::<><>:
 QR_Scan.tscn::PackedScene::6011758352871100136::1737499069::0::1::::<><>::
 speakerattadd.gd::GDScript::-1::1737499069::0::1::::<>Node<>::
 speakerattsub.gd::GDScript::-1::1737499069::0::1::::<>Node<>::
-User_Input.tscn::PackedScene::3442242917528846515::1737837032::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/AAttemptedadd.gd<>res://scripts/Speakeradd.gd<>res://scripts/AAttemptedsub.gd<>res://scripts/Speakersub.gd<>res://scenes/Ampattadd.gd<>res://scripts/csv exporter.gd<>res://scripts/back button.gd<>uid://v2efkvr46wsk::::res://resources/button.png<>res://scenes/ampattsub.gd<>res://scripts/coral4add.gd<>res://scenes/speakerattadd.gd<>res://scripts/coral4subtract.gd<>res://scenes/speakerattsub.gd
+User_Input.tscn::PackedScene::3442242917528846515::1737837642::0::1::::<><>::res://scripts/QRnum.gd<>res://scripts/Text_limit.gd<>res://scripts/add.gd<>res://scripts/subtract.gd<>res://scripts/Aspeakeradd.gd<>res://scripts/Aspeakersub.gd<>res://scripts/Ampadd.gd<>res://scripts/Ampsub.gd<>res://scripts/Sourceintakeadd.gd<>res://scripts/Sourceintakesub.gd<>res://scripts/Groundintakeadd.gd<>res://scripts/Groundintakesub.gd<>res://scripts/AAttemptedadd.gd<>res://scripts/Speakeradd.gd<>res://scripts/AAttemptedsub.gd<>res://scripts/Speakersub.gd<>res://scenes/Ampattadd.gd<>res://scripts/csv exporter.gd<>res://scripts/back button.gd<>uid://v2efkvr46wsk::::res://resources/button.png<>res://scenes/ampattsub.gd<>res://scripts/coral4add.gd<>res://scenes/speakerattadd.gd<>res://scripts/coral4subtract.gd<>res://scenes/speakerattsub.gd
 ::res://scripts/::1737831150
 AAttemptedadd.gd::GDScript::-1::1737499069::0::1::::<>Node<>::
 AAttemptedsub.gd::GDScript::-1::1737499069::0::1::::<>Node<>::
