@@ -37,6 +37,8 @@ var ampatt
 var ampatt_text = "000"
 var speakeratt
 var speakeratt_text = "000"
+var coral4
+var coral4_text = "000"
 var num
 var numtype
 
@@ -60,6 +62,7 @@ func _ready():
 	aattempted = get_node("/root/UserInput/QR_Number/AAttempted")
 	ampatt = get_node("/root/UserInput/QR_Number/Ampatt")
 	speakeratt = get_node("/root/UserInput/QR_Number/Speakeratt")
+	coral4 = get_node("/root/UserInput/QR_Number/coral4")
 
 func _on_area_left_toggled(toggled_on):
 	if toggled_on == true:
@@ -159,18 +162,23 @@ func _process(_delta):
 		
 	if aattempted.text.length() > 1:
 		aattempted_text = "0" + aattempted.text
-	elif ground_intake.text.length() > 0:
+	elif aattempted.text.length() > 0:
 		aattempted_text = "00" + aattempted.text
 		
 	if ampatt.text.length() > 1:
 		ampatt_text = "0" + ampatt.text
-	elif ground_intake.text.length() > 0:
+	elif ampatt.text.length() > 0:
 		ampatt_text = "00" + ampatt.text
 		
 	if speakeratt.text.length() > 1:
 		speakeratt_text = "0" + speakeratt.text
-	elif ground_intake.text.length() > 0:
+	elif speakeratt.text.length() > 0:
 		speakeratt_text = "00" + speakeratt.text
+		
+	if coral4.text.length() > 1:
+		coral4_text = "0" + coral4.text
+	elif coral4.text.length() > 0:
+		coral4_text = "00" + coral4.text
 	
 	QRnum.text = tnum_text + mnum_text + alliance_text + Aamp_text
 	QRnum.text = QRnum.text + Aspeaker_text + amp_text
@@ -178,3 +186,4 @@ func _process(_delta):
 	QRnum.text = QRnum.text + chainrobots_text + spotlit_text + parked_text
 	QRnum.text = QRnum.text + Aleft_text + ground_text + source_text + trap_text
 	QRnum.text = QRnum.text + aattempted_text + ampatt_text + speakeratt_text
+	QRnum.text = QRnum.text + coral4_text

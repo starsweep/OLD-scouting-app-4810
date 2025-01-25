@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://bpbpidb0ni6u6"]
+[gd_scene load_steps=26 format=3 uid="uid://bpbpidb0ni6u6"]
 
 [ext_resource type="Script" path="res://scripts/QRnum.gd" id="1_ncsex"]
 [ext_resource type="Script" path="res://scripts/Text_limit.gd" id="2_0kynu"]
@@ -21,7 +21,9 @@
 [ext_resource type="Script" path="res://scripts/back button.gd" id="18_2bqcg"]
 [ext_resource type="Texture2D" uid="uid://v2efkvr46wsk" path="res://resources/button.png" id="18_preh0"]
 [ext_resource type="Script" path="res://scenes/ampattsub.gd" id="18_sppb3"]
+[ext_resource type="Script" path="res://scripts/coral4add.gd" id="19_dotxe"]
 [ext_resource type="Script" path="res://scenes/speakerattadd.gd" id="19_febcr"]
+[ext_resource type="Script" path="res://scripts/coral4subtract.gd" id="20_8t3s4"]
 [ext_resource type="Script" path="res://scenes/speakerattsub.gd" id="20_yoeih"]
 
 [node name="UserInput" type="Node2D"]
@@ -32,32 +34,31 @@ offset_top = 20.0
 offset_right = 542.0
 offset_bottom = 69.0
 theme_override_font_sizes/font_size = 35
-text = "Miscellaneous"
 
 [node name="Team_Number" type="Label" parent="Miscellaneous"]
 layout_mode = 0
-offset_left = -220.0
-offset_top = 70.0
-offset_right = 31.0
-offset_bottom = 120.0
+offset_left = -274.0
+offset_top = 68.286
+offset_right = -21.0
+offset_bottom = 118.286
 theme_override_font_sizes/font_size = 35
 text = "Team Number:"
 
 [node name="Match_Number" type="Label" parent="Miscellaneous"]
 layout_mode = 0
-offset_left = -220.0
-offset_top = 140.0
-offset_right = 43.0
-offset_bottom = 190.0
+offset_left = -274.0
+offset_top = 138.286
+offset_right = -9.0
+offset_bottom = 188.286
 theme_override_font_sizes/font_size = 35
 text = "Match Number:"
 
 [node name="Alliance" type="Label" parent="Miscellaneous"]
 layout_mode = 0
-offset_left = -220.0
-offset_top = 210.0
-offset_right = -78.0
-offset_bottom = 260.0
+offset_left = -274.0
+offset_top = 208.286
+offset_right = -132.0
+offset_bottom = 258.286
 theme_override_font_sizes/font_size = 35
 text = "Alliance:"
 
@@ -67,7 +68,6 @@ offset_top = 334.0
 offset_right = 475.0
 offset_bottom = 383.0
 theme_override_font_sizes/font_size = 35
-text = "Auton"
 
 [node name="Left Area" type="Label" parent="Auton"]
 layout_mode = 0
@@ -102,32 +102,32 @@ offset_top = 10.7143
 offset_right = 999.143
 offset_bottom = 59.7143
 theme_override_font_sizes/font_size = 35
-text = "Teleop"
 
 [node name="Amp Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -165.143
-offset_top = 69.2857
-offset_right = 85.857
-offset_bottom = 118.286
+offset_left = -147.0
+offset_top = 67.0
+offset_right = -26.0
+offset_bottom = 168.0
 theme_override_font_sizes/font_size = 35
-text = "Coral Scores:"
+text = "Coral 
+Scores:"
 
 [node name="Speaker Scores" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -153.143
-offset_top = 128.286
-offset_right = 110.857
-offset_bottom = 177.286
+offset_left = -149.143
+offset_top = 221.286
+offset_right = 114.857
+offset_bottom = 270.286
 theme_override_font_sizes/font_size = 35
 text = "Algae Scores:"
 
 [node name="Defense" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -156.143
-offset_top = 198.286
-offset_right = 94.857
-offset_bottom = 247.286
+offset_left = -152.143
+offset_top = 291.286
+offset_right = 98.857
+offset_bottom = 340.286
 theme_override_font_sizes/font_size = 35
 text = "Defense:"
 
@@ -142,30 +142,39 @@ text = "/10"
 
 [node name="Ground Intake" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -160.143
-offset_top = 249.286
-offset_right = 109.857
-offset_bottom = 298.286
+offset_left = -156.143
+offset_top = 342.286
+offset_right = 114.857
+offset_bottom = 391.286
 theme_override_font_sizes/font_size = 35
 text = "Ground Intakes:"
 
 [node name="Source Intake" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = -155.143
-offset_top = 304.286
-offset_right = 108.857
-offset_bottom = 353.286
+offset_left = -151.143
+offset_top = 397.286
+offset_right = 112.857
+offset_bottom = 446.286
 theme_override_font_sizes/font_size = 35
 text = "Source Intakes:"
 
+[node name="Label2" type="Label" parent="Teleop"]
+layout_mode = 0
+offset_left = 49.857
+offset_top = 127.286
+offset_right = 208.857
+offset_bottom = 162.286
+theme_override_font_sizes/font_size = 25
+text = "3                    4"
+
 [node name="Label" type="Label" parent="Teleop"]
 layout_mode = 0
-offset_left = 67.857
-offset_top = 34.2857
-offset_right = 260.857
-offset_bottom = 77.2857
+offset_left = -66.143
+offset_top = 9.2857
+offset_right = 217.857
+offset_bottom = 32.2857
 scale = Vector2(1.5, 1.5)
-text = "Level: 1             2               3"
+text = "Level:        1                     2                        "
 
 [node name="End Game" type="Label" parent="."]
 offset_left = 719.0
@@ -173,7 +182,6 @@ offset_top = 440.0
 offset_right = 969.997
 offset_bottom = 489.0
 theme_override_font_sizes/font_size = 35
-text = "End Game"
 
 [node name="Robots on Chain" type="Label" parent="End Game"]
 visible = false
@@ -233,10 +241,10 @@ script = ExtResource("1_ncsex")
 
 [node name="Tnum" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 280.0
-offset_top = -210.0
-offset_right = 406.0
-offset_bottom = -150.0
+offset_left = 226.0
+offset_top = -211.714
+offset_right = 365.0
+offset_bottom = -143.714
 theme_override_font_sizes/font_size = 35
 script = ExtResource("2_0kynu")
 
@@ -277,10 +285,10 @@ script = ExtResource("2_0kynu")
 
 [node name="Defense_Rating" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 684.857
-offset_top = -87.714
-offset_right = 732.857
-offset_bottom = -30.714
+offset_left = 681.0
+offset_top = -2.00029
+offset_right = 737.0
+offset_bottom = 61.9997
 theme_override_font_sizes/font_size = 35
 script = ExtResource("2_0kynu")
 
@@ -294,10 +302,10 @@ scale = Vector2(2, 2)
 
 [node name="Mnum" type="TextEdit" parent="QR_Number"]
 layout_mode = 0
-offset_left = 280.0
-offset_top = -140.0
-offset_right = 329.0
-offset_bottom = -80.0
+offset_left = 226.0
+offset_top = -141.714
+offset_right = 292.0
+offset_bottom = -70.714
 theme_override_font_sizes/font_size = 35
 shortcut_keys_enabled = false
 script = ExtResource("2_0kynu")
@@ -376,10 +384,10 @@ text = "Algae"
 
 [node name="Amp" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 773.857
-offset_top = -211.714
-offset_right = 797.857
-offset_bottom = -162.714
+offset_left = 721.857
+offset_top = -228.714
+offset_right = 745.857
+offset_bottom = -179.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -405,11 +413,11 @@ script = ExtResource("8_db3v0")
 
 [node name="Source_Intake" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 821.857
-offset_top = 26.286
-offset_right = 845.857
-offset_bottom = 75.286
-theme_override_font_sizes/font_size = 35
+offset_left = 826.0
+offset_top = 119.0
+offset_right = 866.0
+offset_bottom = 170.0
+theme_override_font_sizes/font_size = 37
 text = "0"
 
 [node name="Add" type="Button" parent="QR_Number/Source_Intake"]
@@ -425,8 +433,8 @@ script = ExtResource("9_50r4p")
 [node name="Subtract" type="Button" parent="QR_Number/Source_Intake"]
 layout_mode = 0
 offset_left = -30.8571
-offset_top = -5.71428
-offset_right = -2.85713
+offset_top = -5.71429
+offset_right = -2.85715
 offset_bottom = 51.2857
 theme_override_font_sizes/font_size = 35
 text = "-"
@@ -434,11 +442,11 @@ script = ExtResource("10_8fexr")
 
 [node name="Ground_Intake" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 821.714
-offset_top = -34.8565
-offset_right = 845.714
-offset_bottom = 14.1435
-theme_override_font_sizes/font_size = 35
+offset_left = 826.0
+offset_top = 58.0
+offset_right = 866.0
+offset_bottom = 109.0
+theme_override_font_sizes/font_size = 37
 text = "0"
 
 [node name="Add" type="Button" parent="QR_Number/Ground_Intake"]
@@ -454,8 +462,8 @@ script = ExtResource("11_0khct")
 [node name="Subtract" type="Button" parent="QR_Number/Ground_Intake"]
 layout_mode = 0
 offset_left = -30.8571
-offset_top = -5.71428
-offset_right = -2.85713
+offset_top = -5.71429
+offset_right = -2.85715
 offset_bottom = 51.2857
 theme_override_font_sizes/font_size = 35
 text = "-"
@@ -463,10 +471,10 @@ script = ExtResource("12_nce5r")
 
 [node name="Speaker" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 787.857
-offset_top = -150.714
-offset_right = 811.857
-offset_bottom = -101.714
+offset_left = 791.857
+offset_top = -57.7143
+offset_right = 815.857
+offset_bottom = -8.71429
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -482,10 +490,10 @@ script = ExtResource("15_agnhl")
 
 [node name="Subtract" type="Button" parent="QR_Number/Speaker"]
 layout_mode = 0
-offset_left = -30.8571
-offset_top = -5.71428
-offset_right = -2.85713
-offset_bottom = 51.2857
+offset_left = -31.0
+offset_top = -6.0
+offset_right = -3.0
+offset_bottom = 51.0
 theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("16_y0jun")
@@ -502,10 +510,10 @@ text_direction = 1
 
 [node name="AllianceToggle" type="CheckButton" parent="QR_Number"]
 layout_mode = 0
-offset_left = 223.0
-offset_top = -70.0
-offset_right = 267.0
-offset_bottom = -40.0
+offset_left = 169.0
+offset_top = -71.714
+offset_right = 213.0
+offset_bottom = -41.714
 scale = Vector2(2, 2)
 
 [node name="Red" type="Label" parent="QR_Number/AllianceToggle"]
@@ -565,10 +573,10 @@ script = ExtResource("16_inapv")
 
 [node name="Ampatt" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 886.857
-offset_top = -209.714
-offset_right = 910.857
-offset_bottom = -160.714
+offset_left = 865.857
+offset_top = -227.714
+offset_right = 889.857
+offset_bottom = -178.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -592,12 +600,41 @@ theme_override_font_sizes/font_size = 35
 text = "-"
 script = ExtResource("18_sppb3")
 
+[node name="coral4" type="Label" parent="QR_Number"]
+layout_mode = 0
+offset_left = 862.857
+offset_top = -122.714
+offset_right = 886.86
+offset_bottom = -73.714
+theme_override_font_sizes/font_size = 35
+text = "0"
+
+[node name="Add" type="Button" parent="QR_Number/coral4"]
+layout_mode = 0
+offset_left = 51.4286
+offset_top = -4.0
+offset_right = 79.4286
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 35
+text = "+"
+script = ExtResource("19_dotxe")
+
+[node name="Subtract" type="Button" parent="QR_Number/coral4"]
+layout_mode = 0
+offset_left = -30.8571
+offset_top = -5.71428
+offset_right = -2.85713
+offset_bottom = 51.2857
+theme_override_font_sizes/font_size = 35
+text = "-"
+script = ExtResource("20_8t3s4")
+
 [node name="Speakeratt" type="Label" parent="QR_Number"]
 layout_mode = 0
-offset_left = 999.857
-offset_top = -207.714
-offset_right = 1023.86
-offset_bottom = -158.714
+offset_left = 721.857
+offset_top = -124.714
+offset_right = 745.86
+offset_bottom = -75.714
 theme_override_font_sizes/font_size = 35
 text = "0"
 
@@ -668,6 +705,8 @@ script = ExtResource("18_2bqcg")
 [connection signal="pressed" from="QR_Number/AAttempted/Subtract" to="QR_Number/AAttempted/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Ampatt/Add" to="QR_Number/Ampatt/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Ampatt/Subtract" to="QR_Number/Ampatt/Subtract" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/coral4/Add" to="QR_Number/coral4/Add" method="_on_pressed"]
+[connection signal="pressed" from="QR_Number/coral4/Subtract" to="QR_Number/coral4/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speakeratt/Add" to="QR_Number/Speakeratt/Add" method="_on_pressed"]
 [connection signal="pressed" from="QR_Number/Speakeratt/Subtract" to="QR_Number/Speakeratt/Subtract" method="_on_pressed"]
 [connection signal="pressed" from="csv exporter" to="csv exporter" method="_on_pressed"]

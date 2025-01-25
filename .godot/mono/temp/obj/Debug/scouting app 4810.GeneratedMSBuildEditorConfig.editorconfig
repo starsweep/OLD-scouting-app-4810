@@ -16,3 +16,5 @@ build_property.RootNamespace = scoutingapp4810
 build_property.ProjectDir = /home/andrew/Documents/GitHub/OLD-scouting-app-4810/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 

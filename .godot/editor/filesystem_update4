@@ -1,2 +1,6 @@
 res://scenes/User_Input.tscn
+res://scenes/opening_screen.tscn
 res://scripts/csv exporter.gd
+res://scripts/coral4add.gd
+res://scripts/coral4subtract.gd
+res://scripts/QRnum.gd

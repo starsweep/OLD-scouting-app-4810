@@ -1,4 +1,5 @@
 Label
+TextEdit
 CheckButton
 Sprite2D
 ParallaxBackground
@@ -7,7 +8,6 @@ Button
 Control
 Node
 Camera2D
-TextEdit
 SpinBox
 ColorPickerButton
 CheckBox

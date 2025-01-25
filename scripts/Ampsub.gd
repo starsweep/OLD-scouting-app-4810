@@ -8,4 +8,3 @@ func _ready():
 
 func _on_pressed():
 	amp.text = str(str_to_var(amp.text) - 1)
-	ampatt.text = str(str_to_var(ampatt.text) - 1)

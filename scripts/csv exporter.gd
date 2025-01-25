@@ -23,6 +23,7 @@ var trap
 var aattempted
 var ampatt
 var speakeratt
+var coral4
 
 var mobile_storage_path = "/storage/emulated/Documents/"
 var tablet_storage_path = "/storage/self/primary/Documents/"
@@ -71,6 +72,7 @@ func _on_pressed():
 	aattempted = var_to_str(arr.pop_front())
 	ampatt = var_to_str(arr.pop_front())
 	speakeratt = var_to_str(arr.pop_front())
+	coral4 = var_to_str(arr.pop_front())
 	
 	"""
 	Array slot legend: 
@@ -92,6 +94,7 @@ func _on_pressed():
 	15 - auton scores attempted
 	16 - amp scores attempted
 	17 - speaker scores attempted
+	18 - coral level 4 teleop
 	"""
 	
 	if alliance == "1":
@@ -140,7 +143,7 @@ func _on_pressed():
 	
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
-	contents = "Team,Match,Alliance,Auto Left Start,Auto Coral,Auto Algae,Auto Shots Attempted,Tele-op Coral 1,Tele-op Coral 2,Tele-op Coral 3,Tele-op Algae,Source Pickup,Ground Pickup,Parked,Deep Hang,Shallow Hang,Defense" + "
-" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense
+	contents = "Team,Match,Alliance,Auto Left Start,Auto Coral,Auto Algae,Auto Shots Attempted,Tele-op Coral 1,Tele-op Coral 2,Tele-op Coral 3,Tele-op Coral 4,Tele-op Algae,Source Pickup,Ground Pickup,Parked,Deep Hang,Shallow Hang,Defense" + "
+" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + coral4 + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense
 	
 	file.store_string(contents)

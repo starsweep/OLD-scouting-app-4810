@@ -8,4 +8,3 @@ func _ready():
 
 func _on_pressed():
 	speaker.text = str(str_to_var(speaker.text) - 1)
-	speakeratt.text = str(str_to_var(speakeratt.text) - 1)
