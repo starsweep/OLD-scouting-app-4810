@@ -17,6 +17,7 @@ var speaker
 var aattempted
 var ampatt
 var speakeratt
+var notes
 
 func _ready():
 	tnum = get_node("/root/UserInput/QR_Number/Tnum")
@@ -32,6 +33,7 @@ func _ready():
 	aattempted = get_node("/root/UserInput/QR_Number/AAttempted")
 	ampatt = get_node("/root/UserInput/QR_Number/Ampatt")
 	speakeratt = get_node("/root/UserInput/QR_Number/Speakeratt")
+	notes = get_node("/root/UserInput/QR_Number/Notes2")
 
 func _process(_delta):
 	
@@ -114,3 +116,5 @@ func _process(_delta):
 	if typeof(str_to_var(speakeratt.text)) == 2:
 		if str_to_var(speakeratt.text) < 0 || str_to_var(speakeratt.text) > 99:
 			speakeratt.text = "0"
+	
+	

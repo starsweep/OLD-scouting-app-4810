@@ -1,14 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0ummcbrVWLE=",
+  "dgSpecHash": "aqGFEDer+lxeY2iJPPNa5Ov+eOT3X05lcd/c+JiaPZDrccmi6ByVa4Zr6k9MWW1tpKUnToXZwnaIeD1Hs/1NsQ==",
   "success": true,
-  "projectFilePath": "/home/andrew/Documents/GitHub/OLD-scouting-app-4810/scouting app 4810.csproj",
+  "projectFilePath": "C:\\Users\\1750803245\\Documents\\GitHub\\OLD-scouting-app-4810\\scouting app 4810.csproj",
   "expectedPackageFiles": [
-    "/home/andrew/.nuget/packages/godot.sourcegenerators/4.3.0/godot.sourcegenerators.4.3.0.nupkg.sha512",
-    "/home/andrew/.nuget/packages/godotsharp/4.3.0/godotsharp.4.3.0.nupkg.sha512",
-    "/home/andrew/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/home/andrew/.nuget/packages/microsoft.netcore.app.runtime.linux-bionic-arm64/7.0.20/microsoft.netcore.app.runtime.linux-bionic-arm64.7.0.20.nupkg.sha512",
-    "/home/andrew/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+    "C:\\Users\\1750803245\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "C:\\Users\\1750803245\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\1750803245\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-bionic-arm64\\7.0.11\\microsoft.netcore.app.runtime.linux-bionic-arm64.7.0.11.nupkg.sha512"
   ],
   "logs": []
 }

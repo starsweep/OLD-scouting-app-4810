@@ -228,6 +228,22 @@ offset_right = 236.143
 offset_bottom = 336.714
 theme_override_font_sizes/font_size = 28
 
+[node name="Notes2" type="TextEdit" parent="QR_Number"]
+layout_mode = 0
+offset_left = 151.857
+offset_top = -4.71399
+offset_right = 472.857
+offset_bottom = 62.286
+
+[node name="Notes" type="Label" parent="QR_Number"]
+layout_mode = 0
+offset_left = -13.1429
+offset_top = 6.28601
+offset_right = 173.857
+offset_bottom = 62.286
+theme_override_font_sizes/font_size = 30
+text = "Notes"
+
 [node name="QRnum" type="Label" parent="QR_Number"]
 visible = false
 layout_mode = 0
