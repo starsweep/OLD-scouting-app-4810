@@ -158,15 +158,6 @@ offset_bottom = 446.286
 theme_override_font_sizes/font_size = 35
 text = "Source Intakes:"
 
-[node name="Label2" type="Label" parent="Teleop"]
-layout_mode = 0
-offset_left = 49.857
-offset_top = 127.286
-offset_right = 208.857
-offset_bottom = 162.286
-theme_override_font_sizes/font_size = 25
-text = "3                    4"
-
 [node name="Label" type="Label" parent="Teleop"]
 layout_mode = 0
 offset_left = -66.143
@@ -175,6 +166,15 @@ offset_right = 217.857
 offset_bottom = 32.2857
 scale = Vector2(1.5, 1.5)
 text = "Level:        1                     2                        "
+
+[node name="Label" type="Label" parent="Teleop/Label"]
+offset_left = 75.3333
+offset_top = 78.6667
+offset_right = 359.333
+offset_bottom = 101.667
+scale = Vector2(1.5, 1.5)
+theme_override_font_sizes/font_size = 11
+text = "3                     4                        "
 
 [node name="End Game" type="Label" parent="."]
 offset_left = 719.0
