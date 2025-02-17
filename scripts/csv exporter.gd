@@ -1,6 +1,7 @@
 extends Button
 
 var QRnum
+var notesNode
 var arr = [ ]
 var TeamLength = 5
 var offset = 3
@@ -41,10 +42,13 @@ var listpos = 0
 func _ready():
 	
 	QRnum = get_node("/root/UserInput/QR_Number/QRnum")
+	notesNode = get_node("/root/UserInput/QR_Number/Notes2")
 
 func _on_pressed():
 	
 	print(QRnum.text)
+	notes = notesNode.text
+	print(notes)
 	
 	var i = 0
 	
@@ -74,7 +78,6 @@ func _on_pressed():
 	ampatt = var_to_str(arr.pop_front())
 	speakeratt = var_to_str(arr.pop_front())
 	coral4 = var_to_str(arr.pop_front())
-	notes = var_to_str(arr.pop_front())
 	
 	"""
 	Array slot legend: 
@@ -146,6 +149,6 @@ func _on_pressed():
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
 	contents = "Team,Match,Alliance,Auto Left Start,Auto Coral,Auto Algae,Auto Shots Attempted,Tele-op Coral 1,Tele-op Coral 2,Tele-op Coral 3,Tele-op Coral 4,Tele-op Algae,Source Pickup,Ground Pickup,Parked,Deep Hang,Shallow Hang,Defense,Notes" + "
-" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + coral4 + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense + "," + "\"" + notes + "\""
+" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + coral4 + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense + "," +  notes + ","
 	
 	file.store_string(contents)
