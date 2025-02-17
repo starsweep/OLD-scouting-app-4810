@@ -168,6 +168,7 @@ scale = Vector2(1.5, 1.5)
 text = "Level:        1                     2                        "
 
 [node name="Label" type="Label" parent="Teleop/Label"]
+layout_mode = 0
 offset_left = 75.3333
 offset_top = 78.6667
 offset_right = 359.333
