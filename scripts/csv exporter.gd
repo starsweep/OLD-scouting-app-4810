@@ -149,6 +149,6 @@ func _on_pressed():
 	var file = FileAccess.open(filename, FileAccess.WRITE)
 	
 	contents = "Team,Match,Alliance,Auto Left Start,Auto Coral,Auto Algae,Auto Shots Attempted,Tele-op Coral 1,Tele-op Coral 2,Tele-op Coral 3,Tele-op Coral 4,Tele-op Algae,Source Pickup,Ground Pickup,Parked,Deep Hang,Shallow Hang,Defense,Notes" + "
-" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + coral4 + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense + "," +  notes + ","
+" + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + coral4 + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense + "," + "\"" + notes + "\"" + ","
 	
 	file.store_string(contents)
