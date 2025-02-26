@@ -45,7 +45,6 @@ func _ready():
 	notesNode = get_node("/root/UserInput/QR_Number/Notes2")
 
 func _on_pressed():
-	
 	print(QRnum.text)
 	notes = notesNode.text
 	print(notes)
@@ -151,4 +150,8 @@ func _on_pressed():
 	contents = "Team,Match,Alliance,Auto Left Start,Auto Coral,Auto Algae,Auto Shots Attempted,Tele-op Coral 1,Tele-op Coral 2,Tele-op Coral 3,Tele-op Coral 4,Tele-op Algae,Source Pickup,Ground Pickup,Parked,Deep Hang,Shallow Hang,Defense,Notes" + "
 " + tnum + "," + mnum + "," + alliance + "," + leftstart + "," + aamp + "," + aspeaker + "," + aattempted + "," + tamp + "," + ampatt + "," + speakeratt + "," + coral4 + "," + tspeaker + "," + source + "," + ground + "," + parked + "," + spotlit + "," + trap + "," + defense + "," + "\"" + notes + "\"" + ","
 	
-	file.store_string(contents)
+	# file.store_string(contents)
+	get_node("/root/UserInput/ColorRect").visible = true
+	await get_tree().create_timer(0.5).timeout
+	get_node("/root/UserInput/ColorRect").visible = false
+	pass # Replace with function body.

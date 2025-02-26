@@ -106,6 +106,7 @@ theme_override_font_sizes/font_size = 43
 text = "Auton"
 
 [node name="Label2" type="Label" parent="Auton/Label2"]
+layout_mode = 0
 offset_left = 216.0
 offset_top = -195.0
 offset_right = 369.0
@@ -707,6 +708,14 @@ text = "BACK
 icon = ExtResource("18_preh0")
 icon_alignment = 1
 script = ExtResource("18_2bqcg")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+offset_left = 17.0
+offset_top = 20.0
+offset_right = 1143.0
+offset_bottom = 635.0
+color = Color(0.062782, 0.861262, 0.0530897, 1)
 
 [connection signal="toggled" from="QR_Number/Parked" to="QR_Number/QRnum" method="_on_parked_toggled"]
 [connection signal="toggled" from="QR_Number/Spotlit" to="QR_Number/QRnum" method="_on_spotlit_toggled"]

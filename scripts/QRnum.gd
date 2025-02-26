@@ -72,18 +72,30 @@ func _on_area_left_toggled(toggled_on):
 func _on_spotlit_toggled(toggled_on):
 	if toggled_on == true:
 		spotlit_text = "001"
+		trap.disabled = true
+		parked.disabled = true
 	elif toggled_on == false:
 		spotlit_text = "000"
+		trap.disabled = false
+		parked.disabled = false
 func _on_parked_toggled(toggled_on):
 	if toggled_on == true:
 		parked_text = "001"
+		trap.disabled = true
+		spotlit.disabled = true
 	elif toggled_on == false:
 		parked_text = "000"
+		trap.disabled = false
+		spotlit.disabled = false
 func _on_trap_toggled(toggled_on):
 	if toggled_on == true:
 		trap_text = "001"
+		parked.disabled = true
+		spotlit.disabled = true
 	elif toggled_on == false:
 		trap_text = "000"
+		parked.disabled = false
+		spotlit.disabled = false
 func _on_alliance_toggle_toggled(toggled_on):
 	if toggled_on == true:
 		alliance_text = "002"

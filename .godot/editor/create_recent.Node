@@ -1,3 +1,5 @@
+Timer
+ColorRect
 Label
 TextEdit
 CheckButton
@@ -11,4 +13,3 @@ Camera2D
 SpinBox
 ColorPickerButton
 CheckBox
-CanvasModulate
